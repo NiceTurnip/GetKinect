@@ -1,0 +1,39 @@
+{% import "macros/button.njk" as btn %}
+
+{% macro navigation(logo, styleType) %}
+  <nav class = "{{styleType}}" style = "visibility:hidden">
+    <div class = "{{styleType}}-logo">
+        <a href="/">
+        <img src="{{logo}}" alt="text logo">
+        </a>
+    </div>
+
+    <ul class = "{{styleType}}-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/pages/about/">About</a></li>
+        <li><a href="/pages/services/">Services</a></li>
+        <li><a href="/pages/portfolio/">Portfolio</a></li>
+    </ul>
+
+    <div class = "button-wrap spinButton">
+        <a href="/contactPage/">
+            {{btn.spinButton("cta", "Get in touch", "email-icon.svg")}}
+        </a>
+    </div>
+
+    <div class = "mobile-button">
+        <img src="/assets/vectors/mobile-button.svg" alt="mobile navigation">
+    </div>
+
+    <div class = "mobile-nav">
+        <img class = "x-icon" src="/assets/vectors/mobile-nav-close.svg" alt="x icon">
+        <ul class = "mobile-nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/about/">About</a></li>
+            <li><a href="/pages/services/">Services</a></li>
+            <li><a href="/pages/portfolio/">Portfolio</a></li>
+            <li><a href="/pages/contact/">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+{% endmacro %}

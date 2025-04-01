@@ -1,0 +1,61 @@
+.card1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    width: 25%;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: $color-black;
+
+    @include respond(phone-big) {
+        width: 80%;
+    }
+    @include respond(phone-sm) {
+        width: 100%;
+    }
+
+    &-image {
+        width: 100%;
+        padding: 3rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        picture img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: space-between;
+
+        height: 100%;
+
+        padding: 0 3rem 3rem 3rem;
+
+        &-header {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding-bottom: 2rem;
+        }
+        
+        .button-wrap {
+            align-items: start;
+            justify-content: start;
+
+            &-button {
+                height: 3rem;
+            }
+
+            img {
+                width: 2.5rem;
+            }
+        }
+    }
+}

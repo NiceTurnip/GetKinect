@@ -1,0 +1,29 @@
+<footer class = "footer">
+    <section class = "footer__content">
+        <div class = "footer__content__left">
+            <img src="/assets/vectors/logo-footer.svg" alt="footer logo">
+
+            <ul>
+                {{ li1Link.listItem1('/assets/vectors/email-icon.svg', 
+                                'Send me an email.',
+                                'hello@georgebradendesign.com',
+                                '#') }}
+                {{ li1Link.listItem1('/assets/vectors/facebook-icon.svg', 
+                                'Follow me on facebook.',
+                                'GeorgeBDesign',
+                                '#') }}
+                {{ li1Link.listItem1('/assets/vectors/linkedin-icon.svg', 
+                                'Find me on LinkedIn',
+                                'George Braden',
+                                '#') }}
+            </ul>
+
+            <p>copyright 2024 &copy George Braden</p>
+        </div>
+        <div class = "footer__content__right">
+            <h2>Let's get in touch</h2>
+
+            {% include 'partials/form-sm.njk' %}
+        </div>
+    </section>
+</footer>

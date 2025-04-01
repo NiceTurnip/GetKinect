@@ -1,0 +1,27 @@
+.pageHeader {
+    visibility: hidden;
+
+    position: relative;
+    width: 100vw;
+    height: 45rem;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    padding-right: $gutter;
+    padding-left: $gutter;
+
+    display: flex;
+    flex-direction: column; 
+
+    @include respond(tab-port) {
+        padding: 4rem 4rem 0 
+    }
+
+    &__contents {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

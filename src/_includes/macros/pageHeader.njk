@@ -1,0 +1,13 @@
+{% import "macros/navigation.njk" as nav %}
+
+{% macro pageHeader(text) %}
+    <header class = "pageHeader">
+        {{ nav.navigation("/assets/vectors/logo-square.svg", "main-nav") }}
+        
+        <section class = "pageHeader__contents">
+            <h1>{{text}}</h1>
+        </section>
+
+    <img class = "header__wave" src="/assets/vectors/header-wave.svg" alt="header wave">
+    </header>
+{% endmacro %}

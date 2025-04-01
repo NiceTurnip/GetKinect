@@ -1,0 +1,101 @@
+.header {
+    visibility: hidden;
+
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    height: 100vh;
+    height: 100dvh;
+    padding-top: 4rem;
+    padding-right: $gutter;
+    padding-left: $gutter;
+
+    display: flex;
+    flex-direction: column; 
+
+    @include respond(tab-port) {
+        padding: 4rem 4rem 0 
+    }
+
+    &__contents {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        margin-top: 10rem;
+        padding-right: 3rem;
+
+        @include respond(tab-port) {
+            padding: 0;
+            margin-top: 5rem;
+            text-align: center;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5rem;
+        }
+
+        &-title {
+            width: 60%;
+
+            @include respond(tab-port) {
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            @include respond(phone-sm) {
+                h1 {
+                    font-size: 6rem;
+                }
+            }
+            @include respond(phone-mini) {
+                h1 {
+                    font-size: 4.5rem;
+                }
+            }
+
+            p {
+                width: 75%;
+                font-size: 2rem;
+            }
+        }
+
+        picture {
+            width: 45rem;
+            z-index: 2;
+            
+            @include respond(tab-port) {
+                display: none;
+            }
+        }
+
+        .button-wrap {
+            display: none;
+
+            @include respond(phone-sm) {
+                display: flex;
+            }
+        }
+    }
+
+    picture {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100vw;
+
+        z-index: 1;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Boilerplate v3.0",
+  "version": "1.0.0",
+  "description": "Boilerplate for new Eleventy websites using Eleventy 3.0 features.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npx del public",
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "prestart": "npm run clean",
+    "prebuild": "npm run clean"
+  },
+  "author": "George Braden",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "3.0.0-alpha.10",
+    "@11ty/eleventy-img": "^4.0.2",
+    "del-cli": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "file-system": "^2.2.2",
+    "markdown-it-attrs": "^4.1.6"
+  }
+}

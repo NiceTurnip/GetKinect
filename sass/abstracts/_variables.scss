@@ -1,0 +1,65 @@
+// COLOURS
+
+$color-white: #F4f4f4;
+$color-black: #303030;
+
+$color-white-light-1:#F7F7F7;
+$color-white-light-2: #EEE;
+
+$background-color: $color-black;
+
+$color-primary-0: #FF7224;	// Main Primary color */
+$color-primary-1: #FF8D4E;
+$color-primary-2: #DA814E;
+
+$color-secondary-0: #FE8010;	// Main Secondary color */
+$color-secondary-1: #FFB16B;
+$color-secondary-2: #FF9B41;
+$color-secondary-3: #CC6000;
+$color-secondary-4: #A14C00;
+
+$color-tertiary-0: #3C740A;	// Main Tertiary color (2) */
+$color-tertiary-1: #77B242;
+$color-tertiary-2: #589423;
+$color-tertiary-3: #265100;
+$color-tertiary-4: #162F00;
+
+// Perfect Fourth Font Sizing 1.33
+$biggest-heading-size: 17.5rem;
+$big-heading-size: 7.478rem;
+$medium-heading-size: 5.61rem;
+$small-heading-size: 4.209rem;
+$smallest-heading-size: 3.157rem;
+$default-plus-font-size: 2.369rem;
+$default-font-size: 1.6rem;
+$subtext-font-size: 1.333rem;
+
+//Padding / Margins
+$gutter: 8rem;
+
+// Contrast Fixes
+
+html[data-theme="contrasty"] {
+    --button-color: #{$color-black};
+    --heading-color: #{$color-black};
+    --flair-color-1: #{$color-white}; 
+    --flair-color-2: #{$color-black}; 
+    --icon-color: brightness(0) saturate(100%) invert(13%) sepia(1%) saturate(794%) hue-rotate(314deg) brightness(103%) contrast(85%);
+}
+html[data-theme="normal"] {
+    --button-color: #{$color-black};
+    --heading-color: #{$color-white};
+    --flair-color-1: #{$color-primary-0};
+    --flair-color-2: #{$color-primary-0};
+    // Leaving icon color out of here seems to remove the filter entirely from the svg,
+    // which is perfect but I'm not sure if that's how it's meant to work lol.
+}
+
+:root {  
+    --color-white: #{$color-white};
+    --color-black: #{$color-black};
+    --color-primary-0: #{$color-primary-0};	// Main Primary color */
+    --color-primary-1: #{$color-primary-1};
+    --color-primary-2: #{$color-primary-2};
+}
+  

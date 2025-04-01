@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../../assets/fonts/BebasNeueRegular.eot');
+    src: url('../../assets/fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+         url('../../assets/fonts/BebasNeueRegular.woff2') format('woff2'),
+         url('../../assets/fonts/BebasNeueRegular.woff') format('woff'),
+         url('../../assets/fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('../../assets/fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-display: swap;
+}
+
+*, html, body {
+    box-sizing: border-box; // Fixes the problem of overflowing content when adding padding
+    scroll-behavior: smooth !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    height: 100%; // Gives the document a height of 100% for elements to use
+    background-color: $background-color;
+    overflow-x:hidden;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    
+
+    @include respond(phone-mini) {
+        font-size: 30%;
+    }
+    @include respond(phone-sm) {
+        font-size: 35%;
+    }
+    @include respond(phone-med) {
+        font-size: 40%;
+    }
+    @include respond(phone-big) {
+        font-size: 45%;
+    }
+    @include respond(tab-port) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    @include respond(tab-land) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
+    @include respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
+}
+
+/* Global Tag Resets */
+
+ul {
+    list-style: none;
+}
+
+button {
+    min-width: 3rem;
+    height: 5rem;
+    padding: 1.5rem;
+    
+
+    border-radius: 40px;
+    border: none;
+
+    text-decoration: none;
+    color: $color-black;
+    background-color: $color-primary-0;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+form {
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    transition: all 2s ease;
+
+    color: $color-white;
+
+    input, textarea {
+        border: none;
+        border-radius: 0;
+        border-bottom: .5px solid $color-white;
+        outline: none;
+        resize:none;
+        background: none;
+        color: $color-white;
+
+        &:focus {
+            border-color: transparent;
+        }
+    }
+
+    .input-pair {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+    background: $color-white;
+}
+::-webkit-scrollbar-thumb {
+    background: $color-black;
+}

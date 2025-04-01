@@ -1,0 +1,33 @@
+{% import "macros/button.njk" as btn %}
+
+{% macro card2(image, roles, color1, color2, headline, taglines, link) %}
+
+    <div class = "card2">
+        <div class = "card2__left">
+            <div class = "card2__left-image">
+                {# {{ transPctr.transPicture(image, "card1-image-picture") }}    #}
+                <img src={{image}} class = "card2__left-image-img" alt="card image">
+            </div>
+            <div class = "card2__left__content">
+                <div class = "card2__left__content-colors">
+                    <div style = "background-color: {{color1}}"></div>
+                    <div style = "background-color: {{color2}}"></div>
+                </div>
+
+                <p class = "card2__left__content-text">{{roles}}</p>
+            </div>
+        </div>
+        <div class = "card2__right">
+            <h2>{{headline}}</h2>
+            <p>{{taglines[0]}}</p>
+            {# <p>{{taglines[1]}}</p> #}
+
+            <div class = "button-wrap spinButton">
+                <a href="{{link}}">
+                    {{btn.spinButton("card link", "read more", "email-icon.svg")}}
+                </a>
+            </div>
+        </div>
+    </div>
+
+{% endmacro %}

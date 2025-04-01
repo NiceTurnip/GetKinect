@@ -1,0 +1,12 @@
+.listItem1 {
+    display: flex;
+    gap: 2rem;
+
+    img {
+        width: 2rem;
+    }
+    
+    &__content {
+        width: 100%;
+    }
+}

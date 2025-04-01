@@ -1,0 +1,12 @@
+{% macro listItem1(image, header, text) %}
+
+<li class = "listItem1">
+    <img src="{{image}}" alt = "list item">
+
+    <div class = "listItem1__content">
+        <p><span class = "bold-text">{{header}}</span></p>
+        <p>{{text}}</p>
+    </div>
+</li>
+
+{% endmacro %}
