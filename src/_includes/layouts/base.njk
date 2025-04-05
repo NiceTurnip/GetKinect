@@ -25,13 +25,23 @@
     <meta property="fb:app_id" content="" />
     <meta name="twitter:site" content="">
 
-    {# PRELOADS #}
+    {# FONTS #}
+    <!-- Preconnect for faster DNS + handshake -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    {# <link rel="preload" as="image" href="{{ "assets/header-image-nobg-min.png" | contentImgUrlFilter | absoluteUrl(metadata.url) }}" /> #}
+
+    <!-- Load the font stylesheet async -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Fallback for no-JS environments -->
+    <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    </noscript>
     
-    {# Main Stylesheet #}
+    {# LCP PRELOAD #}
+    {{ lcpImage.preloadTag | safe }}
+
+    {# MAIN STYLESHEET #}
     {# <link rel="preload" href="/css/main.css" as="style" />
     <link rel="stylesheet" href="/css/main.css"> #}
     <link rel="preload" href="/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
