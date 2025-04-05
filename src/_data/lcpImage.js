@@ -10,18 +10,18 @@ export default async function () {
 
   const metadata = await Image(src, {
     widths: [1600],
-    formats: ["webp", "jpeg"],
-    outputDir: "./public/img",
-    urlPath: "/img"
+    formats: ["webp", "png"],
+    outputDir: "./public/img", // physically saved here
+    urlPath: "/img"            // exposed as this in HTML
   });
 
-  const fallback = metadata.webp?.[0] || metadata.jpeg?.[0];
+  const image = metadata.webp?.[0] || metadata.png?.[0];
 
   return {
-    preloadTag: `<link rel="preload" as="image" href="${fallback.url}" type="${fallback.sourceType}">`,
-    url: fallback.url,
-    type: fallback.sourceType,
-    width: fallback.width,
-    height: fallback.height
+    url: image.url,                      // /img/filename.webp
+    preloadTag: `<link rel="preload" as="image" href="${image.url}" type="${image.sourceType}">`,
+    type: image.sourceType,
+    width: image.width,
+    height: image.height
   };
 }
