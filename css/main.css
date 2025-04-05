@@ -1065,7 +1065,7 @@ h5 {
     height: 35rem;
   }
 }
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
   .header .red-box {
     display: none;
   }

@@ -144,7 +144,7 @@
             height: 35rem;
         }
 
-        @media (orientation: landscape) {
+        @media screen and (orientation: landscape) {
             display: none;
         }
     }
