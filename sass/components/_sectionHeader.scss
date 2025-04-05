@@ -1,0 +1,49 @@
+.sectionHeader {
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+
+    @include respond(phone-big) {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    &__text {
+        position: relative;
+
+        width: 60%;
+
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+        @include respond(phone-big) {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        p {
+            font-size: $default-plus-font-size;
+            font-weight: 400;
+        }
+
+        .horizontal {
+            display: none;
+            height: auto;
+            width: 100%;
+
+            @include respond(phone-big) {
+                display: block;
+            }
+        }
+        .vertical {
+            height: 13rem;
+            width: auto;
+
+            @include respond(phone-big) {
+                display: none;
+            }
+        }
+    }
+}

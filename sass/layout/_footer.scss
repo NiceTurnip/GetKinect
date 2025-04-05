@@ -1,4 +1,5 @@
 .footer {
+    position: relative;
     width: 100%;
 
     display: flex;
@@ -6,73 +7,134 @@
     gap: 5rem;
 
     padding: 8rem 15rem;
-    
-    @include respond(phone-med) {
-        padding: 8rem 6rem;
+
+    background-color: $color-primary-0;
+
+    color: $color-white;
+    z-index: 1;
+
+    @include respond(tab-port) {
+        padding: 8rem 4rem;
     }
-    @include respond(phone-sm) {
-        padding: 8rem 3rem;
+
+    button {
+        background-color: $color-black;
+        color: $color-white;
+    }
+
+    h4 {
+        font-size: $small-heading-size;
+        font-weight: 700
     }
 
     &__content {
+        position: relative;
         width: 100%;
         display: flex;
         justify-content: center;
         gap: 3rem;
 
-        @include respond(phone-med) {
+        @include respond(phone-big) {
             flex-direction: column;
         }
 
         &__left {
+            width: 60%;
             display: flex;
-            flex-direction: column;
-            gap: 5rem;
+            gap: 10rem;
 
-            @include respond(phone-med) {
-                order: 2;
+            @include respond(phone-big) {
+                width: 100%;
+                justify-content: center;
+            }
+            @include respond(phone-sm) {
+                flex-direction: column;
+                align-items: center;
             }
 
-            img {
-                width: 12rem;
-            }
-            
-            ul {
+            &__inner-left {
                 display: flex;
                 flex-direction: column;
-                gap: 2rem;
+                justify-content: space-between;
+                gap: 5rem;
 
-                li {
+                @include respond(phone-sm) {
+                    order: 2;
+                }
+            
+                ul {
                     display: flex;
+                    flex-direction: column;
                     gap: 2rem;
 
-                    img {
-                        width: 3rem;   
+                    li {
+                        display: flex;
+                        gap: 2rem;
+
+                        img {
+                            width: 3rem;   
+                        }
                     }
                 }
+            }
+            &__inner-right {
+                display: flex;
+                flex-direction: column;
+                gap: 5rem;
             }
         }
         &__right {
             width: 40%;
-
             display: flex;
             flex-direction: column;
-            gap: 5rem;
 
-            @include respond(phone-med) {
-                order: 1;
-                width: 100%;
+            &__inner-top {
+                height: 50%;
+                
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+
+                @include respond(phone-big) {
+                    display: none;
+                }
+            }
+            &__inner-bottom {
+                height: 50%;
+                display: flex;
+                justify-content: end;
+
+                img {
+                    height: 100%;
+                    width: auto;
+
+                    filter: drop-shadow(0 4px 8px $color-black);
+                    transition: filter 0.3s ease;
+                    cursor: pointer;
+
+                    @include respond(phone-big) {
+                        display: none;
+                    }
+                }
+
+                img:hover {
+                     filter: drop-shadow(0 1px 2px $color-black);
+                }
             }
         }
     }
 }
-
-.footer__wave {
+// Background color clipping hack
+.footer::before {
+    content: "";
     position: absolute;
-    bottom: 0;
-    left: 0;
+    inset: 0;
+    background-color: $color-white;
+    clip-path: polygon(95% -1%, 100% -1%, 100% 100%, 50% 100.2%);
+    
+    z-index: 0;
 
-    width: 100vw;
-
-    z-index: 1;
+    @include respond(phone-big) {
+        display: none;
+    }
 }

@@ -7,13 +7,21 @@ layout: 'base.njk'
 {% import "macros/button.njk" as btn %}
 {% import "macros/listItem1.njk" as li1 %}
 {% import "macros/listItem1-link.njk" as li1Link %}
-{% import "macros/card1.njk" as card1%}
+{% import "macros/card1.njk" as card1 %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
 
 <!-- HEADER -->
 {% include 'partials/header.njk' %}
 
 <main class = "indexPage">
+    {% include 'partials/landingSections/feature-pitch.njk' %}
 
+    {{ cta.callToAction("Discover More", "Explore our blog for helpful insights or check out our pricing page to find the perfect fit for your gym. Have questions? Reach out to us anytime.", "Browse Our Blog", "#") }}
+
+    {% include 'partials/landingSections/benefits-pitch.njk' %}
+    
+    {{ cta.callToAction("Try Kinect Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try Now", "#") }}
 </main>
 
 <!-- FOOTER -->

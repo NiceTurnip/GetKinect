@@ -1,0 +1,10 @@
+{% macro callToAction(header, text, button, link) %}
+
+  <section class = "callToAction">
+    <h2>{{header}}</h2>
+    <p>{{text}}</p>
+    
+    <a href="{{link}}"><button>{{button}}</button></a>
+  </section>
+
+{% endmacro %}

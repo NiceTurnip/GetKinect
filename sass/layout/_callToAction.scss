@@ -1,0 +1,28 @@
+.callToAction {
+    width: 100%;
+    padding: 16rem;
+
+   display: flex;
+   flex-direction: column;
+   gap: 6rem;
+   align-items: center;
+   justify-content: center;
+
+   text-align: center;
+
+   @include respond(phone-big) {
+        padding: 10rem 2rem;
+   }
+
+   p {
+          width: 60%;
+          
+          @include respond(phone-big) {
+               width: 100%;
+           }
+   }
+
+   button {
+     min-width: 20rem;
+   }
+}

@@ -7,28 +7,35 @@
     height: 100vh;
     height: 100dvh;
     padding-top: 4rem;
-    padding-right: $gutter;
-    padding-left: $gutter;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+    overflow: hidden;
 
     display: flex;
     flex-direction: column; 
 
     @include respond(tab-port) {
+        padding: 4rem 6rem 0;
+    }
+    @include respond(phone-big) {
         padding: 4rem 4rem 0 
     }
 
     &__contents {
-        position: relative;
         width: 100%;
-        height: 60%;
+        height: 100%;
         display: flex;
-        align-items: start;
-        justify-content: space-between;
+        justify-content: center;
+        
+        gap: 6rem;
 
-        margin-top: 10rem;
-        padding-right: 3rem;
+        margin-top: 6rem;
 
-        @include respond(tab-port) {
+        @include respond(desktop-sm) {
+            margin-top: 4rem;
+        }
+        @include respond(phone-big) {
             padding: 0;
             margin-top: 5rem;
             text-align: center;
@@ -38,64 +45,103 @@
             justify-content: center;
             gap: 5rem;
         }
-
-        &-title {
+        &__left {
             width: 60%;
+            display: flex;
+            flex-direction: column;
+
+            gap: 6rem;
 
             @include respond(tab-port) {
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
+                width: 65%;
                 align-items: center;
             }
-            @include respond(phone-sm) {
-                h1 {
-                    font-size: 6rem;
-                }
+            @include respond(phone-big) {
+                width: 100%;
+                align-items: center;
             }
-            @include respond(phone-mini) {
-                h1 {
-                    font-size: 4.5rem;
+
+            &-title {
+                @include respond(phone-big) {
+                    width: 100%;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                @include respond(phone-sm) {
+                    h1 {
+                        font-size: 6rem;
+                    }
+                }
+                @include respond(phone-mini) {
+                    h1 {
+                        font-size: 4.5rem;
+                    }
+                }
+
+                p {
+                    width: 75%;
+                    font-size: 2rem;
+
+                    @include respond(phone-sm) {
+                        width: 100%;
+                    }
                 }
             }
 
-            p {
-                width: 75%;
-                font-size: 2rem;
-            }
-        }
+            .button-wrap {
+                justify-content: left;
 
-        picture {
-            width: 45rem;
-            z-index: 2;
+                @include respond(phone-big) {
+                    justify-content: center;
+                }
             
-            @include respond(tab-port) {
-                display: none;
+                &-button {
+                    width: 20rem;
+                }
             }
         }
 
-        .button-wrap {
-            display: none;
+        &__right {
+            width: 40%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            
+            img {
+                position: absolute;
+                top: 12rem;
+                right: 15rem;
+                width: auto;
+                height: 70rem;
 
-            @include respond(phone-sm) {
-                display: flex;
+                @include respond(phone-big) {
+                    display: none;
+                }
             }
-        }
+        }      
     }
 
-    picture {
-        margin: 0;
-        padding: 0;
-    }
-
-    &__wave {
+    .red-box {
         position: absolute;
         bottom: 0;
         left: 0;
 
         width: 100vw;
+        height: 40rem;
 
-        z-index: 1;
+        background-color: $color-primary-0;
+        clip-path: polygon(0 65%, 100% 82%, 100% 100%, 0% 100%);
+
+        z-index: 10;
+
+        @include respond(desktop-sm) {
+            height: 35rem;
+        }
+        @include respond(phone-mini) {
+            height: 35rem;
+        }
     }
 }

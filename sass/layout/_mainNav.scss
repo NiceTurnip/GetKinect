@@ -10,6 +10,7 @@
     &-logo {
         img {
             width: 10rem;
+            height: auto;
         }        
     }
     &-list {
@@ -48,6 +49,11 @@
         @include respond(phone-sm) {
             display: block;
         }
+
+        img {
+            width: 5rem;
+            height: auto;
+        }
     }
 
     .mobile-nav {
@@ -61,12 +67,16 @@
         width: 100vw;
     
         z-index: 1000;
-        background-color: $color-primary-1;
+        background-color: $color-primary-0;
         
         display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        a {
+            color: $color-white;
+        }
     
         img {
             position: absolute;

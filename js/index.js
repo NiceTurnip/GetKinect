@@ -32,8 +32,8 @@ function openMobileNav() {
     anime({
         targets: [mobileNav],
         opacity: [0, 1],
-        scale: [0, 1],
-        duration: 150,
+        translateX: ["400rem", 0],
+        duration: 300,
         easing: 'easeOutSine', 
     })
 }
@@ -41,7 +41,7 @@ function closeMobileNav() {
     anime({
         targets: [mobileNav],
         opacity: [1, 0],
-        scale: [1, 0],
+        translateX: [0, "100rem"],
         duration: 150,
         easing: 'easeInSine', 
     })

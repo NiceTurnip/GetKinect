@@ -1,29 +1,47 @@
 <footer class = "footer">
     <section class = "footer__content">
         <div class = "footer__content__left">
-            <img src="/assets/vectors/logo-footer.svg" alt="footer logo">
+            <div class = "footer__content__left__inner-left">
+                <h4>GetKinect</h4>
 
-            <ul>
-                {{ li1Link.listItem1('/assets/vectors/email-icon.svg', 
-                                'Send me an email.',
-                                'hello@georgebradendesign.com',
-                                '#') }}
-                {{ li1Link.listItem1('/assets/vectors/facebook-icon.svg', 
-                                'Follow me on facebook.',
-                                'GeorgeBDesign',
-                                '#') }}
-                {{ li1Link.listItem1('/assets/vectors/linkedin-icon.svg', 
-                                'Find me on LinkedIn',
-                                'George Braden',
-                                '#') }}
-            </ul>
+                <ul>
+                    {{ li1Link.listItem1('/assets/vectors/email-icon.svg', 
+                                    'Send us an email',
+                                    'bj@facilitykinetics.ca',
+                                    '#') }}
+                    {{ li1Link.listItem1('/assets/vectors/phone-icon.svg', 
+                                    'Call anytime',
+                                    '844-999-0905',
+                                    '#') }}
+                    {{ li1Link.listItem1('/assets/vectors/facebook-icon.svg', 
+                                    'Follow us on Facebook',
+                                    'GetKinect',
+                                    '#') }}
+                </ul>
 
-            <p>copyright 2024 &copy George Braden</p>
+                <p><span class = "subtext">copyright 2024</span> &copy Facility Kinects Company</p>
+            </div>
+            <div class = "footer__content__left__inner-right">
+                <h4>Have a Question?</h4>
+
+                {% include 'partials/form-sm.njk' %}
+            </div>
         </div>
         <div class = "footer__content__right">
-            <h2>Let's get in touch</h2>
-
-            {% include 'partials/form-sm.njk' %}
+            <div class = "footer__content__right__inner-top">
+                <h4>Menu</h4>
+                <div>
+                    <ul>Home</ul>
+                    <ul>Blog</ul>
+                    <ul>Features</ul>
+                    <ul>Pricing</ul>
+                    <ul>Contact</ul>
+                    <ul>Booking</ul>
+                </div>
+            </div>
+            <div class = "footer__content__right__inner-bottom">
+                <img src="/assets/vectors/request-demo-button.svg" alt="Request Demo Button">
+            </div>
         </div>
     </section>
 </footer>
