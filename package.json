@@ -7,8 +7,8 @@
     "clean": "npx del public",
     "start": "eleventy --serve",
     "build": "eleventy",
-    "prestart": "npm run clean",
-    "prebuild": "npm run clean"
+    "prestart": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/index.js -o js/index.min.js",
+    "prebuild": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/index.js -o js/index.min.js"
   },
   "author": "George Braden",
   "license": "ISC",
@@ -20,5 +20,9 @@
     "file-system": "^2.2.2",
     "markdown-it-attrs": "^4.1.6",
     "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "lightningcss-cli": "^1.29.3",
+    "uglify-js": "^3.19.3"
   }
 }

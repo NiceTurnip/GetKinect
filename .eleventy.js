@@ -1,4 +1,6 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img");
+const path = require("path");
 
 module.exports = function(eleventyConfig) {
    
@@ -15,9 +17,6 @@ module.exports = function(eleventyConfig) {
     const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
     eleventyConfig.setLibrary('md', markdownLib);
 
-    eleventyConfig.addShortcode("imageShortcode", async function(imgSrc, imgAlt, imgClass) {
-      return `<img src="${imgSrc}" class = ${imgClass} alt="${imgAlt}" />`;
-    });
 
     // Dummy Data for Pre-Build Scripts
     eleventyConfig.on('beforeBuild', () => {
@@ -39,6 +38,7 @@ module.exports = function(eleventyConfig) {
         decoding: "async",
       },
     });
+
     
     // Folders to be included at build time
     eleventyConfig.addPassthroughCopy('./js');
@@ -49,6 +49,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./site.webmanifest');
     eleventyConfig.addPassthroughCopy('./*.png');
     eleventyConfig.addPassthroughCopy("./admin");
+  
 
     // Return your Object options:
     return {
@@ -61,6 +62,7 @@ module.exports = function(eleventyConfig) {
 
       dataTemplateEngine: 'njk',        // Specify njk as Templating Engine
       markdownTemplateEngine:'njk',     // Specify njk for Markdown Files
+      htmlTemplateEngine: "njk",
       passThroughFileCopy: "true"       // Allow the parsing of files inside specified Passthrough folders
     }
   };
