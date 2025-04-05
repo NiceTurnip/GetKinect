@@ -28,11 +28,13 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preload" href="/css/main.css" as="style">
+    <link rel="preload" as="image" href="/assets/images/hero-image-nobg-min.png">
     
-    <link rel="stylesheet" href="/css/main.css">
+    
+    
+    <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
 
     
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
@@ -119,7 +121,7 @@
             </div>
         </div>
         <div class="header__contents__right">
-            <picture><source type="image/webp" srcset="/img/CWIrA-LH4O-1024.webp 1024w"><img decoding="async" src="/img/CWIrA-LH4O-1024.jpeg" alt="header image" width="1024" height="1536"></picture>
+            <picture><source type="image/webp" srcset="/img/nr_zB_mRPp-1024.webp 1024w"><img decoding="async" src="/img/nr_zB_mRPp-1024.jpeg" alt="header image" width="1024" height="1536"></picture>
         </div>
         <div class="red-box">
             
@@ -317,7 +319,7 @@
     <section class="footer__content">
         <div class="footer__content__left">
             <div class="footer__content__left__inner-left">
-                <h4>GetKinect</h4>
+                <h3>GetKinect</h3>
 
                 <ul>
                     
@@ -383,15 +385,15 @@
         </div>
         <div class="footer__content__right">
             <div class="footer__content__right__inner-top">
-                <h4>Menu</h4>
-                <div>
-                    <ul>Home</ul>
-                    <ul>Blog</ul>
-                    <ul>Features</ul>
-                    <ul>Pricing</ul>
-                    <ul>Contact</ul>
-                    <ul>Booking</ul>
-                </div>
+                <h3>Menu</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                    <li>Booking</li>
+                </ul>
             </div>
             <div class="footer__content__right__inner-bottom">
                 <img decoding="async" src="/img/HANQxfkKbB-252.svg" alt="Request Demo Button" width="252" height="251">
