@@ -1065,6 +1065,11 @@ h5 {
     height: 35rem;
   }
 }
+@media (orientation: landscape) {
+  .header .red-box {
+    display: none;
+  }
+}
 
 .pageHeader {
   visibility: hidden;
