@@ -143,9 +143,5 @@
         @include respond(phone-mini) {
             height: 35rem;
         }
-
-        @media screen and (orientation: landscape) {
-            display: none;
-        }
     }
 }
