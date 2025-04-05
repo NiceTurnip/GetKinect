@@ -1,14 +1,14 @@
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-const Image = require("@11ty/eleventy-img");
-const path = require("path");
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import path from 'node:path';
+import Image from '@11ty/eleventy-img';
 
-module.exports = function(eleventyConfig) {
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+
+export default function(eleventyConfig) {
    
     //Settings for blog posts using markdown
     /* Allow Markdown files to accept class name additions to elements*/
-    const markdownIt = require('markdown-it');
-    const markdownItAttrs = require('markdown-it-attrs');
-
     const markdownItOptions = {
         html: true,
         breaks: true,
@@ -39,7 +39,6 @@ module.exports = function(eleventyConfig) {
       },
     });
 
-    
     // Folders to be included at build time
     eleventyConfig.addPassthroughCopy('./js');
     eleventyConfig.addPassthroughCopy('./css');
@@ -50,6 +49,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./*.png');
     eleventyConfig.addPassthroughCopy("./admin");
   
+
+    eleventyConfig.addFilter("contentImgUrlFilter", contentImgUrlFilter);
 
     // Return your Object options:
     return {
@@ -66,3 +67,23 @@ module.exports = function(eleventyConfig) {
       passThroughFileCopy: "true"       // Allow the parsing of files inside specified Passthrough folders
     }
   };
+
+
+
+async function contentImgUrlFilter(src) {
+  const inputDir = path.dirname(this.page.inputPath);
+  const imagePath = path.resolve(inputDir, src);
+  const outputDir = path.dirname(this.page.outputPath);
+  const urlPath = this.page.url;
+
+  const stats = await Image(imagePath, {
+    widths: [1200], // Width for Open Graph image
+    formats: ["jpg", "png"],
+    outputDir: outputDir, // Output directory
+    urlPath: urlPath, // Public URL path
+    filenameFormat: function (hash, src, width, format) {
+        return `${hash}-${width}.${format}`;
+    },
+  });
+  return stats.jpeg[0].url; // Return the URL of the processed image
+}

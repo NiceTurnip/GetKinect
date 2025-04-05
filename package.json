@@ -10,6 +10,7 @@
     "prestart": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/index.js -o js/index.min.js",
     "prebuild": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/index.js -o js/index.min.js"
   },
+  "type": "module",
   "author": "George Braden",
   "license": "ISC",
   "dependencies": {
