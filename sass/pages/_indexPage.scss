@@ -6,6 +6,8 @@
 
     display: flex;
     flex-direction: column;
+
+    overflow: hidden;
     
     background-color: $color-white;
 }

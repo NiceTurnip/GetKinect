@@ -19,7 +19,10 @@
 
     .sectionHeader {
        width: 100%;
-       text-align: center;
+
+       @include respond(phone-big) {
+            text-align: center;
+       }
     }
 
     &__items {

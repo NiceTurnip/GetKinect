@@ -66,12 +66,10 @@ problem in the header / main-nav html files. */
     top: 0;
     left: 0;
 
-    isolation: isolate;
-    transform: translateZ(0);
-    will-change: transform;
-
-    height: 100vh;
     width: 100vw;
+    height: 100%;
+    height: 100vh;
+    height: 100dvh;
 
     z-index: 1000;
     background-color: $color-primary-0;
