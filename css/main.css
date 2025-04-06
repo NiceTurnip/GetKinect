@@ -401,6 +401,19 @@ ul {
   list-style: none;
 }
 
+button {
+  min-width: 3rem;
+  height: 5rem;
+  padding: 1.5rem;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  color: #F3f3f3;
+  background-color: #D2002E;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 form {
   height: 100%;
   display: flex;
@@ -867,7 +880,10 @@ h5 {
   width: 2rem;
   height: auto;
 }
-.accordion__items__item__question button {
+.accordion__items__item__question-button {
+  all: unset;
+  appearance: none;
+  -webkit-appearance: none;
   width: 100%;
   height: 100%;
   background: #F3f3f3;
@@ -878,6 +894,7 @@ h5 {
   border-bottom: 1px solid #ddd;
   cursor: pointer;
   font-size: 2.369rem;
+  font-weight: 500;
 }
 .accordion__items__item-question[aria-expanded=true] {
   background: #F3f3f3;
