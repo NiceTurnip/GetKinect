@@ -858,6 +858,7 @@ h5 {
 }
 .accordion .sectionHeader {
   width: 100%;
+  text-align: center;
 }
 .accordion__items {
   width: 100%;
