@@ -1,0 +1,26 @@
+{% import "macros/sectionHeader.njk" as sectHeader %}
+
+{% macro accordion(header, items) %}
+
+    <section class="accordion">
+        {{ sectHeader.sectionHeader("Frequently Asked ", "Questions", "We've answered the questions gym owners ask us most—so you can spend less time wondering and more time growing your business.") }}
+        <div class = "accordion__items">
+            {% for item in items %}
+                <div class="accordion__item">
+                    <div class = "accordion__item__question">
+                        <button class="accordion__item__question-button" aria-expanded="false">
+                        {{ item.question }}
+                        </button>
+
+                        <img src="/assets/vectors/plus-icon.svg" alt="expand" class="icon-plus">
+                        <img src="/assets/vectors/minus-icon.svg" alt="collapse" class="icon-minus" hidden>
+                    </div>
+                    <div class="accordion__item-answer" hidden>
+                    {{ item.answer | markdown | safe }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+{% endmacro %}

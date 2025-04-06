@@ -54,48 +54,78 @@
             width: 5rem;
             height: auto;
         }
+    }  
+}
+
+/* Moved outside of the navigation CSS context because of a stacking order
+problem in the header / main-nav html files. */
+.mobile-nav {
+    transform-origin: top right;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    isolation: isolate;
+    transform: translateZ(0);
+    will-change: transform;
+
+    height: 100vh;
+    width: 100vw;
+
+    z-index: 1000;
+    background-color: $color-primary-0;
+    
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    a,p {
+        color: $color-white;
     }
 
-    .mobile-nav {
-        transform-origin: top right;
-    
-        position: fixed;
-        top: 0;
-        left: 0;
-    
-        height: 100vh;
-        width: 100vw;
-    
-        z-index: 1000;
-        background-color: $color-primary-0;
-        
-        display: none;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .x-icon {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 6rem;
 
-        a {
-            color: $color-white;
-        }
-    
         img {
-            position: absolute;
             width: 5rem;
-    
-            top: 10%;
-            left: 10%;
-        }
-    
-    
-        &-list {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-    
-            li {
-                font-size: $small-heading-size;
-            }
+            height: auto;
         }
     }
-    
+
+    .social-links {
+        padding-top: 7rem;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+        }
+        img {
+            width: 3rem;
+            height: auto;
+        }
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        li {
+            font-size: $small-heading-size;
+        }
+    }
 }

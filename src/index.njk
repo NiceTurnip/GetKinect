@@ -10,6 +10,7 @@ layout: 'base.njk'
 {% import "macros/card1.njk" as card1 %}
 {% import "macros/call-to-action.njk" as cta %}
 {% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/accordion.njk" as accordion %}
 
 <!-- HEADER -->
 {% include 'partials/header.njk' %}
@@ -22,6 +23,8 @@ layout: 'base.njk'
     {% include 'partials/landingSections/benefits-pitch.njk' %}
     
     {{ cta.callToAction("Try Kinect Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try Now", "#") }}
+
+    {{ accordion.accordion("Frequently Asked Questions", faqList) }}
 </main>
 
 <!-- FOOTER -->

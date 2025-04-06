@@ -1,5 +1,4 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 
@@ -7,13 +6,23 @@ export default function(eleventyConfig) {
    
     //Settings for blog posts using markdown
     /* Allow Markdown files to accept class name additions to elements*/
-    const markdownItOptions = {
-        html: true,
-        breaks: true,
-        linkify: true
-    }
-    const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
-    eleventyConfig.setLibrary('md', markdownLib);
+    // const markdownItOptions = {
+    //     html: true,
+    //     breaks: true,
+    //     linkify: true
+    // }
+    // const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
+    // eleventyConfig.setLibrary('md', markdownLib);
+
+    const md = new markdownIt({
+      html: true, // allows raw HTML in markdown content
+      breaks: true, // turns \n into <br>
+      linkify: true // auto-link URLs
+    });
+  
+    eleventyConfig.addFilter("markdown", (content) => {
+      return md.render(content);
+    });
 
 
     // Dummy Data for Pre-Build Scripts

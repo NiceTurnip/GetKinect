@@ -4,16 +4,16 @@
 
     display: flex;
 
-    padding: 6rem 14rem 12rem;
+    padding: 12rem 14rem 12rem;
 
     background-color: $color-primary-0;
     color: $color-white;
 
     @include respond(tab-port) {
-        padding: 6rem 8rem 12rem;
+        padding: 12rem 8rem 12rem;
     }
     @include respond(phone-big) {
-        padding: 6rem 4rem 12rem;
+        padding: 12rem 4rem 12rem;
     }
 
     &__contents {
