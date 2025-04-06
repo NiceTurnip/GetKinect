@@ -32,12 +32,9 @@
 
         margin-top: 6rem;
 
-        @include respond(desktop-sm) {
-            margin-top: 4rem;
-        }
         @include respond(phone-big) {
             padding: 0;
-            margin-top: 5rem;
+            margin-top: 6rem;
             text-align: center;
 
             flex-direction: column;
@@ -50,14 +47,17 @@
             display: flex;
             flex-direction: column;
 
+            z-index: 11;
+
             gap: 6rem;
 
             @include respond(tab-port) {
                 width: 65%;
-                align-items: center;
+                gap: 3rem;
             }
             @include respond(phone-big) {
                 width: 100%;
+                gap: 6rem;
                 align-items: center;
             }
 
@@ -112,11 +112,19 @@
             
             img {
                 position: absolute;
-                top: 12rem;
+                top: 15rem;
                 right: 15rem;
+                
                 width: auto;
                 height: 70rem;
 
+                @include respond(desktop-sm) {
+                    
+                }
+                @include respond(tab-port) {
+                    right: 6rem;
+                    top: 15rem;
+                }
                 @include respond(phone-big) {
                     display: none;
                 }
@@ -130,15 +138,16 @@
         left: 0;
 
         width: 100vw;
-        height: 40rem;
+        height: 45rem;
 
         background-color: $color-primary-0;
-        clip-path: polygon(0 65%, 100% 82%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 80%, 100% 90%, 100% 100%, 0% 100%);
 
         z-index: 10;
 
+        
         @include respond(desktop-sm) {
-            height: 35rem;
+            clip-path: polygon(0 85%, 100% 70%, 100% 100%, 0% 100%);
         }
         @include respond(phone-mini) {
             height: 35rem;
