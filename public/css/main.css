@@ -401,19 +401,6 @@ ul {
   list-style: none;
 }
 
-button {
-  min-width: 3rem;
-  height: 5rem;
-  padding: 1.5rem;
-  border-radius: 40px;
-  border: none;
-  text-decoration: none;
-  color: #F3f3f3;
-  background-color: #D2002E;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 form {
   height: 100%;
   display: flex;
