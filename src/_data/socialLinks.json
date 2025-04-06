@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Phone",
+      "icon": "/assets/vectors/phone-icon.svg",
+      "link": "tel:844-999-0905"
+    },
+    {
+      "name": "Email",
+      "icon": "/assets/vectors/email-icon.svg",
+      "link": "mailto:bj@facilitykinetics.ca"
+    },
+    {
+      "name": "Facebook",
+      "icon": "/assets/vectors/facebook-icon.svg",
+      "link": "#"
+    },
+    {
+      "name": "Instagram",
+      "icon": "/assets/vectors/instagram-icon.svg",
+      "link": "#"
+    },
+    {
+      "name": "Whatsapp",
+      "icon": "",
+      "link": ""
+    },
+    {
+      "name": "X",
+      "icon": "",
+      "link": ""
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "",
+      "link": ""
+    }
+  ]
+  
