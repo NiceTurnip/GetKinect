@@ -76,9 +76,10 @@ problem in the header / main-nav html files. */
     
     display: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 3rem;
+    padding-top: 4rem;
 
     a,p {
         color: $color-white;
@@ -95,11 +96,20 @@ problem in the header / main-nav html files. */
             height: auto;
         }
     }
+    
+    &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        li {
+            font-size: $small-heading-size;
+        }
+    }
 
     .social-links {
         padding-top: 7rem;
         width: 100%;
-        margin-bottom: 4rem;
 
         display: flex;
         flex-direction: column;
@@ -118,13 +128,4 @@ problem in the header / main-nav html files. */
         }
     }
 
-    &-list {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-
-        li {
-            font-size: $small-heading-size;
-        }
-    }
 }

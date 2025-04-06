@@ -986,9 +986,10 @@ problem in the header / main-nav html files. */
   background-color: #D2002E;
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 3rem;
+  padding-top: 4rem;
 }
 .mobile-nav a, .mobile-nav p {
   color: #F3f3f3;
@@ -1003,10 +1004,17 @@ problem in the header / main-nav html files. */
   width: 5rem;
   height: auto;
 }
+.mobile-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.mobile-nav-list li {
+  font-size: 4.209rem;
+}
 .mobile-nav .social-links {
   padding-top: 7rem;
   width: 100%;
-  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1021,14 +1029,6 @@ problem in the header / main-nav html files. */
 .mobile-nav .social-links img {
   width: 3rem;
   height: auto;
-}
-.mobile-nav-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.mobile-nav-list li {
-  font-size: 4.209rem;
 }
 
 .header {
