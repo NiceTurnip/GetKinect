@@ -1006,7 +1006,7 @@ problem in the header / main-nav html files. */
 .mobile-nav .social-links {
   padding-top: 7rem;
   width: 100%;
-  padding-bottom: 4rem;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
