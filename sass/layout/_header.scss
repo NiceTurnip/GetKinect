@@ -91,7 +91,7 @@
             }
 
             .button-wrap {
-                justify-content: left;
+                justify-content: center;
 
                 @include respond(phone-big) {
                     justify-content: center;

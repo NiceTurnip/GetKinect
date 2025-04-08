@@ -607,12 +607,25 @@ h5 {
   cursor: pointer;
 }
 .button-wrap-button img {
-  display: none;
   filter: var(--icon-color);
 }
 .button-wrap-button p {
   color: var(--heading-color);
   font-weight: 600;
+}
+
+.button-wrap-button-text,
+.button-wrap-button-image {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  position: absolute;
+}
+
+.button-wrap-button-text.visible,
+.button-wrap-button-image.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 .card1 {
@@ -1121,7 +1134,7 @@ problem in the header / main-nav html files. */
   }
 }
 .header__contents__left .button-wrap {
-  justify-content: left;
+  justify-content: center;
 }
 @media only screen and (max-width: 56.25em) {
   .header__contents__left .button-wrap {
