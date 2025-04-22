@@ -7,11 +7,12 @@ const xIcon = document.querySelector(".x-icon");
 // Pages / Headers for Animation
 const indexPage = document.querySelector(".indexPage");
 const pricingPage = document.querySelector(".pricingPage");
+const contactPage = document.querySelector(".contactPage");
 
 const headerContent = document.querySelector(".header");
 const pageHeader = document.querySelector(".pageHeader");
 
-const pageList = [indexPage, pricingPage];
+const pageList = [indexPage, pricingPage, contactPage];
 
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'normal');

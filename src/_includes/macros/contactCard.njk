@@ -1,0 +1,22 @@
+{% import "macros/button.njk" as btn %}
+
+{% macro contactCard(icon, title, content, btnTitle, btnIcon, link) %}
+
+  <div class = "contactCard"> 
+    <div class = "contactCard__wrap">
+      <div class = "contactCard__wrap__icon">
+          <img src={{icon}} alt="">
+      </div>
+      <div class = "contactCard__wrap__text">
+          <h3>{{title}}</h3>
+          <p>{{content}}</p>
+      </div>
+    </div>
+    <div class = "button-wrap spinButton">
+        <a href={{link}}>
+            {{btn.spinButton("cta", btnTitle, btnIcon)}}
+        </a>
+    </div>
+  </div>
+
+{% endmacro %}

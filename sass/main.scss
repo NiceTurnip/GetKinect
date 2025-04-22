@@ -16,19 +16,24 @@
 @import "components/accordion.scss";
 @import "components/featureAccordion.scss";
 @import "components/actionCard.scss";
+@import "components/contactCard.scss";
 
 // LAYOUT
 @import "layout/mainNav";
 @import "layout/header";
 @import "layout/pageHeader";
 @import "layout/callToAction";
-
 @import "layout/footer";
+
 @import "layout/landingSections/featurePitch";
 @import "layout/landingSections/benefitsPitch";
+
 @import "layout/pricingSections/pricingCards";
+
+@import "layout/contactSections/contactContent";
 
 // PAGES
 @import "pages/indexPage";
 @import "pages/pricingPage";
+@import "pages/contactPage";
 

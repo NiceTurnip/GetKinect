@@ -1,0 +1,27 @@
+{% macro mobileNav() %}
+     {# Moved from MAIN-NAV to here because of a stacking order 
+    / DOM loading problem with the red box on the header. #}
+    <div class = "mobile-nav">
+        <div class = "x-icon">
+            <img src="/assets/vectors/mobile-nav-close.svg" alt="x icon">
+        </div>
+
+        <ul class = "mobile-nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="/pages/pricing">Pricing</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+        </ul>
+
+        <div class = "social-links">
+            <ul>
+                <li><a href="mailto:bj@facilitykinetics.ca"><img src="/assets/vectors/email-icon.svg" alt=""></a></li>
+                <li><a href="tel:844-999-0905"><img src="/assets/vectors/phone-icon.svg" alt=""></a></li>
+                <li><a href="#"><img src="/assets/vectors/facebook-icon.svg" alt=""></a></li>
+            </ul>
+            <p><span class = "subtext">copyright 2025</span> &copy Facility Kinects Company</p>
+        </div>
+    </div>
+
+{% endmacro %}

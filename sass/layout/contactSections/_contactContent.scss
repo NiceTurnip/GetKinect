@@ -1,0 +1,60 @@
+.contactContent {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;   
+    align-items: center;
+    gap: 6rem;
+
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+
+    &__cards {
+        width: 100%;    
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+
+        @include respond(desktop-sm) {
+            gap: 7rem;
+        }
+        @include respond(tab-land) {
+            gap: 6rem;
+        }
+        @include respond(tab-port) {
+            gap: 3rem;
+        }
+        @include respond(phone-big) {
+            flex-direction: column;
+        }
+    }
+    &__socials {
+        width: 100%;
+        padding: 2rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        &__icons {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+
+            &-icon {
+                img {
+                    width: 8rem;
+
+                    @include respond(phone-sm) {
+                        width: 6rem;
+                    }
+                }
+            }
+        }
+    }
+}

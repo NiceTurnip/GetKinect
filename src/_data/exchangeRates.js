@@ -13,7 +13,7 @@ export default async function () {
     GBP: data.cad.gbp,
     AUD: data.cad.aud,
     NZD: data.cad.nzd,
-    JPY: data.cad.jpy,
+    JP: data.cad.jpy,
     CNY: data.cad.cny,
     HKD: data.cad.hkd,
     INR: data.cad.inr,

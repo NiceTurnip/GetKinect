@@ -1,11 +1,18 @@
 {% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
 
-{% macro pageHeader(text, flairText) %}
+{% macro pageHeader(text, flairText, subtext) %}
     <header class = "pageHeader">
         {{ nav.navigation("/assets/images/logo.png", "main-nav") }}
         
         <section class = "pageHeader__contents">
             <h1>{{text}}<span class = "flair-color-1">{{flairText}}</span></h1>
         </section>
+
+        <div class = "pageHeader__subtext">
+            <p>{{subtext}}</p>
+        </div>
     </header>
+
+    {{ mobileNav.mobileNav() }}
 {% endmacro %}
