@@ -11,17 +11,51 @@
 
     display: flex;
     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+    color: $color-black;
+
+    z-index: 1;
 
     @include respond(tab-port) {
         padding: 4rem 4rem 0 
     }
 
     &__contents {
-        width: 100%;
+        width: 45%;
         height: 100%;
+
+        text-align: center;
 
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include respond(desktop-sm) {
+            width: 50%;
+        }
+        @include respond(tab-land) {
+            width: 60%;
+        }
+        @include respond(tab-port) {
+            width: 65%;
+        }
+        @include respond(phone-big) {
+            width: 75%;
+        }
+        @include respond(phone-med) {
+            width: 100%;
+        }
+
+        h1 {
+            @include respond(phone-sm) {
+               font-size: $big-heading-size;
+            }
+            @include respond(phone-mini) {
+               font-size: $medium-heading-size;
+            }
+        }
     }
 }

@@ -1,13 +1,11 @@
 {% import "macros/navigation.njk" as nav %}
 
-{% macro pageHeader(text) %}
+{% macro pageHeader(text, flairText) %}
     <header class = "pageHeader">
-        {{ nav.navigation("/assets/vectors/logo-square.svg", "main-nav") }}
+        {{ nav.navigation("/assets/images/logo.png", "main-nav") }}
         
         <section class = "pageHeader__contents">
-            <h1>{{text}}</h1>
+            <h1>{{text}}<span class = "flair-color-1">{{flairText}}</span></h1>
         </section>
-
-    <img class = "header__wave" src="/assets/vectors/header-wave.svg" alt="header wave">
     </header>
 {% endmacro %}

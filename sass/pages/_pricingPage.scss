@@ -1,0 +1,13 @@
+.pricingPage {
+    visibility: hidden;
+
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    
+    background-color: $color-white;
+}

@@ -6,11 +6,12 @@ const xIcon = document.querySelector(".x-icon");
 
 // Pages / Headers for Animation
 const indexPage = document.querySelector(".indexPage");
+const pricingPage = document.querySelector(".pricingPage");
 
 const headerContent = document.querySelector(".header");
 const pageHeader = document.querySelector(".pageHeader");
 
-const pageList = [indexPage];
+const pageList = [indexPage, pricingPage];
 
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'normal');

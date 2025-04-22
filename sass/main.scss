@@ -14,6 +14,8 @@
 @import "components/listItem1.scss";
 @import "components/sectionHeader.scss";
 @import "components/accordion.scss";
+@import "components/featureAccordion.scss";
+@import "components/actionCard.scss";
 
 // LAYOUT
 @import "layout/mainNav";
@@ -24,7 +26,9 @@
 @import "layout/footer";
 @import "layout/landingSections/featurePitch";
 @import "layout/landingSections/benefitsPitch";
+@import "layout/pricingSections/pricingCards";
 
 // PAGES
 @import "pages/indexPage";
+@import "pages/pricingPage";
 

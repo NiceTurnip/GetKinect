@@ -1,7 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".accordion__items__item");
-console.log("Hello world")
   items.forEach(item => {
     const button = item.querySelector(".accordion__items__item__question-button");
     const answer = item.querySelector(".accordion__items__item-answer");

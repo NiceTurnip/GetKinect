@@ -1,0 +1,31 @@
+---
+title: Pricing Page
+layout: 'base.njk'
+---
+
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/card1.njk" as card1 %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/accordion.njk" as accordion %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/featureAccordion.njk" as featAccordion %}
+{% import "macros/actionCard.njk" as actionCard %}
+
+<!-- HEADER -->
+{{ pageHeader.pageHeader("Plans That Grow", " With Your Gym") }}
+
+<main class = "pricingPage">
+    {% include 'partials/pricingSections/pricing-cards.njk' %}
+    
+    {{ cta.callToAction("Try Kinect for Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try Now", "#") }}
+
+    {{ featAccordion.featureAccordion(featureList.categories, featureList.plans) }}
+</main>
+
+<!-- FOOTER -->
+{% include 'partials/footer.njk' %}
+

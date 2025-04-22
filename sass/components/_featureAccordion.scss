@@ -1,0 +1,192 @@
+.feature-accordion {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+
+    padding: 6rem 16rem 16rem;
+
+    @include respond(tab-port) {
+        padding: 6rem 12rem 16rem;
+    }
+    @include respond(phone-med) {
+        padding: 6rem 10rem 16rem;
+    }
+    @include respond(phone-sm) {
+        padding: 6rem 2rem 16rem;
+    }
+    @include respond(phone-mini) {
+        padding: 6rem 2rem 16rem;
+    }
+    
+    .accordion__item {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__header {
+            all: unset;
+            appearance: none;
+            -webkit-appearance: none;
+
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            background: $color-white;
+            color: $color-black;
+            
+            text-align: left;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+
+            font-size: $default-plus-font-size;
+            font-weight: 500;
+
+        }
+
+        &__content {
+            width: 100%;
+    
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+    
+            padding: 1rem;
+            background: $color-white;
+            color: $color-black;
+    
+            .feature-table {
+                width: 100%;
+               
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                &__head {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .feature-label {
+                        width: 30rem;
+
+                        @include respond(phone-big) {
+                            width: 10rem;
+                        }
+                        @include respond(phone-med) {
+                            width: 5rem;
+                        }
+                    }
+
+                    .feature-labels {
+                        width: 100%;
+
+                        display: flex;
+                        justify-content: space-between;
+
+                        padding: 1rem 6rem;
+
+                        @include respond(phone-mini) {
+                            padding: 1rem 3rem;
+                        }
+                    }
+
+                    .feature-plan-label {
+                        width: 20rem;
+                        font-weight: 700;
+                        font-size: $default-plus-font-size;
+                        text-align: center;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        @include respond(phone-big) {
+                            width: 10rem;
+                        }
+                        @include respond(phone-med) {
+                            width: 5rem;
+                        }
+                        @include respond(phone-sm) {
+                            font-size: 1.5rem;    
+                        }
+                    }
+                }
+            }
+            .feature-row {
+                display: flex;
+                align-items: center;
+
+                border-bottom: 0.5px solid #ddd;
+
+                .feature-label {
+                    width: 30rem;
+
+                    @include respond(phone-big) {
+                        width: 10rem;
+                    }
+                    @include respond(phone-med) {
+                        width: 5rem;
+                    }
+                }
+
+                .feature-icon {
+                    width: 20rem;
+                    display: flex;
+                    justify-content: center;
+
+                    @include respond(phone-big) {
+                        width: 10rem;
+                    }
+                    @include respond(phone-med) {
+                        width: 5rem;
+                    }
+
+                    img {
+                        @include respond(phone-med) {
+                            width: 2.5rem;
+                        }
+                    }
+                }
+
+                .feature-icons {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    padding: 1rem 6rem;
+
+                    @include respond(phone-mini) {
+                        padding: 1rem 3rem;
+                    }
+                }
+            }
+        }   
+    }
+
+    &__header[aria-expanded="true"] {
+        background: $color-white;
+    }
+}
+
+.accordion__item__content[hidden] {
+    display: none !important;
+  }
+
+
+.feature-accordion {
+    .sectionHeader {
+        width: 100%;
+    }
+}

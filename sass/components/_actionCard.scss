@@ -1,0 +1,129 @@
+.actionCard {
+    width: 25%;
+    height: 100%;
+    min-width: 30rem;
+    max-width: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: $color-white;
+    color: $color-black;
+    z-index: 2;
+
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    @include respond(phone-big) {
+        width: clamp(50%, 50%, 80%)
+    }
+
+
+    &-header {
+        width: 100%;
+        padding: 1.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: var(--heading-color);
+        background-color: $color-primary-0;
+        border-radius: 6px 6px 0 0;
+
+        h2 {
+            font-size: $smallest-heading-size;
+            font-weight: 700;
+        }
+    }
+    
+    &__content {
+        width: 100%;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        &-text {            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                font-size: $smallest-heading-size;
+                font-weight: 600;
+            }
+            h3 {
+                font-size: $medium-heading-size;
+                font-weight: 700;
+                line-height: 1;
+            }
+            .smallerText {
+                font-size: $default-plus-font-size;            
+            }
+        }
+
+        &-list {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                li div {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    .contrast {
+                        filter: brightness(0) saturate(100%) invert(13%) sepia(1%) saturate(794%) hue-rotate(314deg) brightness(103%) contrast(85%);
+                    }
+
+                    img {
+                        width: 2rem;
+
+                        filter: var(--icon-color);
+                    }
+                }
+            }
+        }
+        
+        .button-wrap {
+            
+            &-button {
+                height: 4rem;
+            }
+
+            img {
+                width: 2.5rem;
+            }
+        }
+    }
+}
+
+.actionCard:nth-child(1) {
+    .actionCard-header {
+        background-color: $color-primary-1;
+    }          
+}
+.actionCard:nth-child(2) {
+    z-index: 3;
+    margin-top: 5%;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    @include respond(phone-med) {
+        margin: 0;
+    }
+
+    .actionCard-header {
+        background-color: $color-primary-0;
+    }          
+}
+.actionCard:nth-child(3) {
+    .actionCard-header {
+        background-color: $color-primary-2;
+    }          
+}

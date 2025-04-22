@@ -1,0 +1,34 @@
+{% import "macros/button.njk" as btn %}
+
+{% macro actionCard(title1, text1, price, bulletArr) %}
+
+  <div class = "actionCard">
+    <div class = "actionCard-header">
+        <h2>{{title1}}</h2>
+    </div>
+    <div class = "actionCard__content">
+        <div class = "actionCard__content-text">
+            <p>{{text1}}</p>
+            <h3><span class = "smallerText symbol">$</span><span class = "price" data-cad = {{price}}>{{price}}</span><span class = "smallerText">/m</span></h3>
+        </div>
+        <div class = "actionCard__content-list">
+            <ul>
+            {% for text in bulletArr %}
+                <li>
+                    <div>
+                        <img src="/assets/vectors/pricing-check.svg" alt="check mark">
+                        <p>{{text}}</p>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+        <div class = "button-wrap spinButton">
+            <a href="{{link}}">
+                {{btn.spinButton("card link", "Book a Demo", "email-icon.svg")}}
+            </a>
+        </div>
+    </div>
+  </div>
+
+{% endmacro %}

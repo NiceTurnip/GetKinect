@@ -1,0 +1,143 @@
+{
+    "plans": ["Standard", "Access Control", "Access Plus+"],
+    "categories": [
+      {
+        "category": "Access Control",
+        "features": [
+          {
+            "label": "24/7 Door Access Control",
+            "plans": ["no", "yes", "yes"]
+          },
+          {
+            "label": "Custom Access Controls",
+            "plans": ["no", "yes", "yes"]
+          },
+          {
+            "label": "Up to 150 Members",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Up to 250 Members",
+            "plans": ["no", "yes", "yes"]
+          },
+          {
+            "label": "Hardware Provided",
+            "plans": ["no", "yes", "yes"]
+          },
+          {
+            "label": "Lifetime Hardware Warranty",
+            "plans": ["yes", "yes", "yes"]
+          }
+        ]
+      },
+      {
+        "category": "Management",
+        "features": [
+          {
+            "label": "Shared / Family Contracts",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Member Database",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Member Management",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Staff Management",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Attendance Tracker",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Automated Renewals",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Online Member Registration",
+            "plans": ["no", "no", "yes"]
+          }
+        ]
+      },
+      {
+        "category": "Scheduling",
+        "features": [
+          {
+            "label": "Class & Event Scheduling",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Bookings & Scheduling",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Waitlisting",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Member Communication",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Check-Ins",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Free Trials",
+            "plans": ["yes", "yes", "yes"]
+          }
+        ]
+      },
+      {
+        "category": "Billing",
+        "features": [
+          {
+            "label": "Automated Billing",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Payment Processing",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Integrate Other Software",
+            "plans": ["no", "yes", "yes"]
+          },
+          {
+            "label": "Recurring Billing",
+            "plans": ["no", "no", "yes"]
+          }
+        ]
+      },
+      {
+        "category": "Reporting & Support",
+        "features": [
+          {
+            "label": "24/7 Support",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Branded Mobile App",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Insights Reporting",
+            "plans": ["yes", "yes", "yes"]
+          },
+          {
+            "label": "Detailed Reporting",
+            "plans": ["no", "no", "yes"]
+          },
+          {
+            "label": "Digital Waivers",
+            "plans": ["no", "no", "yes"]
+          }
+        ]
+      }
+    ]
+  }
+  
