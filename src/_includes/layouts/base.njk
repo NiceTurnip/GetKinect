@@ -70,28 +70,13 @@
     
     <script>
         window.exchangeRates = {
-            CAD: 1,
-            USD: {{ exchangeRates.USD }},
-            EUR: {{ exchangeRates.EUR }},
-            GBP: {{ exchangeRates.GBP }},
-            AUD: {{ exchangeRates.AUD }},
-            NZD: {{ exchangeRates.NZD }},
-            JPY: {{ exchangeRates.JPY }},
-            CNY: {{ exchangeRates.CNY }},
-            HKD: {{ exchangeRates.HKD }},
-            INR: {{ exchangeRates.INR }},
-            MXN: {{ exchangeRates.MXN }},
-            BRL: {{ exchangeRates.BRL }},
-            ZAR: {{ exchangeRates.ZAR }},
-            CHF: {{ exchangeRates.CHF }},
-            SEK: {{ exchangeRates.SEK }},
-            NOK: {{ exchangeRates.NOK }},
-            DKK: {{ exchangeRates.DKK }},
-            SGD: {{ exchangeRates.SGD }},
-            KRW: {{ exchangeRates.KRW }},
-            AED: {{ exchangeRates.AED }},
-            THB: {{ exchangeRates.THB }},
-            PHP: {{ exchangeRates.PHP }}
+            CAD: 1
+            //avoids missing currencies
+            {%- for key, value in exchangeRates %}
+                {%- if value %}
+                , {{ key }}: {{ value }}
+                {%- endif %}
+            {%- endfor %}
         };
     </script>
     <script src = "/js/currency.js"></script>
