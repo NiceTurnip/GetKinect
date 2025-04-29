@@ -1,0 +1,25 @@
+---
+title: Contact Page
+layout: 'base.njk'
+---
+
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/contactCard.njk" as contactCard %}
+
+<!-- HEADER -->
+{{ pageHeader.pageHeader("Book a", " Free Demo", "Want to see real results in action? Schedule your free demo now and discover what's possible.") }}
+        
+<main class = "bookingPage">
+    {% include 'partials/bookingSections/bookingContent.njk' %}
+</main>
+
+<!-- FOOTER -->
+{% include 'partials/footer.njk' %}
+

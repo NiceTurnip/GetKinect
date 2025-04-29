@@ -8,11 +8,12 @@ const xIcon = document.querySelector(".x-icon");
 const indexPage = document.querySelector(".indexPage");
 const pricingPage = document.querySelector(".pricingPage");
 const contactPage = document.querySelector(".contactPage");
+const bookingPage = document.querySelector(".bookingPage");
 
 const headerContent = document.querySelector(".header");
 const pageHeader = document.querySelector(".pageHeader");
 
-const pageList = [indexPage, pricingPage, contactPage];
+const pageList = [indexPage, pricingPage, contactPage, bookingPage];
 
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'normal');

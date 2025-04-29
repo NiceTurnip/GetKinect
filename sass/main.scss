@@ -25,6 +25,8 @@
 @import "layout/callToAction";
 @import "layout/footer";
 
+@import "layout/forms/bookingForm";
+
 @import "layout/landingSections/featurePitch";
 @import "layout/landingSections/benefitsPitch";
 
@@ -32,8 +34,11 @@
 
 @import "layout/contactSections/contactContent";
 
+@import "layout/bookingSections/bookingContent";
+
 // PAGES
 @import "pages/indexPage";
 @import "pages/pricingPage";
 @import "pages/contactPage";
+@import "pages/bookingPage";
 

@@ -1,0 +1,92 @@
+<form class = "bookingForm" id = "bookingForm" action = "/" method = "POST" name = "Booking-Form" netlify>
+    <div class = "bookingForm-top">
+        <div class = "input-pair">
+            <label for="fName"></label>
+            <input id = "fName" name = "fName" type="text" placeholder = "First Name" required />
+        </div>
+        <div class = "input-pair">
+            <label for="lName"></label>
+            <input id = "lName" name = "lName" type="text" placeholder = "Last Name" required />
+        </div>
+        <div class = "input-pair">
+            <label for="email"></label>
+            <input id = "email" name = "email" type="email" placeholder = "Email" required />
+        </div>
+        <div class = "input-pair">
+            <label for="phone"></label>
+            <input id = "phone" name = "phone" type="tel" placeholder = "Phone Number" required />
+        </div>
+    </div>
+    <div class = "bookingForm-middle">
+        <fieldset>
+            <legend>How long has your facility been open?</legend>
+
+            <label class = "radio-button">
+            <input type="radio" name="business_age" value="Opening Soon" required>
+            Opening Soon
+            </label>
+
+            <label class = "radio-button">
+            <input type="radio" name="business_age" value="1-3 Years">
+            1-3 Years
+            </label>
+
+            <label class = "radio-button">
+                <input type="radio" name="business_age" value="3+ Years">
+                3+ Years
+            </label>
+        </fieldset>
+    </div>
+    <div class = "bookingForm-bottom">
+        <fieldset>
+            <legend class="sr-only">Which features are you interested in? Check all that apply.</legend>
+            <div class="checkbox-grid"> 
+                <label>
+                <input type="checkbox" name="features" value="door-access-control">
+                Door Access Control
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="membership-management">
+                Membership Management
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="automated-payment-processing">
+                Automated Payment Processing
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="class-scheduling">
+                Class Scheduling
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="digital-waivers">
+                Digital Waivers
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="attendance-tracking">
+                Attendance Tracking
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="point-of-sale">
+                Point of Sale
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="online-registration">
+                Online Registration
+                </label>
+
+                <label>
+                <input type="checkbox" name="features" value="other">
+                Other
+                </label>
+
+            </div>
+        </fieldset>
+    </div>
+</form>
