@@ -38,6 +38,9 @@
     }
 
     .button-wrap {
+        &-button {
+            width: 20rem;
+        }
         @include respond(phone-sm) {
             display: none;
         }

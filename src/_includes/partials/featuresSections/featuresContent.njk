@@ -1,0 +1,17 @@
+<section class = "features">
+    {% for feature in features %}
+        <div class="features__card">
+            <div class = "features__card-img">
+                <img src="{{ feature.image }}" alt="{{ feature.title }}">
+            </div>
+
+            <div class = "features__card__text">
+                <h3>{{ feature.title }}</h3>
+                
+                <div class="features__card__text-content">
+                    {{ feature.blurb | markdown | safe }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</section>

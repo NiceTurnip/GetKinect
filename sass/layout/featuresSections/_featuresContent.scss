@@ -1,0 +1,117 @@
+.features {
+    width: 100%;
+    padding: 12rem 25rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12rem;
+
+    @include respond(desktop-sm) {
+        padding: 12rem 15rem 0;
+    }
+    @include respond(tab-land) {
+        padding: 12rem 10rem 0;
+    }
+    @include respond(tab-port) {
+        padding: 12rem 20rem 0;
+    }
+    @include respond(phone-big) {
+        padding: 12rem 6rem 0;
+    }
+    @include respond(phone-sm) {
+        padding: 12rem 2rem 0;
+    }
+
+    &__card {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 6rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+        }
+
+        &-img {
+            width: 50%;
+            height: 100%;
+            
+            display: flex;
+            align-items: center;
+
+            border-radius: 18px;
+            overflow: hidden;
+
+            @include respond(tab-port) {
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                //object-position: 25%;
+
+                @include respond(tab-port) {
+                    justify-content: center;
+                }
+            }
+        }
+
+        &__text {
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+
+            @include respond(tab-port) {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: $small-heading-size;
+                font-weight: 700;
+            }
+
+            &-content {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                p, li {
+                    font-size: $default-plus-font-size;
+                    font-weight: 300;
+                    line-height: 1.5;
+                }
+                
+                ul {
+                    list-style: inside square;
+                }
+            }
+        }
+    }
+}
+
+.features__card:nth-child(2n) {
+    .features__card-img {
+        order: 2;
+        justify-content: end;
+
+        @include respond(tab-port) {
+            order: 1;
+            justify-content: center;
+        }
+    }
+
+    .features__card__text {
+        order: 1;
+
+        @include respond(tab-port) {
+            order: 2;
+        }
+    }
+}

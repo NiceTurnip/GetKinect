@@ -1,24 +1,27 @@
 <section class = "contactContent">
     <div class = "contactContent__cards">
         {{ contactCard.contactCard("/assets/vectors/contact-icon-1.svg", "Need Help?", "Our team is here to help with anything from setup to troubleshooting.", "Contact Support", "right-arrow-icon.svg", "#")}}
-        {{ contactCard.contactCard("/assets/vectors/contact-icon-2.svg", "Book a Demo", "Schedule a free demo and explore the full power of smartphone-based gym access.", "Schedule Demo", "right-arrow-icon.svg", "#")}}
+        {{ contactCard.contactCard("/assets/vectors/contact-icon-2.svg", "Book a Demo", "Schedule a free demo and explore the full power of smartphone-based gym access.", "Schedule Demo", "right-arrow-icon.svg", "/pages/booking")}}
         {{ contactCard.contactCard("/assets/vectors/contact-icon-3.svg", "Check the Blog", "Tips, tools, and real stories to help you run a smarter gym—dive into the latest posts on our blog.", "Take Me There", "right-arrow-icon.svg", "#")}}
     </div>
 
     <div class = "contactContent__socials">
-        <p>Call, Email, Whatsapp or Social Media. We're always ready to help.</p>
+        <p>Call, Email, or Whatsapp. We're always ready to help.</p>
         <div class = "contactContent__socials__icons">
             <div class = "contactContent__socials__icons-icon">
-                <img src="/assets/vectors/facebook-icon-red.svg" alt="Facebook Icon">
+                <a href="tel:613-858-2267">
+                    <img src="/assets/vectors/phone-icon-red.svg" alt="Phone Icon">
+                </a>
             </div>
             <div class = "contactContent__socials__icons-icon">
-                <img src="/assets/vectors/phone-icon-red.svg" alt="Phone Icon">
+                <a href="https://api.whatsapp.com/send/?phone=16138582267&text&type=phone_number&app_absent=0">
+                    <img src="/assets/vectors/whatsapp-icon-red.svg" alt="WhatsApp Icon">
+                </a>
             </div>
             <div class = "contactContent__socials__icons-icon">
-                <img src="/assets/vectors/whatsapp-icon-red.svg" alt="WhatsApp Icon">
-            </div>
-            <div class = "contactContent__socials__icons-icon">
-                <img src="/assets/vectors/mail-icon-red.svg" alt="Mail Icon">
+                <a href="mailto:bj@facilitykinetics.ca">
+                    <img src="/assets/vectors/mail-icon-red.svg" alt="Mail Icon">
+                </a>
             </div>
         </div>
     </div>

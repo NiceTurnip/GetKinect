@@ -8,11 +8,7 @@
     justify-content: center;
     gap: 12rem;
 
-    padding: 6rem 0 12rem;
-
-    @include respond(phone-big) {
-        padding-bottom: 6rem;
-    }
+    padding: 6rem 0;
 
     &__content {
         display: flex;

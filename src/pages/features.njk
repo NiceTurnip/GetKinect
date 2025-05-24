@@ -1,0 +1,28 @@
+---
+title: Features Page
+layout: 'base.njk'
+---
+
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/contactCard.njk" as contactCard %}
+
+<!-- HEADER -->
+{{ pageHeader.pageHeader("Features", "", "From effortless member management to detailed performance tracking, our software is designed to help you optimize every aspect of your gym. With automated billing, class scheduling, and seamless communication tools, GetKinect ensures that your team stays focused on what matters most—your members' success.") }}
+        
+
+
+<main class = "featuresPage">
+    {% include 'partials/featuresSections/featuresContent.njk' %}
+    {{ cta.callToAction("Try Kinect for Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try Now", "/pages/booking") }}
+</main>
+
+<!-- FOOTER -->
+{% include 'partials/footer.njk' %}
+

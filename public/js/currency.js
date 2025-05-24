@@ -26,9 +26,9 @@ async function convertPrice(exchangeRates) {
     const rate = exchangeRates[currency] || 1;
     const symbol = currencySymbols[currency] || currency + " ";
 
-    console.log("Detected currency:", currency);
-    console.log("Exchange rate:", rate);
-    console.log("Currency symbol:", symbol);
+    // console.log("Detected currency:", currency);
+    // console.log("Exchange rate:", rate);
+    // console.log("Currency symbol:", symbol);
 
     document.querySelectorAll(".price").forEach(el => {
       const base = parseFloat(el.dataset.cad);

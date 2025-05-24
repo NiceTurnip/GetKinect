@@ -9,11 +9,12 @@ const indexPage = document.querySelector(".indexPage");
 const pricingPage = document.querySelector(".pricingPage");
 const contactPage = document.querySelector(".contactPage");
 const bookingPage = document.querySelector(".bookingPage");
+const featuresPage = document.querySelector(".featuresPage");
 
 const headerContent = document.querySelector(".header");
 const pageHeader = document.querySelector(".pageHeader");
 
-const pageList = [indexPage, pricingPage, contactPage, bookingPage];
+const pageList = [indexPage, pricingPage, contactPage, bookingPage, featuresPage];
 
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'normal');

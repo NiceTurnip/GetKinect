@@ -8,7 +8,7 @@
 
     &-background-color {
         position: absolute;
-        bottom: 0;
+        top: 10%;
         left: 0;
 
         width: 100%;
@@ -19,8 +19,8 @@
 
         clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
 
-        @include respond(tab-port) {
-            clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+        @include respond(phone-big) {
+            clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
         }
     }
 
@@ -34,6 +34,13 @@
         
         z-index: 20;
 
+        @include respond(phone-big) {
+            flex-direction: column;
+        }
+        @include respond(phone-sm) {
+            padding: 2rem;
+        }
+
         &-text {
             width: 40%;
 
@@ -43,9 +50,10 @@
             align-items: center;
             gap: 3rem;
 
-            @include respond(tab-land) {
-                justify-content: start;
-                margin-top: 30rem;
+            margin-top: 20rem;
+
+            @include respond(phone-big) {
+                width: 100%;
             }
 
             h4 {
@@ -57,12 +65,34 @@
                 }
             }
         }
-        &-form {
+
+        &-forms {
             width: 60%;
 
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            justify-content: end;
             align-items: center;
+            gap: 6rem;
+
+            @include respond(phone-big) {
+                width: 100%;
+            }
+
+            &-calendar {
+                width: 50%;
+                height: 100%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                filter: drop-shadow(0 4px 8px $color-black);
+
+                @include respond(phone-big) {
+                    width: 80%;
+                }
+            }
         }
     }
 }

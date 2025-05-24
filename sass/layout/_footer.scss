@@ -6,15 +6,23 @@
     flex-direction: column;
     gap: 5rem;
 
-    padding: 8rem 15rem;
+    padding: 8rem 8rem 8rem 15rem;
 
     background-color: $color-primary-0;
 
     color: $color-white;
     z-index: 1;
 
+    overflow: hidden;
+
+    @include respond(desktop-sm) {
+        padding: 8rem 5rem 8rem 15rem;
+    }
     @include respond(tab-port) {
-        padding: 8rem 4rem;
+        padding: 8rem 2rem 8rem 15rem;
+    }
+    @include respond(phone-big) {
+        padding: 8rem 5rem;
     }
 
     button {
@@ -112,6 +120,9 @@
                     transition: filter 0.3s ease;
                     cursor: pointer;
 
+                    @include respond(tab-land) {
+                       height: 90%;
+                    }
                     @include respond(phone-big) {
                         display: none;
                     }
@@ -130,8 +141,9 @@
     position: absolute;
     inset: 0;
     background-color: $color-white;
-    clip-path: polygon(95% -1%, 100% -1%, 100% 100%, 50% 100.2%);
-    
+    //clip-path: polygon(95% -1%, 100% -1%, 100% 100%, 50% 100.2%);
+    clip-path: polygon(100% 1%, 100% 0%, 100% 100%, 60% 100%);
+        
     z-index: 0;
 
     @include respond(phone-big) {

@@ -7,8 +7,18 @@
             <h4>Fill out this quick form and pick a time that works for you.</h4>
         </div>
         {# FORM #}
-        <div class = "bookingContent__topForm-form">
-            {% include 'partials/forms/form-booking.njk' %}
+        <div class = "bookingContent__topForm-forms">
+            <div class = "bookingContent__topForm-forms-calendar" id="booking-page">
+            <!-- this is where we will inject the interface -->
+            </div>
+
+            <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
+            <script async src="https://embed.savvycal.com/v1/embed.js"></script>
+            <script>
+                SavvyCal('init');
+                SavvyCal('inline', { link: 'georgerbraden/chat-with-george', selector: '#booking-page', hideAvatar: 'true', hideBanner: 'true', view: 'month' });
+            </script>              
         </div>
+
     </div>
 </section>
