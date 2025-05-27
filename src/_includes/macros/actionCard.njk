@@ -1,6 +1,6 @@
 {% import "macros/button.njk" as btn %}
 
-{% macro actionCard(title1, text1, price, bulletArr) %}
+{% macro actionCard(title1, text1, price, bulletArr, link) %}
 
   <div class = "actionCard">
     <div class = "actionCard-header">
@@ -25,7 +25,7 @@
         </div>
         <div class = "button-wrap spinButton">
             <a href="{{link}}">
-                {{btn.spinButton("card link", "Book a Demo", "email-icon.svg")}}
+                {{btn.spinButton("card link", "Book a Demo", "right-arrow-icon.svg")}}
             </a>
         </div>
     </div>

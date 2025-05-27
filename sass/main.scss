@@ -38,10 +38,15 @@
 
 @import "layout/bookingSections/bookingContent";
 
+@import "layout/blogSections/blogLandingContent";
+@import "layout/blogSections/subscribe";
+@import "layout/blogSections/postList";
+
 // PAGES
 @import "pages/indexPage";
 @import "pages/pricingPage";
 @import "pages/contactPage";
 @import "pages/featuresPage";
 @import "pages/bookingPage";
+@import "pages/blogPage";
 

@@ -1,0 +1,27 @@
+---
+title: Blog Index Page
+layout: 'base.njk'
+---
+
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/contactCard.njk" as contactCard %}
+
+<!-- HEADER -->
+{{ pageHeader.pageHeader("", "", "") }}
+        
+<main class = "blogPage">
+    {% include 'partials/blogSections/blogLandingContent.njk' %}
+    {% include 'partials/blogSections/subscribe.njk' %}
+    {% include 'partials/blogSections/postList.njk' %}
+</main>
+
+<!-- FOOTER -->
+{% include 'partials/footer.njk' %}
+

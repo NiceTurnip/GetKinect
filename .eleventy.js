@@ -4,16 +4,8 @@ import markdownItAttrs from 'markdown-it-attrs';
 
 export default function(eleventyConfig) {
    
-    //Settings for blog posts using markdown
-    /* Allow Markdown files to accept class name additions to elements*/
-    // const markdownItOptions = {
-    //     html: true,
-    //     breaks: true,
-    //     linkify: true
-    // }
-    // const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs);
-    // eleventyConfig.setLibrary('md', markdownLib);
 
+    //FILTERS
     const md = new markdownIt({
       html: true, // allows raw HTML in markdown content
       breaks: true, // turns \n into <br>
@@ -24,6 +16,9 @@ export default function(eleventyConfig) {
       return md.render(content);
     });
 
+    eleventyConfig.addCollection("posts", collection => {
+      return collection.getFilteredByTag("post").reverse(); // newest first
+    });
 
     // Dummy Data for Pre-Build Scripts
     eleventyConfig.on('beforeBuild', () => {
