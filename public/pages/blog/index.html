@@ -319,8 +319,60 @@
         </form>
     </div>
 </section>
-    <section>
-    
+    <section class="postList">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
+
+    <div id="search"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search", showSubResults: true });
+        });
+    </script>
+
+
+    <div class="postList__header">
+
+    </div>
+    <div class="postList__list">
+        
+            <div class="postList__list-post">
+                <a href="/posts/blogpost1/">
+                    <div class="postList__list-post-img">
+                        <picture><source type="image/webp" srcset="/img/iT7gYbSA2B-9504.webp 9504w"><img decoding="async" src="/img/iT7gYbSA2B-9504.jpeg" alt="" width="9504" height="6336"></picture>
+                    </div>
+                    <span>
+                        <p class="subtext">Gym Operations &amp; Management</p>
+                        <h4>Keeping members happy with 24/7 access</h4>
+                    </span>
+                </a>
+            </div>
+        
+            <div class="postList__list-post">
+                <a href="/posts/blogpost2/">
+                    <div class="postList__list-post-img">
+                        <picture><source type="image/webp" srcset="/img/gb3cpL12y_-1280.webp 1280w"><img decoding="async" src="/img/gb3cpL12y_-1280.jpeg" alt="" width="1280" height="1280"></picture>
+                    </div>
+                    <span>
+                        <p class="subtext">Gym Operations &amp; Management</p>
+                        <h4>Why smartphone access beats key fobs</h4>
+                    </span>
+                </a>
+            </div>
+        
+            <div class="postList__list-post">
+                <a href="/posts/blogpost3/">
+                    <div class="postList__list-post-img">
+                        <picture><source type="image/webp" srcset="/img/rO3K9hon9l-1060.webp 1060w"><img decoding="async" src="/img/rO3K9hon9l-1060.jpeg" alt="" width="1060" height="1080"></picture>
+                    </div>
+                    <span>
+                        <p class="subtext">Gym Operations &amp; Management</p>
+                        <h4>Automating front desk duties</h4>
+                    </span>
+                </a>
+            </div>
+        
+    </div>
 </section>
 </main>
 

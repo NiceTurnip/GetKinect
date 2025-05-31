@@ -2550,6 +2550,46 @@ problem in the header / main-nav html files. */
   height: 5rem;
 }
 
+.postList {
+  width: 100%;
+  padding: 6rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.postList__list {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+@media only screen and (max-width: 68.75em) {
+  .postList__list {
+    width: 100%;
+  }
+}
+.postList__list-post a {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.postList__list-post a .postList__list-post-img {
+  width: 45rem;
+  height: 30rem;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.postList__list-post a .postList__list-post-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.postList__list-post a h4 {
+  font-weight: 600;
+}
+
 .indexPage {
   visibility: hidden;
   position: relative;

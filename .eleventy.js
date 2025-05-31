@@ -23,6 +23,10 @@ export default function(eleventyConfig) {
       return md.render(content);
     });
 
+    eleventyConfig.addFilter("slice", (arr, start, end) => {
+      return Array.isArray(arr) ? arr.slice(start, end) : [];
+    });
+
     eleventyConfig.addCollection("posts", collection => {
       return collection.getFilteredByTag("post").reverse(); // newest first
     });
