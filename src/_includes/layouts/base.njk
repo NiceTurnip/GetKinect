@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="[Website Description]">
-    <title> {{ title }} </title>
+    {% block title %}<title>{{ title }}</title>{% endblock %}
 
     {# Social Media Meta Tags #}
     
@@ -54,9 +54,12 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    
+    {% block nav %}{% endblock %}
+
     <!-- CONTENT -->
-    {{content | safe}} 
+    {% block content %}{{content | safe}}{% endblock %}
+
+    {% block footer %}{% endblock %}
 
     <!-- TypedJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" integrity="sha512-hIlMpy2enepx9maXZF1gn0hsvPLerXoLHdb095CmRY5HG3bZfN7XPBZ14g+TUDH1aGgfLyPHmY9/zuU53smuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

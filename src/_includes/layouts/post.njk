@@ -1,0 +1,80 @@
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/contactCard.njk" as contactCard %}
+
+{% extends "layouts/base.njk" %}
+
+{% block nav %} {{ pageHeader.pageHeader("", "", "") }} {% endblock %}
+
+{% block title %}
+<title>Blog | {{title}}</title>
+{% endblock %}
+
+{% block content %}
+<main class = "post">
+    <header class = "post__postHeader">    
+        <div class = "post__postHeader__left">
+            <div class = "post__postHeader__left__breadcrumbs">
+                <a href="/pages/blog">Blog</a>
+                <img src="/assets/vectors/breadcrumbs-arrow.svg" alt="arrow">
+                <a href="">{{ tags[1] }}</a>
+                <img src="/assets/vectors/breadcrumbs-arrow.svg" alt="arrow">
+                <p>Here</p>
+            </div>
+
+            <div class = "post__postHeader__left__title">
+                <h1>{{ title }}</h1>
+                <p class="date subtext">{{ date | readableDate }}</p>
+            </div>
+        </div>
+        <div class = "post__postHeader__right">
+            {% set allPosts = collections.posts %}
+            {% set currentIndex = allPosts.length - 1 %}
+            {% set i = allPosts.length - 1 %}
+            
+            {% for post in allPosts %}
+                {% if post.url == page.url and currentIndex == allPosts.length - 1 %}
+                    {% set currentIndex = i %}
+                {% endif %}
+                
+                {% set i = i - 1 %}
+            {% endfor %}
+
+            {% set postNumber = currentIndex + 1 %}
+            {% set totalPosts = allPosts.length %}
+
+            <div class = "post__postHeader__right-number">
+                <h2>{{ postNumber }}</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class = "post__summary">
+        <div class = "post__summary-img">
+            <img src="{{ heroImage }}" alt="Hero Image">
+        </div>
+        <div class = "post__summary-text">
+            <p class = "subtext"> Short Summary</p>
+            <p>{{ summary }}</p>
+        </div>
+    </section>
+
+    <article class="post-content">
+        {{ content | safe }}
+    </article>
+</main>
+
+{% include 'partials/blogSections/subscribe.njk' %}
+
+{% endblock %}
+
+<!-- FOOTER -->
+{% block footer %}
+    {% include 'partials/footer.njk' %}
+{% endblock %}

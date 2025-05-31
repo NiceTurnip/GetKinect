@@ -37,16 +37,16 @@
                 <h3>Getting Started</h3>
             </div>
             <div class = "blogLanding__content__right__blogPosts">
-                {% for post in collections.posts %}
-                <div class = "blogLanding__content__right__blogPosts-post">
-                    <a href="{{ post.url }}">
-                        <span>
-                            <p class = "subtext">{{ post.data.tags[1] }}</p>
-                            <h4>{{ post.data.title }}</h4>
-                        </span>
-                        <p>{{ post.data.description }}</p>
-                    </a>
-                </div>
+                {% for post in collections.posts | reverse %}
+                    <div class = "blogLanding__content__right__blogPosts-post">
+                        <a href="{{ post.url }}">
+                            <span>
+                                <p class = "subtext">{{ post.data.tags[1] }}</p>
+                                <h4>{{ post.data.title }}</h4>
+                            </span>
+                            <p>{{ post.data.description }}</p>
+                        </a>
+                    </div>
                 {% endfor %}
             </div>
         </div>
