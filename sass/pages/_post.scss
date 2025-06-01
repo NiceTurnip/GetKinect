@@ -6,6 +6,8 @@
     flex-direction: column;
     gap: 8rem;
 
+    visibility: hidden;
+
     @include respond(phone-big) {
         padding: 6rem 4rem;
     }

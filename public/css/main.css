@@ -2552,16 +2552,80 @@ problem in the header / main-nav html files. */
 
 .postList {
   width: 100%;
-  padding: 6rem 6rem;
+  padding: 6rem 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 100em) {
+  .postList {
+    padding: 6rem 12rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .postList {
+    padding: 6rem 4rem;
+  }
+}
+.postList__header {
+  width: 100%;
+  min-height: 15rem;
+  padding: 0 0 6rem;
+  display: flex;
+}
+@media only screen and (max-width: 43.75em) {
+  .postList__header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.postList__header__left {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 43.75em) {
+  .postList__header__left {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.postList__header__left h3 {
+  font-size: 5.61rem;
+  font-weight: 800;
+}
+.postList__header__right {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #b73c3a;
+}
+@media only screen and (max-width: 43.75em) {
+  .postList__header__right {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #b73c3a;
+    padding: 3rem 0 0;
+  }
+}
+.postList__header__right #search {
+  width: 100%;
+  padding: 0 2rem;
+  --pagefind-ui-border-radius: 25px;
+  --pagefind-ui-primary: #f3f3f3;
+  --pagefind-ui-text: #f3f3f3;
+  --pagefind-ui-background: #2c2c2c;
+  --pagefind-ui-border: #2c2c2c;
+  --pagefind-ui-tag: #f3f3f3;
+}
 .postList__list {
-  width: 75%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  place-items: center;
   gap: 6rem;
 }
 @media only screen and (max-width: 68.75em) {
@@ -2569,13 +2633,22 @@ problem in the header / main-nav html files. */
     width: 100%;
   }
 }
+.postList__list-post {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .postList__list-post a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 .postList__list-post a .postList__list-post-img {
-  width: 45rem;
+  width: 100%;
   height: 30rem;
   border-radius: 25px;
   overflow: hidden;
@@ -2588,6 +2661,10 @@ problem in the header / main-nav html files. */
 }
 .postList__list-post a h4 {
   font-weight: 600;
+}
+
+.pagefind-ui__result, .pagefind-ui__result-title, .pagefind-ui__result-link, .pagefind-ui__result-excerpt {
+  color: #2c2c2c !important;
 }
 
 .indexPage {
@@ -2652,6 +2729,7 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   gap: 8rem;
+  visibility: hidden;
 }
 @media only screen and (max-width: 56.25em) {
   .post {

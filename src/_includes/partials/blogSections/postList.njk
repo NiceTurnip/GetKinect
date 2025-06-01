@@ -1,17 +1,20 @@
 <section class = "postList">
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-    <script src="/pagefind/pagefind-ui.js"></script>
-
-    <div id="search"></div>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({ element: "#search", showSubResults: true });
-        });
-    </script>
-
-
     <div class = "postList__header">
+        <div class = "postList__header__left">
+            <h3>Most <span class = "flair-color-1">Recent</span></h3>
+        </div>
+        <div class = "postList__header__right">
+            {# SEARCH FUNCTION: PAGEFIND (must re-index if public is fully deleted) #}
+            <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+            <script src="/pagefind/pagefind-ui.js"></script>
 
+            <div id="search"></div>
+            <script>
+                window.addEventListener('DOMContentLoaded', (event) => {
+                    new PagefindUI({ element: "#search", showSubResults: true });
+                });
+            </script>
+        </div>
     </div>
     <div class = "postList__list">
         {% for post in collections.posts | reverse | slice(0,6) %}
