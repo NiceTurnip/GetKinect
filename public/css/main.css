@@ -2633,6 +2633,12 @@ problem in the header / main-nav html files. */
     width: 100%;
   }
 }
+@media only screen and (max-width: 43.75em) {
+  .postList__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .postList__list-post {
   width: 100%;
   display: flex;

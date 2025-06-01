@@ -86,6 +86,10 @@
         @include respond(tab-port) {
             width: 100%;
         }
+        @include respond(phone-med) {
+            display: flex;
+            flex-direction: column;
+        }
 
         &-post {
             width: 100%;
