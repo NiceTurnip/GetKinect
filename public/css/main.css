@@ -1364,10 +1364,10 @@ problem in the header / main-nav html files. */
   background-color: #b73c3a;
   display: none;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   gap: 3rem;
-  padding-top: 4rem;
+  padding: 8rem 0;
 }
 .mobile-nav a, .mobile-nav p {
   color: #F3f3f3;

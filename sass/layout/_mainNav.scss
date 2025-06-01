@@ -79,10 +79,10 @@ problem in the header / main-nav html files. */
     
     display: none;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     gap: 3rem;
-    padding-top: 4rem;
+    padding: 8rem 0;
 
     a,p {
         color: $color-white;
