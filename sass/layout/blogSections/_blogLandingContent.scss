@@ -1,19 +1,19 @@
 .blogLanding {
     width: 100%;
-    padding: 0 24rem 6rem;
+    padding: 6rem 24rem 6rem;
     
     display: flex;
     flex-direction: column;
     gap: 6rem;
 
     @include respond(desktop-sm) {
-        padding: 0 16rem 6rem;
+        padding: 6rem 16rem 6rem;
     }
     @include respond(tab-land) {
-        padding: 0 12rem 6rem;
+        padding: 6rem 12rem 6rem;
     }
     @include respond(tab-land) {
-        padding: 0 6rem 6rem;
+        padding: 6rem 6rem 6rem;
     }
 
     &__top {

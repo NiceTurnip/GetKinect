@@ -2349,24 +2349,24 @@ problem in the header / main-nav html files. */
 
 .blogLanding {
   width: 100%;
-  padding: 0 24rem 6rem;
+  padding: 6rem 24rem 6rem;
   display: flex;
   flex-direction: column;
   gap: 6rem;
 }
 @media only screen and (max-width: 100em) {
   .blogLanding {
-    padding: 0 16rem 6rem;
+    padding: 6rem 16rem 6rem;
   }
 }
 @media only screen and (max-width: 81.25em) {
   .blogLanding {
-    padding: 0 12rem 6rem;
+    padding: 6rem 12rem 6rem;
   }
 }
 @media only screen and (max-width: 81.25em) {
   .blogLanding {
-    padding: 0 6rem 6rem;
+    padding: 6rem 6rem 6rem;
   }
 }
 .blogLanding__top {
