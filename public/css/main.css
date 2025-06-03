@@ -639,6 +639,12 @@ h5 {
   width: 20%;
   height: 60rem;
 }
+@media only screen and (max-width: 81.25em) {
+  .card1 {
+    width: 25%;
+    height: 70rem;
+  }
+}
 @media only screen and (max-width: 56.25em) {
   .card1 {
     width: 100%;
@@ -647,7 +653,7 @@ h5 {
 }
 @media only screen and (max-width: 40.65em) {
   .card1 {
-    width: 100%;
+    height: 100%;
   }
 }
 .card1-image {
@@ -655,6 +661,12 @@ h5 {
   height: 60%;
   border-radius: 18px;
   overflow: hidden;
+}
+@media only screen and (max-width: 40.65em) {
+  .card1-image {
+    width: 100%;
+    height: 30rem;
+  }
 }
 .card1-image picture img {
   width: 100%;
@@ -2443,6 +2455,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 18px;
 }
 @media only screen and (max-width: 68.75em) {
   .blogLanding__content__left-image1 img, .blogLanding__content__left-image2 img {
