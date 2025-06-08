@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "npx del public",
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy && npx pagefind --site public",
     "prestart": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/accordion.js js/index.js -o js/index.min.js",
     "prebuild": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/accordion.js js/index.js -o js/index.min.js"
   },
