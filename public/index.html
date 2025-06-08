@@ -40,10 +40,10 @@
     
 
     
-    <link rel="preload" href="/css/main.css" as="style">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+    <link rel="preload" href="/css/main.min.css" as="style">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="preload" href="/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/main.min.css"></noscript>
 
     
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
@@ -260,11 +260,11 @@
         </div>
  
         <div class="button-wrap spinButton">
-            <a href="/pages/features">
+            <a href="/pages/features" aria-label="Learn more about platform features">
                 
     <div class="button-wrap-button">  
         <img decoding="async" class="button-wrap-button-image" src="/img/bRQLxSkzSo-30.svg" alt="card link icon" width="30" height="30">
-        <p class="button-wrap-button-text">Learn More</p>
+        <p class="button-wrap-button-text">More Features</p>
     </div>
 
             </a>
@@ -287,11 +287,11 @@
         </div>
  
         <div class="button-wrap spinButton">
-            <a href="/pages/features">
+            <a href="/pages/features" aria-label="Learn more about platform features">
                 
     <div class="button-wrap-button">  
         <img decoding="async" class="button-wrap-button-image" src="/img/bRQLxSkzSo-30.svg" alt="card link icon" width="30" height="30">
-        <p class="button-wrap-button-text">Learn More</p>
+        <p class="button-wrap-button-text">Discover More</p>
     </div>
 
             </a>
@@ -314,11 +314,11 @@
         </div>
  
         <div class="button-wrap spinButton">
-            <a href="/pages/features">
+            <a href="/pages/features" aria-label="Learn more about platform features">
                 
     <div class="button-wrap-button">  
         <img decoding="async" class="button-wrap-button-image" src="/img/bRQLxSkzSo-30.svg" alt="card link icon" width="30" height="30">
-        <p class="button-wrap-button-text">Learn More</p>
+        <p class="button-wrap-button-text">All Highlights</p>
     </div>
 
             </a>
@@ -531,15 +531,15 @@
             <div class="footer__content__right__inner-top">
                 <h3>Menu</h3>
                 <ul>
-                    <a href="/pages/blog"><li>Blog</li></a>
-                    <a href="/pages/features"><li>Features</li></a>
-                    <a href="/pages/pricing"><li>Pricing</li></a>
-                    <a href="/pages/contact"><li>Contact</li></a>
-                    <a href="/pages/booking"><li>Booking</li></a>
+                    <li><a href="/pages/blog">Blog</a></li>
+                    <li><a href="/pages/features">Features</a></li>
+                    <li><a href="/pages/pricing">Pricing</a></li>
+                    <li><a href="/pages/contact">Contact</a></li>
+                    <li><a href="/pages/booking">Booking</a></li>
                 </ul>
             </div>
             <div class="footer__content__right__inner-bottom">
-                <a href="/pages/booking"><img decoding="async" src="/img/Gdawt2ouUh-252.svg" alt="Request Demo Button" width="252" height="251"></a>
+                <a href="/pages/booking"><img decoding="async" src="/img/Gdawt2ouUh-252.svg" loading="lazy" alt="Request Demo Button" width="252" height="251"></a>
             </div>
         </div>
     </section>
@@ -555,10 +555,7 @@
     <!-- AnimeJS -->
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
     <!-- Custom Scripts -->
-    <script src="/js/index.js"></script>
-    <script src="/js/animations.js"></script>
-    <script src="/js/accordion.js"></script>
-    <script src="/js/featureAccordion.js"></script>
+    
     
     <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
     <script async="" src="https://embed.savvycal.com/v1/embed.js"></script>
@@ -571,30 +568,30 @@
             CAD: 1
             //avoids missing currencies
                 , CAD: 1
-                , USD: 0.72894997
-                , EUR: 0.64109082
-                , GBP: 0.54035771
-                , AUD: 1.12890629
-                , NZD: 1.2153847
-                , JP: 104.59647486
-                , CNY: 5.24827384
-                , HKD: 5.71683126
-                , INR: 62.37843781
-                , MXN: 14.15446716
-                , BRL: 4.17141216
-                , ZAR: 13.09403096
-                , CHF: 0.59913623
-                , SEK: 6.97085791
-                , NOK: 7.42135455
-                , DKK: 4.78171733
-                , SGD: 0.93989293
-                , KRW: 1005.37761289
-                , AED: 2.67706877
-                , THB: 23.93063861
-                , PHP: 40.70218086
+                , USD: 0.73033184
+                , EUR: 0.64071797
+                , GBP: 0.53994113
+                , AUD: 1.12496644
+                , NZD: 1.21417632
+                , JP: 105.81176795
+                , CNY: 5.25176632
+                , HKD: 5.73083919
+                , INR: 62.64436283
+                , MXN: 13.95663315
+                , BRL: 4.06160515
+                , ZAR: 12.98118153
+                , CHF: 0.6003511
+                , SEK: 7.04328087
+                , NOK: 7.38639192
+                , DKK: 4.77965745
+                , SGD: 0.94055872
+                , KRW: 993.37660975
+                , AED: 2.68214367
+                , THB: 23.87520679
+                , PHP: 40.83103699
         };
     </script>
-    <script src="/js/currency.js"></script>
     
+    <script src="/js/index.min.js"></script>
 </body>
 </html>

@@ -1801,6 +1801,11 @@ problem in the header / main-nav html files. */
   flex-direction: column;
   gap: 5rem;
 }
+.footer__content__right__inner-top ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .footer__content__right__inner-top a {
   color: #F3f3f3;
 }

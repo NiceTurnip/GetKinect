@@ -66,7 +66,7 @@ if(xIcon) {
     });
 }
 
-window.onload = () => {
+document.addEventListener("DOMContentLoaded", () => {
     for(let i = 0; i < pageList.length; i++) {
         if(pageList[i]) {
             pageList[i].style.visibility = 'visible';
@@ -88,4 +88,4 @@ window.onload = () => {
     }
 
     console.log("PAGE LOAD");
-}
+});
