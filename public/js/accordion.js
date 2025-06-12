@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".accordion__items__item");
   items.forEach(item => {

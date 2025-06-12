@@ -23,6 +23,7 @@
     "sharp": "^0.34.0"
   },
   "devDependencies": {
+    "esbuild": "0.25.5",
     "lightningcss-cli": "^1.29.3",
     "uglify-js": "^3.19.3"
   }
