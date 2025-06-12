@@ -41,7 +41,7 @@ export default function(eleventyConfig) {
       // which file extensions to process
       extensions: "html",
       // Add any other Image utility options here:
-      widths: ['auto'],
+      widths: [320, 640, 960],
       
       svgShortCircuit: true,
       // optional, output image formats
@@ -49,6 +49,9 @@ export default function(eleventyConfig) {
   
       // optional, attributes assigned on <img> override these values.
       defaultAttributes: {
+        sizes: "(max-width: 768px) 100vw, 50vw",
+        alt: "Descriptive alt text",
+        loading: "lazy",
         decoding: "async",
       },
     });
