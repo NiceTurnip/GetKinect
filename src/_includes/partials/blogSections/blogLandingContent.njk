@@ -8,7 +8,7 @@
             {% for post in collections.all %}
                 {% if "tags" in post.data %}
                     {% for tag in post.data.tags %}
-                        {% if tag not in allTags %}
+                        {% if tag not in allTags and tag != "post" %}
                             {% set allTags = allTags.concat(tag) %}
                         {% endif %}
                     {% endfor %}
@@ -37,7 +37,7 @@
                 <h3>Getting Started</h3>
             </div>
             <div class = "blogLanding__content__right__blogPosts">
-                {% for post in collections.posts | reverse %}
+                {% for post in collections.posts | slice(0,3) %}
                     <div class = "blogLanding__content__right__blogPosts-post">
                         <a href="{{ post.url }}">
                             <span>

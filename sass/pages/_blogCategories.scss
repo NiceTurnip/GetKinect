@@ -1,0 +1,51 @@
+.blogCategories {
+    width: 100%;
+    padding: 6rem 24rem 12rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    @include respond(desktop-sm) {
+        padding: 6rem 16rem 6rem;
+    }
+    @include respond(tab-land) {
+        padding: 6rem 12rem 6rem;
+    }
+    @include respond(tab-land) {
+        padding: 6rem 6rem 6rem;
+    }
+    .sectionHeader {
+            width: 100%;
+            gap: 6rem;
+            justify-content: center;
+            align-items: center;
+
+            @include respond(phone-big) {
+                text-align: center;
+                gap: 3rem;
+            }
+        }
+
+    &__list {
+        width: 75%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
+
+        &-post a {
+            h4 {
+                font-weight: 600
+            }
+            
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+    }
+}

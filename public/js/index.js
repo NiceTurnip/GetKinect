@@ -11,12 +11,13 @@ const contactPage = document.querySelector(".contactPage");
 const bookingPage = document.querySelector(".bookingPage");
 const featuresPage = document.querySelector(".featuresPage");
 const blogPage = document.querySelector(".blogPage");
+const blogCategories = document.querySelector(".blogCategories");
 const post = document.querySelector(".post");
 
 const headerContent = document.querySelector(".header");
 const pageHeader = document.querySelector(".pageHeader");
 
-const pageList = [indexPage, pricingPage, contactPage, bookingPage, featuresPage, blogPage, post];
+const pageList = [indexPage, pricingPage, contactPage, bookingPage, featuresPage, blogPage, blogCategories, post];
 
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.documentElement.setAttribute('data-theme', 'normal');

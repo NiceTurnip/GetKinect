@@ -70,7 +70,7 @@ strong {
 }
 
 button {
-    min-width: 3rem;
+    min-width: 18rem;
     height: 5rem;
     padding: 1.5rem;
     
@@ -84,6 +84,7 @@ button {
     font-weight: 600;
 
     cursor: pointer;
+    transition: all 1s;
 }
 
 form {

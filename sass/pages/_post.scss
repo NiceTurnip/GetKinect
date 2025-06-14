@@ -1,6 +1,6 @@
 .post {
     width: 100%;
-    padding: 6rem 12rem;
+    padding: 6rem 20rem;
 
     display: flex;
     flex-direction: column;
@@ -90,16 +90,15 @@
 
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 6rem;
+        gap: 10rem;
 
         @include respond(phone-med) {
             flex-direction: column;
         }
 
         &-img {
-            width: 60%;
-            height: 100%;
+            width: 60rem;
+            height: auto;
 
             display: flex;
             justify-content: center;
@@ -120,7 +119,7 @@
         }
 
         &-text {
-            width: 40%;
+            width: 45%;
 
             display: flex;
             flex-direction: column;
@@ -148,16 +147,29 @@
             font-weight: 800;
             margin-top: 3rem;
         }
+        h4 {
+            font-weight: 800
+        }
 
         p {
             font-size: $default-plus-font-size;
+            line-height: 1.7;
         }
 
         ul {
             list-style: outside square;
         }
-        li {
-            margin-left: 1.5rem; 
+        ul, ol {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        li, li p {
+            margin-left: 1.7rem;
+            font-size: calc($default-plus-font-size - 0.5rem);
+        }
+        ol li ul {
+            margin-top: 1rem;
         }
    }
 }

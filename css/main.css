@@ -406,7 +406,7 @@ strong {
 }
 
 button {
-  min-width: 3rem;
+  min-width: 18rem;
   height: 5rem;
   padding: 1.5rem;
   border-radius: 40px;
@@ -416,6 +416,7 @@ button {
   background-color: #b73c3a;
   font-weight: 600;
   cursor: pointer;
+  transition: all 1s;
 }
 
 form {
@@ -908,6 +909,7 @@ h5 {
 .accordion__items__item__question {
   display: flex;
   width: 100%;
+  cursor: pointer;
 }
 .accordion__items__item__question img {
   width: 2rem;
@@ -1340,11 +1342,17 @@ h5 {
 .main-nav-list a:hover {
   border-bottom: 1px solid #F3f3f3;
 }
-.main-nav .button-wrap-button {
+.main-nav-button button {
   width: 20rem;
+  transition: all 0.2s;
+}
+.main-nav-button button:hover {
+  outline: 5px solid #b73c3a;
+  background-color: #F3f3f3;
+  color: #2c2c2c;
 }
 @media only screen and (max-width: 40.65em) {
-  .main-nav .button-wrap {
+  .main-nav-button {
     display: none;
   }
 }
@@ -1510,16 +1518,22 @@ problem in the header / main-nav html files. */
     width: 100%;
   }
 }
-.header__contents__left .button-wrap {
+.header__contents__left-button {
   justify-content: center;
 }
 @media only screen and (max-width: 56.25em) {
-  .header__contents__left .button-wrap {
+  .header__contents__left-button {
     justify-content: center;
   }
 }
-.header__contents__left .button-wrap-button {
+.header__contents__left-button button {
   width: 20rem;
+  transition: all 0.2s;
+}
+.header__contents__left-button button:hover {
+  outline: 5px solid #b73c3a;
+  background-color: #F3f3f3;
+  color: #2c2c2c;
 }
 .header__contents__right {
   width: 40%;
@@ -2752,9 +2766,63 @@ problem in the header / main-nav html files. */
   background-color: #F3f3f3;
 }
 
+.blogCategories {
+  width: 100%;
+  padding: 6rem 24rem 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+@media only screen and (max-width: 100em) {
+  .blogCategories {
+    padding: 6rem 16rem 6rem;
+  }
+}
+@media only screen and (max-width: 81.25em) {
+  .blogCategories {
+    padding: 6rem 12rem 6rem;
+  }
+}
+@media only screen and (max-width: 81.25em) {
+  .blogCategories {
+    padding: 6rem 6rem 6rem;
+  }
+}
+.blogCategories .sectionHeader {
+  width: 100%;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 56.25em) {
+  .blogCategories .sectionHeader {
+    text-align: center;
+    gap: 3rem;
+  }
+}
+.blogCategories__list {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+@media only screen and (max-width: 68.75em) {
+  .blogCategories__list {
+    width: 100%;
+  }
+}
+.blogCategories__list-post a {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blogCategories__list-post a h4 {
+  font-weight: 600;
+}
+
 .post {
   width: 100%;
-  padding: 6rem 12rem;
+  padding: 6rem 20rem;
   display: flex;
   flex-direction: column;
   gap: 8rem;
@@ -2829,8 +2897,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6rem;
+  gap: 10rem;
 }
 @media only screen and (max-width: 43.75em) {
   .post__summary {
@@ -2838,8 +2905,8 @@ problem in the header / main-nav html files. */
   }
 }
 .post__summary-img {
-  width: 60%;
-  height: 100%;
+  width: 60rem;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2857,7 +2924,7 @@ problem in the header / main-nav html files. */
   border-radius: 25px;
 }
 .post__summary-text {
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -2881,12 +2948,25 @@ problem in the header / main-nav html files. */
   font-weight: 800;
   margin-top: 3rem;
 }
+.post-content h4 {
+  font-weight: 800;
+}
 .post-content p {
   font-size: 2.369rem;
+  line-height: 1.7;
 }
 .post-content ul {
   list-style: outside square;
 }
-.post-content li {
-  margin-left: 1.5rem;
+.post-content ul, .post-content ol {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.post-content li, .post-content li p {
+  margin-left: 1.7rem;
+  font-size: 1.869rem;
+}
+.post-content ol li ul {
+  margin-top: 1rem;
 }/*# sourceMappingURL=main.css.map */
