@@ -11,7 +11,6 @@ collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "src/posts"
-    layout: "base.njk"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -32,3 +31,12 @@ collections:
         required: true
         hint: "Upload an image to be shown at the top of the post"
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
+      - label: "Summary"
+        name: "summary"
+        widget: "text"
+        hint: "A short excerpt for blog previews or cards"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        hint: "Used for SEO and page meta description"
