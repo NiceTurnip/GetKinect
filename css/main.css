@@ -1206,11 +1206,15 @@ h5 {
   width: 2rem;
   filter: var(--icon-color);
 }
-.actionCard__content .button-wrap-button {
+.actionCard__content-button button {
+  padding: 0.5rem;
   height: 4rem;
+  transition: all 0.2s;
 }
-.actionCard__content .button-wrap img {
-  width: 2.5rem;
+.actionCard__content-button button:hover {
+  outline: 5px solid #b73c3a;
+  background-color: #F3f3f3;
+  color: #2c2c2c;
 }
 
 .actionCard:nth-child(1) .actionCard-header {
