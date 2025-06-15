@@ -1,5 +1,5 @@
 backend:
-  name: FAKE_BACKEND
+  name: github
   repo: NiceTurnip/GetKinect
   branch: master
   auth_scope: repo
