@@ -53,12 +53,22 @@
             }
         }
     }
-}
 
-.button-wrap {
-    justify-content: start;
 
-    @include respond(phone-big) {
-        justify-content: center;
+    &-button {
+        justify-content: start;
+
+        @include respond(phone-big) {
+            justify-content: center;
+        }
+
+        button {
+            transition: all .2s;
+        }
+        button:hover {
+            outline: 5px solid $color-primary-0;
+            background-color: $color-white;
+            color: $color-black;
+        }    
     }
 }

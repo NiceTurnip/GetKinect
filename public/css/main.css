@@ -1300,14 +1300,21 @@ h5 {
 .contactCard__wrap__text h3 {
   font-weight: 700;
 }
-
-.button-wrap {
+.contactCard-button {
   justify-content: start;
 }
 @media only screen and (max-width: 56.25em) {
-  .button-wrap {
+  .contactCard-button {
     justify-content: center;
   }
+}
+.contactCard-button button {
+  transition: all 0.2s;
+}
+.contactCard-button button:hover {
+  outline: 5px solid #b73c3a;
+  background-color: #F3f3f3;
+  color: #2c2c2c;
 }
 
 .main-nav {
