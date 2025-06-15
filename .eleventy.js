@@ -64,8 +64,9 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./safari-pinned-tab.svg');
     eleventyConfig.addPassthroughCopy('./site.webmanifest');
     eleventyConfig.addPassthroughCopy('./*.png');
-    eleventyConfig.addPassthroughCopy("./admin");
+    eleventyConfig.addPassthroughCopy("src/admin/");
 
+    
     // Return your Object options:
     return {
       dir: {

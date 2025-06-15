@@ -16,6 +16,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^4.0.2",
+    "decap-cms": "^3.6.4",
     "del-cli": "^5.0.0",
     "dotenv": "^16.0.3",
     "file-system": "^2.2.2",
