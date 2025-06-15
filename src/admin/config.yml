@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: FAKE_BACKEND
   repo: NiceTurnip/GetKinect
   branch: master
   auth_scope: repo
@@ -11,6 +11,7 @@ collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "src/posts"
+    layout: "base.njk"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
