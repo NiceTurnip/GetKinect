@@ -54,16 +54,16 @@
             padding-bottom: 2rem;
         }
         
-        .button-wrap {
-            align-items: start;
-            justify-content: start;
-
-            &-button {
-                height: 4rem;
+        &-button {
+            transition: all .2s;
+            
+            button {
+                height: 5rem;
             }
-
-            img {
-                width: 2.5rem;
+            button:hover {
+                outline: 5px solid $color-primary-0;
+                background-color: $color-white;
+                color: $color-black;
             }
         }
     }
