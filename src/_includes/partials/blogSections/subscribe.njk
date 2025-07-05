@@ -22,29 +22,30 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // Set form action
-  const subscribeForm = document.getElementById("subscribeForm");
-  if (subscribeForm) {
-    const currentPath = window.location.pathname;
-    const searchParams = new URLSearchParams(window.location.search);
-    searchParams.set("submitted", "true");
-    subscribeForm.setAttribute("action", `${currentPath}?${searchParams.toString()}`);
-  }
+    // Set form action
+    const subscribeForm = document.getElementById("subscribeForm");
+    
+    if (subscribeForm) {
+        const currentPath = window.location.pathname;
+        const searchParams = new URLSearchParams(window.location.search);
+        searchParams.set("submitted", "true");
+        subscribeForm.setAttribute("action", `${currentPath}?${searchParams.toString()}`);
+    }
 
-  // Handle modal display
-  const urlParams = new URLSearchParams(window.location.search);
-  const modal = document.getElementById("formConfirmationModal");
-  const closeBtn = document.getElementById("closeConfirmation");
+    // Handle modal display
+    const urlParams = new URLSearchParams(window.location.search);
+    const modal = document.getElementById("formConfirmationModal");
+    const closeBtn = document.getElementById("closeConfirmation");
 
-  if (urlParams.get("submitted") === "true" && modal) {
-    modal.style.display = "flex";
-    history.replaceState({}, document.title, window.location.pathname);
-  }
+    if (urlParams.get("submitted") === "true" && modal) {
+        modal.style.display = "flex";
+        history.replaceState({}, document.title, window.location.pathname);
+    }
 
-  if (closeBtn && modal) {
-    closeBtn.addEventListener("click", () => {
-      modal.style.display = "none";
-    });
-  }
+    if (closeBtn && modal) {
+        closeBtn.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+    }
 });
 </script>
