@@ -349,6 +349,42 @@
 
     <button type="submit" form="footerForm" value="Submit">Submit</button>
 </form>
+
+<div id="formConfirmationModal" class="formConfirmation" style="display: none;">
+    <div class="formConfirmation-content">
+        <p>Thanks for your message! We'll get back to you soon.</p>
+        <button id="closeConfirmation">Close</button>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Set form action
+  const footerForm = document.getElementById("footerForm");
+  if (footerForm) {
+    const currentPath = window.location.pathname;
+    const searchParams = new URLSearchParams(window.location.search);
+    searchParams.set("submitted", "true");
+    footerForm.setAttribute("action", `${currentPath}?${searchParams.toString()}`);
+  }
+
+  // Handle modal display
+  const urlParams = new URLSearchParams(window.location.search);
+  const modal = document.getElementById("formConfirmationModal");
+  const closeBtn = document.getElementById("closeConfirmation");
+
+  if (urlParams.get("submitted") === "true" && modal) {
+    modal.style.display = "flex";
+    history.replaceState({}, document.title, window.location.pathname);
+  }
+
+  if (closeBtn && modal) {
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+  }
+});
+</script>
             </div>
         </div>
         <div class="footer__content__right">
@@ -389,27 +425,27 @@
             CAD: 1
             //avoids missing currencies
                 , CAD: 1
-                , USD: 0.72936932
-                , EUR: 0.62405798
-                , GBP: 0.53270735
-                , AUD: 1.11844936
-                , NZD: 1.20686768
-                , JP: 105.5381937
-                , CNY: 5.2283026
-                , HKD: 5.72444132
-                , INR: 62.73019644
-                , MXN: 13.7909444
-                , BRL: 4.05286161
-                , ZAR: 12.91480007
-                , CHF: 0.58610658
-                , SEK: 6.89996006
-                , NOK: 7.37536406
-                , DKK: 4.65580691
-                , SGD: 0.93073873
-                , KRW: 991.50089799
-                , AED: 2.67860881
-                , THB: 23.71565146
-                , PHP: 41.32235694
+                , USD: 0.73642864
+                , EUR: 0.62619924
+                , GBP: 0.5395629
+                , AUD: 1.12157315
+                , NZD: 1.21387384
+                , JP: 106.61331389
+                , CNY: 5.27887972
+                , HKD: 5.78017358
+                , INR: 62.93990761
+                , MXN: 13.74198427
+                , BRL: 3.983916
+                , ZAR: 12.90647314
+                , CHF: 0.58525827
+                , SEK: 7.05510663
+                , NOK: 7.40810864
+                , DKK: 4.67234
+                , SGD: 0.93934806
+                , KRW: 1005.73134284
+                , AED: 2.70453419
+                , THB: 23.92492863
+                , PHP: 41.61624826
         };
     </script>
     <script src="/js/main.min.js"></script>

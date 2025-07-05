@@ -1881,6 +1881,31 @@ problem in the header / main-nav html files. */
   }
 }
 
+.formConfirmation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.formConfirmation-content {
+  background: #F3f3f3;
+  color: #2c2c2c;
+  max-width: 90%;
+  padding: 5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
 .bookingForm {
   width: 75%;
   padding: 4rem;
