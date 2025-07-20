@@ -15,9 +15,10 @@ tags:
   - post
   - Gym Operations and Management
   - Access Technology
-description: Discover how smartphone-based gym access can eliminate staffing
-  costs, reduce equipment expenses, and let you run multiple gyms from a single
-  device.
+description: >
+  Discover how smartphone-based gym access can eliminate staffing costs, reduce
+  equipment expenses, and let you run multiple gyms from a single device. Ditch
+  the fobs!
 ---
 
 ### Cost Savings from Eliminating Key Fobs and Cards
