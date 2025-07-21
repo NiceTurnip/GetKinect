@@ -2,8 +2,8 @@
 title: They’re stealing from your gym, right?
 date: 2025-07-18T22:17:00.000-04:00
 tags:
-  - fobs
   - post
+  - fobs
   - gym fobs
   - gym keys
   - Canadian gym software
