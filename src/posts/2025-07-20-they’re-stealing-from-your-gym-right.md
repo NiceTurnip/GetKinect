@@ -2,8 +2,11 @@
 title: They’re stealing from your gym, right?
 date: 2025-07-18T22:17:00.000-04:00
 tags:
-  - "fobs, gym fobs, gym keys, 24 hour gym "
-  - "post #post"
+  - fobs
+  - post
+  - gym fobs
+  - gym keys
+  - Canadian gym software
 heroImage: /assets/images/uploads/gym-key-fob-theft.jpg
 layout: post.njk
 summary: The sharing of key fobs or cards present two serious problems. Theft
