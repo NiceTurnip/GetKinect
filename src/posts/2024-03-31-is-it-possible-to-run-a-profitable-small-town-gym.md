@@ -1,18 +1,25 @@
 ---
-tags: 
-    - 'post'
-    - 'Gym Operations and Management'
-    - 'Member Experience and Retention'
-    - 'Growth and Marketing'
-    - 'Small Town Fitness'
-layout: 'post.njk'
-title: 'Is It Possible to Run a Profitable Small Town Gym?'
-date: '2024-03-31'
-heroImage: '/assets/images/small-town.webp'
-summary: 'This post explores how gyms in towns of 1,000 to 5,000 residents can not only survive but thrive. It outlines a practical launch plan including promotion timing, community-specific offers like first responder and student memberships, and tips on using modern gym software to reduce costs and operate with minimal staff.'
-description: 'Running a profitable gym in a small town is absolutely possible—with the right strategy. This post shares actionable tips on how to market before opening, attract key local groups, and streamline operations using smart software tools.'
+title: Is It Possible to Run a Profitable Small Town Gym?
+heroImage: /assets/images/uploads/gym-key-fob-theft.jpg
+summary: This post explores how gyms in towns of 1,000 to 5,000 residents can
+  not only survive but thrive. It outlines a practical launch plan including
+  promotion timing, community-specific offers like first responder and student
+  memberships, and tips on using modern gym software to reduce costs and operate
+  with minimal staff.
 templateEngineOverride: njk,md
-permalink: "/{{ title | slugify }}/"
+layout: post.njk
+permalink: /{{ title | slugify }}/
+date: 2024-03-31
+tags:
+  - post
+  - Gym Operations and Management
+  - Member Experience and Retention
+  - Growth and Marketing
+  - Small Town Fitness
+description: Running a profitable gym in a small town is absolutely
+  possible—with the right strategy. This post shares actionable tips on how to
+  market before opening, attract key local groups, and streamline operations
+  using smart software tools.
 ---
 
 **Can I operate a profitable gym in a town of 1000-5000 residents?**
