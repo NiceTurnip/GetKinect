@@ -1,6 +1,6 @@
 ---
 title: Is It Possible to Run a Profitable Small Town Gym?
-heroImage: /assets/images/uploads/gym-key-fob-theft.jpg
+heroImage: /assets/images/uploads/david-whipple-pktk6guc3u4-unsplash.jpg
 summary: This post explores how gyms in towns of 1,000 to 5,000 residents can
   not only survive but thrive. It outlines a practical launch plan including
   promotion timing, community-specific offers like first responder and student
