@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class = "postList__list">
-        {% for post in collections.posts | reverse | slice(0,6) %}
+        {% for post in collections.posts | slice(0,6) %}
             <div class = "postList__list-post">
                 <a href="{{ post.url }}">
                     <div class = postList__list-post-img>
