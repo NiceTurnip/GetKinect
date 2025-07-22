@@ -1,16 +1,24 @@
 ---
-tags: 
-    - 'post'
-    - 'Gym Operations and Management'
-    - 'Access Technology'
-layout: 'post.njk'
-title: 'How I Run Two Gyms with Just One Smartphone-No Staff Needed!'
-date: '2024-11-05'
-heroImage: '/assets/images/image-5.jpg'
-summary: 'In Part 7 of the Gym Management Blog Series, BJ explains how ditching key fobs and front desk staffing in favor of smartphone-based access has significantly reduced overhead costs and streamlined operations. He shares how members can join and access his gyms in under 12 minutes, and how he manages two locations entirely from a single phone using the Kinect system without the need for expensive door hardware or in-person administration.'
-description: 'Discover how smartphone-based gym access can eliminate staffing costs, reduce equipment expenses, and let you run multiple gyms from a single device.'
-permalink: "/{{ title | slugify }}/"
+title: How I Run Two Gyms with Just One Smartphone-No Staff Needed!
+heroImage: /assets/images/uploads/gym-manager-with-smartphone.jpg
+summary: In Part 7 of the Gym Management Blog Series, BJ explains how ditching
+  key fobs and front desk staffing in favor of smartphone-based access has
+  significantly reduced overhead costs and streamlined operations. He shares how
+  members can join and access his gyms in under 12 minutes, and how he manages
+  two locations entirely from a single phone using the Kinect system without the
+  need for expensive door hardware or in-person administration.
 templateEngineOverride: njk,md
+layout: post.njk
+permalink: /{{ title | slugify }}/
+date: 2024-11-05
+tags:
+  - post
+  - Gym Operations and Management
+  - Access Technology
+description: >
+  Discover how smartphone-based gym access can eliminate staffing costs, reduce
+  equipment expenses, and let you run multiple gyms from a single device. Ditch
+  the fobs!
 ---
 
 ### Cost Savings from Eliminating Key Fobs and Cards
