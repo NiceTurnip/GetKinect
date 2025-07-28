@@ -8,7 +8,7 @@ tags:
   - Gym Security Systems
   - "Fitness Business Tools "
   - Canadian Gym Software
-heroImage: /assets/images/uploads/gym-key-fob-entry-.webp
+heroImage: /assets/images/uploads/ditch-the-fobs.png
 layout: post.njk
 summary: Still handing out key fobs at your gym? It’s time to upgrade. From
   security flaws to lost credentials and constant reprogramming, legacy access
