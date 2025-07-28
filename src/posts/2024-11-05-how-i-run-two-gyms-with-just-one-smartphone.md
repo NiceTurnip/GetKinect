@@ -1,6 +1,6 @@
 ---
 title: How I Run Two Gyms with Just One Smartphone-No Staff Needed!
-heroImage: /assets/images/uploads/gym-manager-with-smartphone.jpg
+heroImage: /assets/images/uploads/gym-manager-with-kinect-on-smartphone-1-.png
 summary: In Part 7 of the Gym Management Blog Series, BJ explains how ditching
   key fobs and front desk staffing in favor of smartphone-based access has
   significantly reduced overhead costs and streamlined operations. He shares how
