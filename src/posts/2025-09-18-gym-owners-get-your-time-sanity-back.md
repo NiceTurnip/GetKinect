@@ -113,4 +113,8 @@ Zen Planner offers a robust platform encompassing member management, class sched
 
 **Pros:** Comprehensive feature set & Customizable reporting
 
-**Cons**: Steep learning curve & lacks a modern interface
+**Cons**: Steep learning curve & lacks a modern interface\
+\
+At the end of the day, this isn’t about fancy dashboards... it’s about getting your time and sanity back. Pick software that kills the busywork, gives members a smooth experience, and lets you run 24/7 without living at the front door. If that means Mindbody, Glofox, GymMaster, or Zen Planner—great. If you want smartphone door access that runs on your facility Wi-Fi, Canadian pricing, and a setup that doesn’t fight you, that’s exactly what we built with Kinect.
+
+We help small independent Canadian gyms run like a bigger operation: fast onboarding, clear plans, and real support when something breaks, one week to go live, 1-on-1 onboarding, and emergency support that actually answers.
