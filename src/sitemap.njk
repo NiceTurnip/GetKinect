@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
     <loc>{{ page.url | absoluteUrl(base) }}</loc>
     {%- set modified = page.data.lastmod or page.date -%}
     {%- if modified -%}
-    <lastmod>{{ modified | readableDate }}</lastmod>
+    <lastmod>{{ modified | isoDate }}</lastmod>
     {%- endif -%}
   </url>
   {%- endif -%}

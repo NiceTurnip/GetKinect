@@ -22,6 +22,12 @@ export default function(eleventyConfig) {
       }
     });
 
+    eleventyConfig.addNunjucksFilter("isoDate", (value) => {
+      const d = value instanceof Date ? value : new Date(value);
+      if (isNaN(d)) return "";            // omit if unparseable
+      return d.toISOString();             // e.g. 2025-10-26T13:42:07.000Z
+    });
+
     eleventyConfig.addFilter("readableDate", (dateInput) => {
       // Convert to ISO string to preserve the written date, then parse it in the correct zone
       const iso = typeof dateInput === "string" ? dateInput : dateInput.toISOString();
