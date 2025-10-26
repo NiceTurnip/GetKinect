@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="">
 
     <!--  Non-Essential, But Recommended -->
-    <meta property="og:description" content="Turning Any Smartphone into a Gym Key.">
+    <meta property="og:description" content="Gym Management & Access Software: Replace key fobs & cards with phones synced with payment processing & flexible membership plans. Works with your existing doors. Save Time & Money.">
     <meta property="og:site_name" content="GetKinect">
     <meta name="twitter:image:alt" content="">
 
@@ -32,6 +32,9 @@
 
     <!-- Load the font stylesheet async -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+
+    {# CANONICALS #}
+    <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
 
     <!-- Fallback for no-JS environments -->
     <noscript>
@@ -88,5 +91,24 @@
         };
     </script>
     <script src = "/js/main.min.js"></script>
+
+    {# Brandon Script Addon #}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Kinect",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "iOS, Android, Web",
+      "description": "Run your gym from one app—smartphone door access, payments, and flexible memberships. Works with existing doors. Save time, cut costs, grow faster.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "CAD",
+        "url": "https://getkinect.ca/pages/pricing/"
+          },
+          "brand": {"@type":"Organization","name":"Facility Kinetics"},
+          "url": "https://getkinect.ca/"
+    }
+    </script>
 </body>
 </html>

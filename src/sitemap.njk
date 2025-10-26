@@ -1,0 +1,24 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- set base = site.url -%}
+
+{%- for page in collections.all
+  | rejectattr("data.draft")
+  | rejectattr("data.noindex")
+  | rejectattr("data.eleventyExcludeFromCollections")
+-%}
+  {%- if page.url and page.url != "/404.html" -%}
+  <url>
+    <loc>{{ page.url | absoluteUrl(base) }}</loc>
+    {%- set modified = page.data.lastmod or page.date -%}
+    {%- if modified -%}
+    <lastmod>{{ modified | readableDate }}</lastmod>
+    {%- endif -%}
+  </url>
+  {%- endif -%}
+{%- endfor %}
+</urlset>

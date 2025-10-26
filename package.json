@@ -7,8 +7,8 @@
     "clean": "npx del public",
     "start": "eleventy --serve",
     "build": "eleventy && npx pagefind --site public",
-    "prestart": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/accordion.js js/index.js -o js/index.min.js",
-    "prebuild": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx uglify-js js/animations.js js/accordion.js js/index.js -o js/index.min.js"
+    "prestart": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx esbuild js/main.js --bundle --minify --outfile=js/main.min.js",
+    "prebuild": "npm run clean && npx lightningcss --minify css/main.css -o css/main.min.css && npx esbuild js/main.js --bundle --minify --outfile=js/main.min.js"
   },
   "type": "module",
   "author": "George Braden",

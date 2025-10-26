@@ -13,6 +13,15 @@ export default function(eleventyConfig) {
       linkify: true // auto-link URLs
     });
 
+    
+    eleventyConfig.addFilter("absoluteUrl", (path, base) => {
+      try {
+        return new URL(path, base).toString();
+      } catch {
+        return path;
+      }
+    });
+
     eleventyConfig.addFilter("readableDate", (dateInput) => {
       // Convert to ISO string to preserve the written date, then parse it in the correct zone
       const iso = typeof dateInput === "string" ? dateInput : dateInput.toISOString();
