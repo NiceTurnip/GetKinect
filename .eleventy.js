@@ -74,6 +74,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./site.webmanifest');
     eleventyConfig.addPassthroughCopy('./*.png');
     eleventyConfig.addPassthroughCopy("admin");
+    eleventyConfig.addPassthroughCopy("_redirects");
 
     
     // Return your Object options:
