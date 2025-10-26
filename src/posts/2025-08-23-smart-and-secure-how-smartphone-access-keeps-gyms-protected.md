@@ -3,7 +3,7 @@ title: "Smart and Secure: How Smartphone Access Keeps Gyms Protected"
 date: 2025-08-22T17:59:00.000-04:00
 tags:
   - post
-  - Canadian gym software
+  - Canadian Gym Software
   - 24/7 gym
 heroImage: /assets/images/uploads/facila-recognition-at-your-gym.webp
 layout: post.njk

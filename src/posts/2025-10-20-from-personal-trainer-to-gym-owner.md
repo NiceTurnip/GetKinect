@@ -3,7 +3,7 @@ title: From Personal Trainer to Gym Owner
 date: 2025-10-20T07:16:00.000-04:00
 tags:
   - Gym Software Canada
-  - "Canadian Gym Software "
+  - Canadian Gym Software
   - post
 heroImage: /assets/images/uploads/pt-gym-owner-in-gym.webp
 layout: post.njk

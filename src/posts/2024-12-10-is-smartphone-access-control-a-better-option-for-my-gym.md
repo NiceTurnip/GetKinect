@@ -1,8 +1,8 @@
 ---
 tags: 
-    - 'post'
-    - 'Gym Operations and Management'
-    - 'Access Technology'
+    - post
+    - Gym Operations and Management
+    - Access Technology
 layout: 'post.njk'
 title: 'Is Smartphone Access Control a Better Option for My Gym?'
 date: '2024-12-10'

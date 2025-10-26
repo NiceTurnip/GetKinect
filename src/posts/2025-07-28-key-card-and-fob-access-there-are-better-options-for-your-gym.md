@@ -6,7 +6,7 @@ tags:
   - Gym Access Control
   - Keyless Entry Systems
   - Gym Security Systems
-  - "Fitness Business Tools "
+  - Fitness Business Tools
   - Canadian Gym Software
 heroImage: /assets/images/uploads/ditch-the-fobs.png
 layout: post.njk

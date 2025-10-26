@@ -5,7 +5,7 @@ tags:
   - small town gym
   - gym management software
   - automated gym access
-  - fitness business tools
+  - Fitness Business Tools
   - post
 heroImage: /assets/images/uploads/small-town-gyms.webp
 layout: post.njk

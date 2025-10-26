@@ -3,7 +3,7 @@ title: "Gym Owners: Get Your Time & Sanity Back!"
 date: 2025-09-18T18:58:00.000-04:00
 tags:
   - post
-  - "Canadian gym software "
+  - Canadian Gym Software
   - 24/7 gym access
 heroImage: /assets/images/uploads/team-at-the-gym-.webp
 layout: post.njk
