@@ -4,12 +4,14 @@
     
         <div class = "blogLanding__top__tagList">
             {% set allTags = [] %}
+            {% set tagCounter = 0 %}
 
             {% for post in collections.all %}
                 {% if "tags" in post.data %}
                     {% for tag in post.data.tags %}
-                        {% if tag not in allTags and tag != "post" %}
+                        {% if tag not in allTags and tag != "post" and tagCounter <= 5 %}
                             {% set allTags = allTags.concat(tag) %}
+                            {% set tagCounter = tagCounter + 1 %}
                         {% endif %}
                     {% endfor %}
                 {% endif %}
