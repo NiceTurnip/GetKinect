@@ -9,25 +9,27 @@
         {# FORM #}
         <div class = "bookingContent__topForm-forms">
             <div class = "bookingContent__topForm-forms-calendar" id="booking-page">
-            <!-- this is where we will inject the interface -->
-            </div>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&showPrint=0&showTabs=0&showNav=0&showDate=0&showCalendars=0&showTz=0&showTitle=0&src=YmpAZmFjaWxpdHlraW5ldGljcy5jYQ&color=%23039be5" 
-                    style="border-width:0" 
-                    width="800" 
-                    height="600" 
-                    frameborder="0" 
-                    scrolling="no"></iframe>
-            
-            {# OLD SAVVYCAL CODE FOR MODAL #}
-            {# {% if page.url == '/booking/' %}
-                <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
-                <script async src="https://embed.savvycal.com/v1/embed.js"></script>
-                <script>
-                    SavvyCal('init');
-                    SavvyCal('inline', { link: 'kinect/kinect-review-with-bj-new', selector: '#booking-page', hideAvatar: 'true', hideBanner: 'true', view: 'month' });
-                </script>    
-            {% endif %}           #}
+                <!-- Google Appointment Schedules — Inline Embed -->
+                <iframe
+                    src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08cYBucA7sg8cBcE5LNBhVdYMh8tNTuGnDtoWOSu-PeUC7yCZ4OYD13Ncj5AZ6UodYJc2qg4RB?gv=true&_height=700"
+                    style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+                    frameborder="0"
+                    scrolling="yes"
+                    allowfullscreen>
+                </iframe>
+                <!-- /Inline Embed -->
+            </div>      
         </div>
-
     </div>
 </section>
+
+
+{# OLD SAVVYCAL CODE FOR MODAL #}
+{# {% if page.url == '/booking/' %}
+    <script>window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};</script>
+    <script async src="https://embed.savvycal.com/v1/embed.js"></script>
+    <script>
+        SavvyCal('init');
+        SavvyCal('inline', { link: 'kinect/kinect-review-with-bj-new', selector: '#booking-page', hideAvatar: 'true', hideBanner: 'true', view: 'month' });
+    </script>    
+{% endif %}           #}

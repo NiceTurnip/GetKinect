@@ -80,24 +80,31 @@
 
             @include mixins.respond(phone-big) {
                 width: 100%;
+                height: 70rem;
             }
 
             &-calendar {
+                margin-top: 12rem;
 
-                &-iframe {
-                    width: 50%;
-                    height: 100%;
+                width: 50%;
+                height: 100%;
 
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                    filter: drop-shadow(0 4px 8px variables.$color-black);
+                border-radius: 25px;
+                background-color: variables.$color-white;
 
-                    @include mixins.respond(phone-big) {
-                        width: 80%;
-                    }
-                }
+                filter: drop-shadow(0 4px 8px variables.$color-black);
+
+                @include mixins.respond(phone-big) {
+                    margin-top: 0;
+                    width: 100%;
+
+                }      
+
+                iframe {border-radius:25px;}
             }
         }
     }
