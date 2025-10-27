@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .bookingForm {
     width: 75%;
     padding: 4rem;
@@ -6,19 +9,19 @@
     flex-direction: column;
     justify-content: center;
     
-    background-color: $color-white;
-    color: $color-black;
+    background-color: variables.$color-white;
+    color: variables.$color-black;
     border-radius: 15px;
 
     z-index: 1000;
 
-    filter: drop-shadow(0 4px 8px $color-black);
+    filter: drop-shadow(0 4px 8px variables.$color-black);
 
     fieldset {
         border: 0;
     } 
     legend {
-        font-size: $default-plus-font-size;
+        font-size: variables.$default-plus-font-size;
         font-weight: 800;
     }
     &-top {
@@ -28,7 +31,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
 
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             display: flex;
             flex-direction: column;
         }
@@ -40,8 +43,8 @@
             flex-direction: row;
             justify-content:flex-start;
 
-            background-color: $color-black;
-            color: $color-white;
+            background-color: variables.$color-black;
+            color: variables.$color-white;
             border-radius: 10px;
 
             input {
@@ -118,7 +121,7 @@
   
   /* Selected (checked) state */
   .radio-button:has(input[type="radio"]:checked) {
-    background-color: $color-black;
-    color: $color-white;
+    background-color: variables.$color-black;
+    color: variables.$color-white;
   }
   

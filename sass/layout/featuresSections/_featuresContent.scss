@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .features {
     width: 100%;
     padding: 12rem 25rem 0;
@@ -7,19 +10,19 @@
     align-items: center;
     gap: 12rem;
 
-    @include respond(desktop-sm) {
+    @include mixins.respond(desktop-sm) {
         padding: 12rem 15rem 0;
     }
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 12rem 10rem 0;
     }
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 12rem 20rem 0;
     }
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         padding: 12rem 6rem 0;
     }
-    @include respond(phone-sm) {
+    @include mixins.respond(phone-sm) {
         padding: 12rem 2rem 0;
     }
 
@@ -30,7 +33,7 @@
         justify-content: space-between;
         gap: 6rem;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             flex-direction: column;
         }
 
@@ -44,7 +47,7 @@
             border-radius: 18px;
             overflow: hidden;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 width: 100%;
             }
 
@@ -54,7 +57,7 @@
                 object-fit: cover;
                 //object-position: 25%;
 
-                @include respond(tab-port) {
+                @include mixins.respond(tab-port) {
                     justify-content: center;
                 }
             }
@@ -68,12 +71,12 @@
             justify-content: center;
             gap: 2rem;
 
-            @include respond(tab-port) {
+            @include mixins.respond(tab-port) {
                 width: 100%;
             }
 
             h3 {
-                font-size: $small-heading-size;
+                font-size: variables.$small-heading-size;
                 font-weight: 700;
             }
 
@@ -83,7 +86,7 @@
                 gap: 2rem;
 
                 p, li {
-                    font-size: $default-plus-font-size;
+                    font-size: variables.$default-plus-font-size;
                     font-weight: 300;
                     line-height: 1.5;
                 }
@@ -101,7 +104,7 @@
         order: 2;
         justify-content: end;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             order: 1;
             justify-content: center;
         }
@@ -110,7 +113,7 @@
     .features__card__text {
         order: 1;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             order: 2;
         }
     }

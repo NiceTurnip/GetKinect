@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .pageHeader {
     visibility: hidden;
 
@@ -5,19 +8,19 @@
     width: 100vw;
     padding-top: 4rem;
     padding-bottom: 4rem;
-    padding-right: $gutter;
-    padding-left: $gutter;
+    padding-right: variables.$gutter;
+    padding-left: variables.$gutter;
 
     display: flex;
     flex-direction: column; 
     align-items: center;
     gap: 6rem;
 
-    color: $color-black;
+    color: variables.$color-black;
 
     z-index: 1;
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 4rem 4rem 0 
     }
 
@@ -31,28 +34,28 @@
         align-items: center;
         justify-content: center;
 
-        @include respond(desktop-sm) {
+        @include mixins.respond(desktop-sm) {
             width: 50%;
         }
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             width: 60%;
         }
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             width: 65%;
         }
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             width: 75%;
         }
-        @include respond(phone-med) {
+        @include mixins.respond(phone-med) {
             width: 100%;
         }
 
         h1 {
-            @include respond(phone-sm) {
-               font-size: $big-heading-size;
+            @include mixins.respond(phone-sm) {
+               font-size: variables.$big-heading-size;
             }
-            @include respond(phone-mini) {
-               font-size: $medium-heading-size;
+            @include mixins.respond(phone-mini) {
+               font-size: variables.$medium-heading-size;
             }
         }
     }
@@ -64,22 +67,22 @@
         justify-content: center;
         align-items: center;
 
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             width: 60%;
         }
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             width: 65%;
         }
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             width: 75%;
         }
-        @include respond(phone-med) {
+        @include mixins.respond(phone-med) {
             width: 100%;
         }
 
         p {
             text-align: center;
-            font-size: $default-plus-font-size;
+            font-size: variables.$default-plus-font-size;
         }
     }
 }

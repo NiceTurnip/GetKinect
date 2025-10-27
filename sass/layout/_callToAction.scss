@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .callToAction {
    width: 100%;
    padding: 16rem;
@@ -10,14 +13,14 @@
 
    text-align: center;
 
-   @include respond(phone-big) {
+   @include mixins.respond(phone-big) {
         padding: 10rem 6rem;
    }
 
    p {
           width: 60%;
           
-          @include respond(phone-big) {
+          @include mixins.respond(phone-big) {
                width: 100%;
            }
    }
@@ -29,8 +32,8 @@
    }
 
    button:hover {
-    outline: 5px solid $color-primary-0;
-    background-color: $color-white;
-    color: $color-black;
+    outline: 5px solid variables.$color-primary-0;
+    background-color: variables.$color-white;
+    color: variables.$color-black;
    }
 }

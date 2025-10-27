@@ -1,9 +1,12 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .bookingContent {
     width: 100%;
 
     display: flex;
 
-    color: $color-white;
+    color: variables.$color-white;
     z-index: 0;
 
     &-background-color {
@@ -14,12 +17,12 @@
         width: 100%;
         height: 100%;
 
-        background-color: $color-primary-0;
+        background-color: variables.$color-primary-0;
         z-index: 10;
 
         clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
 
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
         }
     }
@@ -34,10 +37,10 @@
         
         z-index: 20;
 
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             flex-direction: column;
         }
-        @include respond(phone-sm) {
+        @include mixins.respond(phone-sm) {
             padding: 2rem;
         }
 
@@ -52,16 +55,16 @@
 
             margin-top: 20rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
 
             h4 {
                 width: 70%;
-                font-size: $small-heading-size;
+                font-size: variables.$small-heading-size;
 
-                @include respond(desktop-sm) {
-                    font-size: $default-plus-font-size;
+                @include mixins.respond(desktop-sm) {
+                    font-size: variables.$default-plus-font-size;
                 }
             }
         }
@@ -75,22 +78,25 @@
             align-items: center;
             gap: 6rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
 
             &-calendar {
-                width: 50%;
-                height: 100%;
 
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                &-iframe {
+                    width: 50%;
+                    height: 100%;
 
-                filter: drop-shadow(0 4px 8px $color-black);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
 
-                @include respond(phone-big) {
-                    width: 80%;
+                    filter: drop-shadow(0 4px 8px variables.$color-black);
+
+                    @include mixins.respond(phone-big) {
+                        width: 80%;
+                    }
                 }
             }
         }

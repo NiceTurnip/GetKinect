@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .subscribe {
     width: 100%;
 
@@ -8,18 +11,18 @@
     justify-content: center;
     gap: 6rem;
 
-    background-color: $color-black;
+    background-color: variables.$color-black;
 
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 12rem 18rem;   
     }
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 12rem 12rem;   
     }
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         flex-direction: column;
     }
-    @include respond(phone-sm) {
+    @include mixins.respond(phone-sm) {
         padding: 12rem 4rem;
     }
 
@@ -30,14 +33,14 @@
         flex-direction: column;
         gap: 2rem;
 
-        color: $color-white;
+        color: variables.$color-white;
 
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             width: 100%;
         }
 
         h3 {
-            font-size: $medium-heading-size;
+            font-size: variables.$medium-heading-size;
             line-height: 1;
             font-weight: 800;
         }
@@ -45,18 +48,18 @@
     &__right {
         width: 60%;
 
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             width: 100%;
         }
 
         form {
             input {
                 padding: 0 3rem;
-                background-color: $color-white;
+                background-color: variables.$color-white;
                 border-radius: 25px;
                 height: 5rem;
 
-                color: $color-black;
+                color: variables.$color-black;
             }
             button {
                 width: 15rem;

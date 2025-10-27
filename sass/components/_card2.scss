@@ -1,3 +1,5 @@
+@use "../abstracts/mixins";
+
 .card2 {
     width: 100%;
     height: auto;
@@ -10,14 +12,14 @@
     z-index: 2;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         flex-direction: column;
         gap: 3rem;
     }
-    @include respond(phone-sm) {
+    @include mixins.respond(phone-sm) {
         gap: 6rem;
     }
-    @include respond(phone-mini) {
+    @include mixins.respond(phone-mini) {
         padding: 3rem 1rem;
     }
 
@@ -27,7 +29,7 @@
         display: flex;
         flex-direction: column;
 
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             width: 100%;
             align-items: center;
         }
@@ -37,16 +39,16 @@
                 width: 50rem;
                 height: auto;
 
-                @include respond(desktop-sm) {
+                @include mixins.respond(desktop-sm) {
                     width: 45rem;
                 }
-                @include respond(tab-land) {
+                @include mixins.respond(tab-land) {
                     width: 42rem;
                 }
-                @include respond(phone-sm) {
+                @include mixins.respond(phone-sm) {
                     width: 40rem;
                 }
-                @include respond(phone-mini) {
+                @include mixins.respond(phone-mini) {
                     width: 30rem;
                 }
             }
@@ -59,7 +61,7 @@
             align-items: center;
             gap: 5rem;
 
-            @include respond(tab-land) {
+            @include mixins.respond(tab-land) {
                 justify-content: center;
                 gap: 2rem;
             }
@@ -73,7 +75,7 @@
                     height: 8rem;
                     border-radius: 100px;
 
-                    @include respond(phone-mini) {
+                    @include mixins.respond(phone-mini) {
                         width: 5rem;
                         height: 5rem;
                     }
@@ -88,7 +90,7 @@
         flex-direction: column;
         gap: 2rem;
 
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             width: 80%;
             text-align: center;
             align-items: center;

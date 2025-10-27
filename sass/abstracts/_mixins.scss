@@ -1,3 +1,5 @@
+@use "variables";
+
 @mixin clearfix {
     &::after {
         content: "";
@@ -7,10 +9,10 @@
 }
 
 @mixin boxShadowBlack {
-    box-shadow: 8px 8px $color-black;
+    box-shadow: 8px 8px variables.$color-black;
 }
 @mixin boxShadowWhite {
-    box-shadow: 8px 8px $color-white;
+    box-shadow: 8px 8px variables.$color-white;
 }
 
 @mixin absCenter {

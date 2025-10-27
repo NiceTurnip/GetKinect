@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .footer {
     position: relative;
     width: 100%;
@@ -8,29 +11,29 @@
 
     padding: 8rem 8rem 8rem 15rem;
 
-    background-color: $color-primary-0;
-    color: $color-white;
+    background-color: variables.$color-primary-0;
+    color: variables.$color-white;
     z-index: 1;
 
     overflow: hidden;
 
-    @include respond(desktop-sm) {
+    @include mixins.respond(desktop-sm) {
         padding: 8rem 5rem 8rem 15rem;
     }
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 8rem 2rem 8rem 15rem;
     }
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         padding: 8rem 5rem;
     }
 
     button {
-        background-color: $color-black;
-        color: $color-white;
+        background-color: variables.$color-black;
+        color: variables.$color-white;
     }
 
     h4,h3 {
-        font-size: $small-heading-size;
+        font-size: variables.$small-heading-size;
         font-weight: 700
     }
 
@@ -41,7 +44,7 @@
         justify-content: center;
         gap: 3rem;
 
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             flex-direction: column;
         }
 
@@ -50,11 +53,11 @@
             display: flex;
             gap: 10rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
                 justify-content: center;
             }
-            @include respond(phone-sm) {
+            @include mixins.respond(phone-sm) {
                 flex-direction: column;
                 align-items: center;
             }
@@ -65,7 +68,7 @@
                 justify-content: space-between;
                 gap: 5rem;
 
-                @include respond(phone-sm) {
+                @include mixins.respond(phone-sm) {
                     order: 2;
                 }
             
@@ -109,10 +112,10 @@
                 }
 
                 a {
-                    color: $color-white;
+                    color: variables.$color-white;
                 }
 
-                @include respond(phone-big) {
+                @include mixins.respond(phone-big) {
                     display: none;
                 }
             }
@@ -125,20 +128,20 @@
                     height: 100%;
                     width: auto;
 
-                    filter: drop-shadow(0 4px 8px $color-black);
+                    filter: drop-shadow(0 4px 8px variables.$color-black);
                     transition: filter 0.3s ease;
                     cursor: pointer;
 
-                    @include respond(tab-land) {
+                    @include mixins.respond(tab-land) {
                        height: 90%;
                     }
-                    @include respond(phone-big) {
+                    @include mixins.respond(phone-big) {
                         display: none;
                     }
                 }
 
                 img:hover {
-                     filter: drop-shadow(0 1px 2px $color-black);
+                     filter: drop-shadow(0 1px 2px variables.$color-black);
                 }
             }
         }
@@ -150,13 +153,13 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-color: $color-white;
+    background-color: variables.$color-white;
     //clip-path: polygon(95% -1%, 100% -1%, 100% 100%, 50% 100.2%);
     clip-path: polygon(100% 1%, 100% 0%, 100% 100%, 60% 100%);
         
     z-index: 0;
 
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         display: none;
     }
 }

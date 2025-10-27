@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .main-nav {
     position: relative;
     width: 100%; 
@@ -19,11 +22,11 @@
         align-items: center;
         width: 50%;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
            order: 0;
            width: 80%;
         }
-        @include respond(phone-sm) {
+        @include mixins.respond(phone-sm) {
            display: none;
         }
 
@@ -32,7 +35,7 @@
             border-bottom: 0px solid transparent;
 
             &:hover {
-                border-bottom: 1px solid $color-white;      
+                border-bottom: 1px solid variables.$color-white;      
             }
         }
     }
@@ -43,11 +46,11 @@
             transition: all .2s;
         }
         button:hover {
-            outline: 5px solid $color-primary-0;
-            background-color: $color-white;
-            color: $color-black;
+            outline: 5px solid variables.$color-primary-0;
+            background-color: variables.$color-white;
+            color: variables.$color-black;
         }
-        @include respond(phone-sm) {
+        @include mixins.respond(phone-sm) {
             display: none;
         }
     }
@@ -55,7 +58,7 @@
     .mobile-button {
         display: none;
 
-        @include respond(phone-sm) {
+        @include mixins.respond(phone-sm) {
             display: block;
         }
 
@@ -81,7 +84,7 @@ problem in the header / main-nav html files. */
     height: 100dvh;
 
     z-index: 1000;
-    background-color: $color-primary-0;
+    background-color: variables.$color-primary-0;
     
     display: none;
     flex-direction: column;
@@ -91,7 +94,7 @@ problem in the header / main-nav html files. */
     padding: 8rem 0;
 
     a,p {
-        color: $color-white;
+        color: variables.$color-white;
     }
 
     .x-icon {
@@ -112,7 +115,7 @@ problem in the header / main-nav html files. */
         gap: 2rem;
 
         li {
-            font-size: $small-heading-size;
+            font-size: variables.$small-heading-size;
         }
     }
 

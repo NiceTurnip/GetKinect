@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('../../assets/fonts/BebasNeueRegular.eot');
@@ -18,7 +21,7 @@
 
 html, body {
     height: 100%; // Gives the document a height of 100% for elements to use
-    background-color: $background-color;
+    background-color: variables.$background-color;
     overflow-x:hidden;
 }
 
@@ -27,25 +30,25 @@ html {
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
     
 
-    @include respond(phone-mini) {
+    @include mixins.respond(phone-mini) {
         font-size: 30%;
     }
-    @include respond(phone-sm) {
+    @include mixins.respond(phone-sm) {
         font-size: 35%;
     }
-    @include respond(phone-med) {
+    @include mixins.respond(phone-med) {
         font-size: 40%;
     }
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         font-size: 45%;
     }
-    @include respond(tab-port) { // width < 900?
+    @include mixins.respond(tab-port) { // width < 900?
         font-size: 50%; //1 rem = 8px, 8/16 = 50%
     }
-    @include respond(tab-land) { // width < 1200?
+    @include mixins.respond(tab-land) { // width < 1200?
         font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
     }
-    @include respond(big-desktop) {
+    @include mixins.respond(big-desktop) {
         font-size: 75%; //1rem = 12, 12/16
     }
 }
@@ -54,7 +57,7 @@ body {
     position: relative;
     overflow-x: hidden;
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 0;
     }
 }
@@ -79,8 +82,8 @@ button {
     border: none;
 
     text-decoration: none;
-    color: $color-white;
-    background-color: $color-primary-0;
+    color: variables.$color-white;
+    background-color: variables.$color-primary-0;
     font-weight: 600;
 
     cursor: pointer;
@@ -93,16 +96,16 @@ form {
     flex-direction: column;
     gap: 3rem;
 
-    color: $color-white;
+    color: variables.$color-white;
 
     input, textarea {
         border: none;
         border-radius: 0;
-        border-bottom: .5px solid $color-white;
+        border-bottom: .5px solid variables.$color-white;
         outline: none;
         resize:none;
         background: none;
-        color: $color-white;
+        color: variables.$color-white;
 
         &:focus {
             border-color: transparent;
@@ -120,8 +123,8 @@ form {
     width: 0.5rem;
 }
 ::-webkit-scrollbar-track {
-    background: $color-white;
+    background: variables.$color-white;
 }
 ::-webkit-scrollbar-thumb {
-    background: $color-black;
+    background: variables.$color-black;
 }

@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .blogLanding {
     width: 100%;
     padding: 6rem 24rem 6rem;
@@ -6,13 +9,13 @@
     flex-direction: column;
     gap: 6rem;
 
-    @include respond(desktop-sm) {
+    @include mixins.respond(desktop-sm) {
         padding: 6rem 16rem 6rem;
     }
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 6rem 12rem 6rem;
     }
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 6rem 6rem 6rem;
     }
 
@@ -31,7 +34,7 @@
             justify-content: center;
             align-items: center;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 text-align: center;
                 gap: 3rem;
             }
@@ -49,7 +52,7 @@
                 flex-wrap: wrap;
                 gap: 1rem;
 
-                @include respond(phone-big) {
+                @include mixins.respond(phone-big) {
                     width: 100%;
                 }
             }
@@ -63,7 +66,7 @@
         justify-content: center;
         gap: 12rem;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             gap: 6rem;
         }
 
@@ -73,7 +76,7 @@
             display: flex;
             flex-direction: column;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 display: none;
             }
 
@@ -88,7 +91,7 @@
 
                 overflow: hidden;
 
-                @include respond(tab-port) {
+                @include mixins.respond(tab-port) {
                     width: 100%;
                 }
 
@@ -99,7 +102,7 @@
 
                     border-radius: 18px;
 
-                    @include respond(tab-port) {
+                    @include mixins.respond(tab-port) {
                         justify-content: center;
                     }
                 }
@@ -113,13 +116,13 @@
             flex-direction: column;
             gap: 3rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
 
             &-header {
                 h3 {
-                    font-size: $medium-heading-size;
+                    font-size: variables.$medium-heading-size;
                     font-weight: 800;
                 }
             }
@@ -130,7 +133,7 @@
                 flex-direction: column;
                 gap: 6rem;
 
-                @include respond(tab-port) {
+                @include mixins.respond(tab-port) {
                     width: 100%;
                 }
 

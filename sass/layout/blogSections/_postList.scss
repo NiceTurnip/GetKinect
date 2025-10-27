@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .postList {
     width: 100%;
     padding: 6rem 25rem;
@@ -7,10 +10,10 @@
     align-items: center;
     justify-content: center;
 
-    @include respond(desktop-sm) {
+    @include mixins.respond(desktop-sm) {
             padding: 6rem 12rem;
     }
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
             padding: 6rem 4rem;
     }
 
@@ -22,7 +25,7 @@
 
         display: flex;
 
-        @include respond(phone-med) {
+        @include mixins.respond(phone-med) {
             flex-direction: column;
             gap: 2rem;
         }
@@ -34,13 +37,13 @@
             display: flex;
             align-items: center;
 
-            @include respond(phone-med) {
+            @include mixins.respond(phone-med) {
                 width: 100%;
                 justify-content: center;
             }
 
             h3 {
-                font-size: $medium-heading-size;
+                font-size: variables.$medium-heading-size;
                 font-weight: 800;
             }
         }
@@ -52,12 +55,12 @@
             justify-content: center;
             align-items: center;
 
-            border-left: 1px solid $color-primary-0;
+            border-left: 1px solid variables.$color-primary-0;
 
-            @include respond(phone-med) {
+            @include mixins.respond(phone-med) {
                 width: 100%;
                 border-left: none;
-                border-top: 1px solid $color-primary-0;
+                border-top: 1px solid variables.$color-primary-0;
                 padding: 3rem 0 0;
             }
 
@@ -83,10 +86,10 @@
         place-items: center;
         gap: 6rem;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             width: 100%;
         }
-        @include respond(phone-med) {
+        @include mixins.respond(phone-med) {
             display: flex;
             flex-direction: column;
         }
@@ -130,5 +133,5 @@
 }
 
 .pagefind-ui__result, .pagefind-ui__result-title, .pagefind-ui__result-link, .pagefind-ui__result-excerpt {
-    color: $color-black !important;
+    color: variables.$color-black !important;
 }

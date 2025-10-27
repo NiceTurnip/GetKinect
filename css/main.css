@@ -2407,7 +2407,7 @@ problem in the header / main-nav html files. */
     width: 100%;
   }
 }
-.bookingContent__topForm-forms-calendar {
+.bookingContent__topForm-forms-calendar-iframe {
   width: 50%;
   height: 100%;
   display: flex;
@@ -2416,7 +2416,7 @@ problem in the header / main-nav html files. */
   filter: drop-shadow(0 4px 8px #2c2c2c);
 }
 @media only screen and (max-width: 56.25em) {
-  .bookingContent__topForm-forms-calendar {
+  .bookingContent__topForm-forms-calendar-iframe {
     width: 80%;
   }
 }

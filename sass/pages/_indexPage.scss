@@ -1,3 +1,5 @@
+@use "../abstracts/variables";
+
 .indexPage {
     visibility: hidden;
 
@@ -9,5 +11,5 @@
 
     overflow: hidden;
     
-    background-color: $color-white;
+    background-color: variables.$color-white;
 }

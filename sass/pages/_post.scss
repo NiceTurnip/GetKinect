@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .post {
     width: 100%;
     padding: 6rem 20rem;
@@ -8,7 +11,7 @@
 
     visibility: hidden;
 
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         padding: 6rem 4rem;
     }
 
@@ -17,20 +20,20 @@
         
         display: flex;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             gap: 3rem;
         }
 
         &__left {
             width: 70%;
             padding-bottom: 3rem;
-            border-bottom: 1px solid $color-black;
+            border-bottom: 1px solid variables.$color-black;
 
             display: flex;
             flex-direction: column;
             gap: 1rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
 
@@ -60,7 +63,7 @@
             display: flex;
             justify-content: center;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 display: none;
             }
 
@@ -72,12 +75,12 @@
                 align-items: center;
                 justify-content: center;
 
-                background-color: $color-primary-0;
-                color: $color-white;
+                background-color: variables.$color-primary-0;
+                color: variables.$color-white;
                 border-radius: 25px;
 
                 h2 {
-                    font-size: $biggest-heading-size;
+                    font-size: variables.$biggest-heading-size;
                     line-height: 0;
                     margin-bottom: 1.5rem;
                 }
@@ -92,7 +95,7 @@
         align-items: center;
         gap: 10rem;
 
-        @include respond(phone-med) {
+        @include mixins.respond(phone-med) {
             flex-direction: column;
         }
 
@@ -104,7 +107,7 @@
             justify-content: center;
             align-items: center;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
         
@@ -125,12 +128,12 @@
             flex-direction: column;
             gap: 1rem;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 width: 100%;
             }
 
             p:last-child {
-                font-size: $default-plus-font-size;
+                font-size: variables.$default-plus-font-size;
             }
         }
     }
@@ -143,7 +146,7 @@
         gap: 2rem;
 
         h3 {
-            font-size: $small-heading-size;
+            font-size: variables.$small-heading-size;
             font-weight: 800;
             margin-top: 3rem;
         }
@@ -152,7 +155,7 @@
         }
 
         p {
-            font-size: $default-plus-font-size;
+            font-size: variables.$default-plus-font-size;
             line-height: 1.7;
         }
 
@@ -166,7 +169,7 @@
         }
         li, li p {
             margin-left: 1.7rem;
-            font-size: calc($default-plus-font-size - 0.5rem);
+            font-size: calc(variables.$default-plus-font-size - 0.5rem);
         }
         ol li ul {
             margin-top: 1rem;

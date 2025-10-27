@@ -1,3 +1,5 @@
+@use "../../abstracts/mixins";
+
 .contactContent {
     width: 100%;
     display: flex; 
@@ -16,16 +18,16 @@
         align-items: center;
         gap: 8rem;
 
-        @include respond(desktop-sm) {
+        @include mixins.respond(desktop-sm) {
             gap: 7rem;
         }
-        @include respond(tab-land) {
+        @include mixins.respond(tab-land) {
             gap: 6rem;
         }
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             gap: 3rem;
         }
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             flex-direction: column;
         }
     }
@@ -50,7 +52,7 @@
                 img {
                     width: 8rem;
 
-                    @include respond(phone-sm) {
+                    @include mixins.respond(phone-sm) {
                         width: 6rem;
                     }
                 }

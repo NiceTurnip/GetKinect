@@ -1,3 +1,6 @@
+@use "../../abstracts/mixins";
+@use "../../abstracts/variables";
+
 .pricingCards {
     width: 100%;
 
@@ -13,7 +16,7 @@
         width: 20rem;
         height: 5rem;
 
-        border: 5px solid $color-primary-0;
+        border: 5px solid variables.$color-primary-0;
         border-radius: 25px;
 
         display: flex;
@@ -34,7 +37,7 @@
         display: flex;
         justify-content: center;
         
-        @include respond(phone-big) {
+        @include mixins.respond(phone-big) {
             flex-direction: column;
             align-items: center;
             gap: 3rem;

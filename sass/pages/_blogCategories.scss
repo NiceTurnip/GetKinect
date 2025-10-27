@@ -1,3 +1,5 @@
+@use "../abstracts/mixins";
+
 .blogCategories {
     width: 100%;
     padding: 6rem 24rem 12rem;
@@ -6,13 +8,13 @@
     flex-direction: column;
     gap: 6rem;
 
-    @include respond(desktop-sm) {
+    @include mixins.respond(desktop-sm) {
         padding: 6rem 16rem 6rem;
     }
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 6rem 12rem 6rem;
     }
-    @include respond(tab-land) {
+    @include mixins.respond(tab-land) {
         padding: 6rem 6rem 6rem;
     }
     .sectionHeader {
@@ -21,7 +23,7 @@
             justify-content: center;
             align-items: center;
 
-            @include respond(phone-big) {
+            @include mixins.respond(phone-big) {
                 text-align: center;
                 gap: 3rem;
             }
@@ -34,7 +36,7 @@
         flex-direction: column;
         gap: 6rem;
 
-        @include respond(tab-port) {
+        @include mixins.respond(tab-port) {
             width: 100%;
         }
 

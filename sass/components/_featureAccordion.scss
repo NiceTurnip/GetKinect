@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .feature-accordion {
     width: 100%;
     
@@ -9,16 +12,16 @@
 
     padding: 6rem 16rem 16rem;
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         padding: 6rem 12rem 16rem;
     }
-    @include respond(phone-med) {
+    @include mixins.respond(phone-med) {
         padding: 6rem 10rem 16rem;
     }
-    @include respond(phone-sm) {
+    @include mixins.respond(phone-sm) {
         padding: 6rem 2rem 16rem;
     }
-    @include respond(phone-mini) {
+    @include mixins.respond(phone-mini) {
         padding: 6rem 2rem 16rem;
     }
     
@@ -42,8 +45,8 @@
             align-items: center;
             justify-content: space-between;
             
-            background: $color-white;
-            color: $color-black;
+            background: variables.$color-white;
+            color: variables.$color-black;
             
             text-align: left;
             border-radius: 0;
@@ -51,7 +54,7 @@
             border-bottom: 1px solid #ddd;
             cursor: pointer;
 
-            font-size: $default-plus-font-size;
+            font-size: variables.$default-plus-font-size;
             font-weight: 500;
 
         }
@@ -64,8 +67,8 @@
             gap: 3rem;
     
             padding: 1rem;
-            background: $color-white;
-            color: $color-black;
+            background: variables.$color-white;
+            color: variables.$color-black;
     
             .feature-table {
                 width: 100%;
@@ -81,10 +84,10 @@
                     .feature-label {
                         width: 30rem;
 
-                        @include respond(phone-big) {
+                        @include mixins.respond(phone-big) {
                             width: 10rem;
                         }
-                        @include respond(phone-med) {
+                        @include mixins.respond(phone-med) {
                             width: 5rem;
                         }
                     }
@@ -97,7 +100,7 @@
 
                         padding: 1rem 6rem;
 
-                        @include respond(phone-mini) {
+                        @include mixins.respond(phone-mini) {
                             padding: 1rem 3rem;
                         }
                     }
@@ -105,20 +108,20 @@
                     .feature-plan-label {
                         width: 20rem;
                         font-weight: 700;
-                        font-size: $default-plus-font-size;
+                        font-size: variables.$default-plus-font-size;
                         text-align: center;
 
                         display: flex;
                         justify-content: center;
                         align-items: center;
 
-                        @include respond(phone-big) {
+                        @include mixins.respond(phone-big) {
                             width: 10rem;
                         }
-                        @include respond(phone-med) {
+                        @include mixins.respond(phone-med) {
                             width: 5rem;
                         }
-                        @include respond(phone-sm) {
+                        @include mixins.respond(phone-sm) {
                             font-size: 1.5rem;    
                         }
                     }
@@ -133,10 +136,10 @@
                 .feature-label {
                     width: 30rem;
 
-                    @include respond(phone-big) {
+                    @include mixins.respond(phone-big) {
                         width: 10rem;
                     }
-                    @include respond(phone-med) {
+                    @include mixins.respond(phone-med) {
                         width: 5rem;
                     }
                 }
@@ -146,15 +149,15 @@
                     display: flex;
                     justify-content: center;
 
-                    @include respond(phone-big) {
+                    @include mixins.respond(phone-big) {
                         width: 10rem;
                     }
-                    @include respond(phone-med) {
+                    @include mixins.respond(phone-med) {
                         width: 5rem;
                     }
 
                     img {
-                        @include respond(phone-med) {
+                        @include mixins.respond(phone-med) {
                             width: 2.5rem;
                         }
                     }
@@ -167,7 +170,7 @@
                     
                     padding: 1rem 6rem;
 
-                    @include respond(phone-mini) {
+                    @include mixins.respond(phone-mini) {
                         padding: 1rem 3rem;
                     }
                 }
@@ -176,7 +179,7 @@
     }
 
     &__header[aria-expanded="true"] {
-        background: $color-white;
+        background: variables.$color-white;
     }
 }
 

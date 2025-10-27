@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .actionCard {
     width: 25%;
     height: 100%;
@@ -7,14 +10,14 @@
     display: flex;
     flex-direction: column;
 
-    background-color: $color-white;
-    color: $color-black;
+    background-color: variables.$color-white;
+    color: variables.$color-black;
     z-index: 2;
 
     border-radius: 6px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    @include respond(phone-big) {
+    @include mixins.respond(phone-big) {
         width: clamp(50%, 50%, 80%)
     }
 
@@ -28,11 +31,11 @@
         justify-content: center;
         
         color: var(--heading-color);
-        background-color: $color-primary-0;
+        background-color: variables.$color-primary-0;
         border-radius: 6px 6px 0 0;
 
         h2 {
-            font-size: $smallest-heading-size;
+            font-size: variables.$smallest-heading-size;
             font-weight: 700;
         }
     }
@@ -53,16 +56,16 @@
             justify-content: center;
 
             p {
-                font-size: $smallest-heading-size;
+                font-size: variables.$smallest-heading-size;
                 font-weight: 600;
             }
             h3 {
-                font-size: $medium-heading-size;
+                font-size: variables.$medium-heading-size;
                 font-weight: 700;
                 line-height: 1;
             }
             .smallerText {
-                font-size: $default-plus-font-size;            
+                font-size: variables.$default-plus-font-size;            
             }
         }
 
@@ -97,9 +100,9 @@
                 transition: all .2s;
             }
             button:hover {
-                outline: 5px solid $color-primary-0;
-                background-color: $color-white;
-                color: $color-black;
+                outline: 5px solid variables.$color-primary-0;
+                background-color: variables.$color-white;
+                color: variables.$color-black;
             }
         }
     }
@@ -107,7 +110,7 @@
 
 .actionCard:nth-child(1) {
     .actionCard-header {
-        background-color: $color-primary-1;
+        background-color: variables.$color-primary-1;
     }          
 }
 .actionCard:nth-child(2) {
@@ -116,16 +119,16 @@
     margin-left: -2rem;
     margin-right: -2rem;
 
-    @include respond(phone-med) {
+    @include mixins.respond(phone-med) {
         margin: 0;
     }
 
     .actionCard-header {
-        background-color: $color-primary-0;
+        background-color: variables.$color-primary-0;
     }          
 }
 .actionCard:nth-child(3) {
     .actionCard-header {
-        background-color: $color-primary-2;
+        background-color: variables.$color-primary-2;
     }          
 }

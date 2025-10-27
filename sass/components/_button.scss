@@ -1,3 +1,6 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .button-wrap {
     position: relative;
     width: 20rem;
@@ -5,7 +8,7 @@
     justify-content: center;
     align-items: center;
 
-    @include respond(tab-port) {
+    @include mixins.respond(tab-port) {
         order: 2;
     }
     &-button {
@@ -16,7 +19,7 @@
         
         border-radius: 40px;
         border: none;
-        background-color: $color-primary-0;
+        background-color: variables.$color-primary-0;
         
         display: flex;
         align-items: center;
