@@ -42,10 +42,10 @@
     </noscript>
     
     
-    <link rel="preload" href="/css/main.min.css" as="style">
-    <link rel="stylesheet" href="/css/main.min.css">
-    <link rel="preload" href="/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/main.min.css"></noscript>
+    <link rel="preload" href="/css/main.css" as="style">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
 
     
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
@@ -157,10 +157,25 @@
         
         <div class="bookingContent__topForm-forms">
             <div class="bookingContent__topForm-forms-calendar" id="booking-page">
-                <!-- Google Appointment Schedules — Inline Embed -->
-                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08cYBucA7sg8cBcE5LNBhVdYMh8tNTuGnDtoWOSu-PeUC7yCZ4OYD13Ncj5AZ6UodYJc2qg4RB?gv=true&_height=760" loading="lazy" allowfullscreen="" title="Book a demo">
-                </iframe>
-                <!-- /Inline Embed -->
+                
+
+                <!-- Google Calendar Appointment Scheduling begin -->
+                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async=""></script>
+                <script>
+                (function() {
+                var target = document.currentScript;
+                window.addEventListener('load', function() {
+                    calendar.schedulingButton.load({
+                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ08cYBucA7sg8cBcE5LNBhVdYMh8tNTuGnDtoWOSu-PeUC7yCZ4OYD13Ncj5AZ6UodYJc2qg4RB?gv=true',
+                    color: '#f3f3f3',
+                    label: "Book a Demo",
+                    target,
+                    });
+                });
+                })();
+                </script>
+                <!-- end Google Calendar Appointment Scheduling -->
             </div>      
         </div>
     </div>
