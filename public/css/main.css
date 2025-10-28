@@ -2819,6 +2819,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 1;
   background-color: #F3f3f3;
 }
 
