@@ -5,6 +5,7 @@ pagination:
   alias: tag
 layout: 'base.njk'
 permalink: /tags/{{ tag | slug }}/
+noindex: true
 ---
 
 {% import "macros/navigation.njk" as nav %}
@@ -30,8 +31,6 @@ permalink: /tags/{{ tag | slug }}/
             {% for post in taglist | reverse %}
                 <div class = "blogCategories__list-post">
                     <a href="{{ post.url }}">
-                       {# WHY WON'T THIS IMAGE WORK?? #}
-                       {# <img src="{{post.data.heroImage}}" alt=""> #}
                         <span>
                             <p class = "subtext">{{ post.data.tags[1] }}</p>
                             <h4>{{ post.data.title }}</h4>
