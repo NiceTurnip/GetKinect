@@ -13,6 +13,18 @@ export default function(eleventyConfig) {
       linkify: true // auto-link URLs
     });
 
+    eleventyConfig.addCollection("tagList", function (collection) {
+      const tagSet = new Set();
+      collection.getFilteredByTag("posts").forEach(item => {
+        (item.data.tags || []).forEach(tag => {
+          if (!["posts"].includes(tag)) {
+            tagSet.add(tag);
+          }
+        });
+      });
+      return [...tagSet];
+    });
+
     
     eleventyConfig.addFilter("absoluteUrl", (path, base) => {
       try {
