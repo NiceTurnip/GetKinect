@@ -19,7 +19,7 @@
 
             <ul class = "blogLanding__top__tagList-list">
             {% for tag in allTags | sort %}
-                <li><a href="/tags/{{ tag | url }}">{{ tag }}</a></li>
+                <li><a href="/tags/{{ tag | slug }}">{{ tag }}</a></li>
             {% endfor %}
             </ul>
         </div>
