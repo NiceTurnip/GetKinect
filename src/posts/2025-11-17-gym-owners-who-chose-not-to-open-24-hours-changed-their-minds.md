@@ -12,12 +12,9 @@ summary: Most of the old reasons for not running a 24 hour gym have quietly
   waivers and low cost cameras, you can keep the doors open longer without
   blowing up your costs. In many cases, 24/7 access is now one of the simplest
   ways to outpace the gym down the road.
-description: Thinking about turning your gym into a 24 hour facility but worried
-  about staffing, insurance, cameras and software costs? In this article I walk
-  through the old thinking that kept owners from going 24/7 and show you what
-  has changed. From smartphone door access and modern waivers to realistic
-  energy use and wear and tear, you will see how independent gyms can safely
-  offer 24/7 access without wrecking their margins.
+description: 24/7 gym access is not just for big chains anymore. Learn how
+  modern access control, insurance, waivers, cameras and software make running a
+  24 hour gym practical and profitable.
 ---
 Why isn’t your fitness facility open 24 hours a day? It used to be a good question with many relevant answers, and while the idea of a 24-hour gym might sound appealing at first glance, in the past there were  several important reasons to decided against it.
 
