@@ -21,9 +21,10 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
 {% import "macros/contactCard.njk" as contactCard %}
 
 <!-- HEADER -->
-{{ pageHeader.pageHeader("", "", "") }}
         
 <main class="blogPage">
+  {{ pageHeader.pageHeader("", "", "") }}
+  
   {% include "partials/blogSections/blogLandingContent.njk" %}
 
   <div data-blog-pager>

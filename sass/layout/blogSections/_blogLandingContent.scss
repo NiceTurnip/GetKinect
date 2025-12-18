@@ -68,18 +68,6 @@
                 height: 3rem;
             }
         }
-
-        .socials {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 3rem;
-
-            @include mixins.respond(phone-big) {
-                gap: 1.5rem;
-            }
-        }
     }
 
     &-search {

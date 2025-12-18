@@ -6,10 +6,8 @@
 
     position: relative;
     width: 100vw;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-right: variables.$gutter;
-    padding-left: variables.$gutter;
+    
+    padding: 4rem 8rem;
 
     display: flex;
     flex-direction: column; 
@@ -22,6 +20,9 @@
 
     @include mixins.respond(tab-port) {
         padding: 4rem 4rem 0 
+    }
+    @include mixins.respond(phone-big) {
+        padding: 4rem 1rem 0;
     }
 
     &__contents {

@@ -1325,11 +1325,14 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 3rem;
   z-index: 2;
 }
 .main-nav-logo img {
-  width: 10rem;
-  height: auto;
+  display: block;
+  width: auto;
+  height: 100%;
+  max-height: 5rem;
 }
 .main-nav-list {
   display: flex;
@@ -1602,10 +1605,7 @@ problem in the header / main-nav html files. */
   visibility: hidden;
   position: relative;
   width: 100vw;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-right: 8rem;
-  padding-left: 8rem;
+  padding: 4rem 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1616,6 +1616,11 @@ problem in the header / main-nav html files. */
 @media only screen and (max-width: 68.75em) {
   .pageHeader {
     padding: 4rem 4rem 0;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .pageHeader {
+    padding: 4rem 1rem 0;
   }
 }
 .pageHeader__contents {
@@ -1865,6 +1870,22 @@ problem in the header / main-nav html files. */
 }
 .footer__content__right__inner-bottom img:hover {
   filter: drop-shadow(0 1px 2px #2c2c2c);
+}
+
+.socials {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .socials {
+    gap: 1.5rem;
+  }
+}
+.socials img {
+  width: auto;
+  height: 2rem;
 }
 
 .footer::before {
@@ -2509,18 +2530,6 @@ problem in the header / main-nav html files. */
     height: 3rem;
   }
 }
-.blogLanding__header .socials {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-}
-@media only screen and (max-width: 56.25em) {
-  .blogLanding__header .socials {
-    gap: 1.5rem;
-  }
-}
 .blogLanding-search {
   width: 50%;
   z-index: 99;
@@ -2758,6 +2767,14 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   background-color: #F3f3f3;
+}
+.blogPage .pageHeader {
+  padding: 2rem 8rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .blogPage .pageHeader {
+    padding: 2rem 2rem;
+  }
 }
 
 .blogCategories {

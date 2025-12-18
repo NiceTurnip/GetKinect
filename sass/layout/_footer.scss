@@ -148,6 +148,22 @@
     }
 }
 
+.socials {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+
+    @include mixins.respond(phone-big) {
+        gap: 1.5rem;
+    }
+
+    img {
+        width: auto;
+        height: 2rem;
+    }
+}
+
 // Background color clipping hack
 .footer::before {
     content: "";

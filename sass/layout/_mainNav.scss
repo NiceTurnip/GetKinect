@@ -8,12 +8,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
+
     z-index: 2;
 
     &-logo {
         img {
-            width: 10rem;
-            height: auto;
+            display: block;
+            width: auto;
+            height: 100%;
+            max-height: 5rem;
         }        
     }
     &-list {
