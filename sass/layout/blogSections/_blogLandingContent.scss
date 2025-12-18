@@ -3,151 +3,94 @@
 
 .blogLanding {
     width: 100%;
-    padding: 6rem 24rem 6rem;
-    
+    height: 100%;
+    height: 100vh;
+    height: 100dvh;
+
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    align-items: center;
+    gap: 4rem;
 
-    @include mixins.respond(desktop-sm) {
-        padding: 6rem 16rem 6rem;
-    }
-    @include mixins.respond(tab-land) {
-        padding: 6rem 12rem 6rem;
-    }
-    @include mixins.respond(tab-land) {
-        padding: 6rem 6rem 6rem;
+    color: variables.$color-white;
+
+    padding: 12rem 0;
+
+    @include mixins.respond(phone-big) {
+        padding: 4rem 0;
     }
 
-    &__top {
+    &__background {
         width: 100%;
+        height: 100vh;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-color: variables.$color-primary-0;
+        clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
+
+         z-index: 1;
+
+        @include mixins.respond(phone-big) {
+            clip-path: none;
+        }
+    }
+
+    &__header {
+        width: 75%;
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 6rem;
+        gap: 4rem;
+        
+        text-align: center;
+        z-index: 99;
 
-        .sectionHeader {
+        h1 {
+            font-weight: 700;
+
+            @include mixins.respond(phone-big) {
+                font-size: variables.$big-heading-size;
+            }
+        }
+        p {
+            font-size: calc(variables.$small-heading-size * 0.75);
+            font-weight: 600;
+        }
+        img {
+            width: auto;
+            height: 5rem;
+
+            cursor: pointer;
+
+            @include mixins.respond(phone-big) {
+                height: 3rem;
+            }
+        }
+
+        .socials {
             width: 100%;
-            gap: 6rem;
+            display: flex;
             justify-content: center;
             align-items: center;
-
-            @include mixins.respond(phone-big) {
-                text-align: center;
-                gap: 3rem;
-            }
-        }
-
-        &__tagList {
-            width: 100%;
-            display: flex;
-
-            &-list {
-                width: 40%;
-
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 1rem;
-
-                @include mixins.respond(phone-big) {
-                    width: 100%;
-                }
-            }
-        }
-    }
-
-    &__content {
-        width: 100%;
-
-        display: flex;
-        justify-content: center;
-        gap: 12rem;
-
-        @include mixins.respond(tab-port) {
-            gap: 6rem;
-        }
-
-        &__left {
-            width: 50%;
-
-            display: flex;
-            flex-direction: column;
-
-            @include mixins.respond(phone-big) {
-                display: none;
-            }
-
-            &-image1, &-image2 {
-                width: 100%;
-                height: 100%;
-            
-                display: flex;
-                align-items: center;
-
-                border-radius: 18px;
-
-                overflow: hidden;
-
-                @include mixins.respond(tab-port) {
-                    width: 100%;
-                }
-
-                img {
-                    width: 100%;
-                    height: auto;
-                    object-fit: cover;
-
-                    border-radius: 18px;
-
-                    @include mixins.respond(tab-port) {
-                        justify-content: center;
-                    }
-                }
-            }
-        }
-
-        &__right {
-            width: 50%;
-
-            display: flex;
-            flex-direction: column;
             gap: 3rem;
 
             @include mixins.respond(phone-big) {
-                width: 100%;
-            }
-
-            &-header {
-                h3 {
-                    font-size: variables.$medium-heading-size;
-                    font-weight: 800;
-                }
-            }
-            &__blogPosts {
-                width: 75%;
-
-                display: flex;
-                flex-direction: column;
-                gap: 6rem;
-
-                @include mixins.respond(tab-port) {
-                    width: 100%;
-                }
-
-                &-post a {
-                    h4 {
-                        font-weight: 600
-                    }
-                    
-                    display: flex;
-                    flex-direction: column;
-                    gap: 1.5rem;
-                }
+                gap: 1.5rem;
             }
         }
-
     }
+
+    &-search {
+        width: 50%;
+        z-index: 99;
+    }
+
+    .pagefind-ui__results {
+        background-color: variables.$color-white;
+        z-index:1000;
+    }
+    
 }

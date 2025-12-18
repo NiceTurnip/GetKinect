@@ -17,6 +17,32 @@
             padding: 6rem 4rem;
     }
 
+    &__pagination {
+        width: 100%;
+        margin: 4rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+
+        .btn {
+            width: 4rem;
+            height: 4rem;
+
+            padding: 3rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            text-align: center;
+            border-radius: 100%;
+
+            background-color: variables.$color-primary-0;
+            color: variables.$color-white;
+        }
+    }
+
     &__header {
         width: 100%;
         min-height: 15rem;
@@ -24,57 +50,11 @@
         padding: 0 0 6rem;
 
         display: flex;
+        justify-content: center;
 
         @include mixins.respond(phone-med) {
             flex-direction: column;
             gap: 2rem;
-        }
-
-
-        &__left {
-            width: 60%;
-            
-            display: flex;
-            align-items: center;
-
-            @include mixins.respond(phone-med) {
-                width: 100%;
-                justify-content: center;
-            }
-
-            h3 {
-                font-size: variables.$medium-heading-size;
-                font-weight: 800;
-            }
-        }
-        &__right {
-            position: relative;
-            width: 40%;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            border-left: 1px solid variables.$color-primary-0;
-
-            @include mixins.respond(phone-med) {
-                width: 100%;
-                border-left: none;
-                border-top: 1px solid variables.$color-primary-0;
-                padding: 3rem 0 0;
-            }
-
-            #search {
-                width: 100%;
-                padding: 0 2rem;
-
-                --pagefind-ui-border-radius: 25px;
-                --pagefind-ui-primary: #f3f3f3;
-                --pagefind-ui-text: #f3f3f3;
-                --pagefind-ui-background: #2c2c2c;
-                --pagefind-ui-border: #2c2c2c;
-                --pagefind-ui-tag: #f3f3f3;
-            }
         }
     }
 
@@ -99,6 +79,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: 3rem;
+
+            button {
+                width: 30%;
+            }
 
             a {
                 width: 100%;

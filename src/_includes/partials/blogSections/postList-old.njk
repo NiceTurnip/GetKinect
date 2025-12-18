@@ -1,0 +1,35 @@
+<section class = "postList">
+    <div class = "postList__header">
+        <div class = "postList__header__left">
+            <h3>Most <span class = "flair-color-1">Recent</span></h3>
+        </div>
+        <div class = "postList__header__right">
+            {# SEARCH FUNCTION: PAGEFIND (must re-index if public is fully deleted)
+            <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+            <script src="/pagefind/pagefind-ui.js"></script> #}
+
+            {# Old search bar #}
+            {# <div id="search"></div>
+            <script>
+                window.addEventListener('DOMContentLoaded', (event) => {
+                    new PagefindUI({ element: "#search", showSubResults: true });
+                });
+            </script> #}
+        </div>
+    </div>
+    <div class = "postList__list">
+        {% for post in collections.posts | slice(0,6) %}
+            <div class = "postList__list-post">
+                <a href="{{ post.url }}">
+                    <div class = postList__list-post-img>
+                        <img src="{{post.data.heroImage}}" alt="Post Image">
+                    </div>
+                    <span>
+                        <p class = "subtext">{{ post.data.tags[1] }}</p>
+                        <h4>{{ post.data.title }}</h4>
+                    </span>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</section>

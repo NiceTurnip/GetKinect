@@ -1,0 +1,30 @@
+{# ---
+title: Kinect Blog
+layout: "base.njk"
+pagination:
+  data: collections.posts
+  size: 6
+  alias: postsPage
+  reverse: true
+permalink: "/blog/page/{{ pagination.pageNumber + 1 }}/index.html"
+---
+
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+{% import "macros/button.njk" as btn %}
+{% import "macros/listItem1.njk" as li1 %}
+{% import "macros/listItem1-link.njk" as li1Link %}
+{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/sectionHeader.njk" as sectHeader %}
+{% import "macros/pageHeader.njk" as pageHeader %}
+{% import "macros/contactCard.njk" as contactCard %}
+
+{{ pageHeader.pageHeader("", "", "") }}
+
+<main class="blogPage">
+  {% set posts = postsPage %}
+  {% set showPagination = true %}
+  {% include "partials/blogSections/postList.njk" %}
+</main>
+
+{% include "partials/footer.njk" %} #}

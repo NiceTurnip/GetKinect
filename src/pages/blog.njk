@@ -1,8 +1,14 @@
 ---
 title: Kinect Blog
-layout: 'base.njk'
-permalink: "/{{ page.fileSlug }}/"
+layout: "base.njk"
+pagination:
+  data: collections.posts
+  size: 9
+  alias: postsPage
+  reverse: false
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
+
 
 {% import "macros/navigation.njk" as nav %}
 {% import "macros/mobileNav.njk" as mobileNav %}
@@ -17,10 +23,27 @@ permalink: "/{{ page.fileSlug }}/"
 <!-- HEADER -->
 {{ pageHeader.pageHeader("", "", "") }}
         
-<main class = "blogPage">
-    {% include 'partials/blogSections/blogLandingContent.njk' %}
-    {% include 'partials/blogSections/subscribe.njk' %}
-    {% include 'partials/blogSections/postList.njk' %}
+<main class="blogPage">
+  {% include "partials/blogSections/blogLandingContent.njk" %}
+
+  <div data-blog-pager>
+    {% set posts = postsPage %}
+    {% include "partials/blogSections/postList.njk" %}
+
+    <nav class="postList__pagination" aria-label="Blog pages" data-postnav>
+      {% if pagination.href.previous %}
+        <a class="btn" data-page-link href="{{ pagination.href.previous }}">Prev</a>
+      {% endif %}
+
+      <span class="subtext">
+        Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}
+      </span>
+
+      {% if pagination.href.next %}
+        <a class="btn" data-page-link href="{{ pagination.href.next }}">Next</a>
+      {% endif %}
+    </nav>
+  </div>
 </main>
 
 <!-- FOOTER -->
