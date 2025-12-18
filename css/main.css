@@ -2449,6 +2449,7 @@ problem in the header / main-nav html files. */
 }
 
 .blogLanding {
+  position: relative;
   width: 100%;
   height: 100%;
   display: flex;
@@ -2456,16 +2457,16 @@ problem in the header / main-nav html files. */
   align-items: center;
   gap: 4rem;
   color: #F3f3f3;
-  padding: 12rem 0;
+  padding: 12rem 0 25rem;
 }
 @media only screen and (max-width: 56.25em) {
   .blogLanding {
-    padding: 4rem 0;
+    padding: 8rem 0;
   }
 }
 .blogLanding__background {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;

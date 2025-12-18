@@ -2,6 +2,7 @@
 @use "../../abstracts/variables";
 
 .blogLanding {
+    position: relative;
     width: 100%;
     height: 100%;
 
@@ -12,15 +13,15 @@
 
     color: variables.$color-white;
 
-    padding: 12rem 0;
+    padding: 12rem 0 25rem;
 
     @include mixins.respond(phone-big) {
-        padding: 4rem 0;
+        padding: 8rem 0;
     }
 
     &__background {
         width: 100%;
-        height: 100vh;
+        height: 100%;
 
         position: absolute;
         top: 0;
