@@ -1,8 +1,9 @@
 ---
 title: "Opening a Gym in Canada: Province-by-Province Rules for Membership
   Contracts (No Guesswork Edition)"
-date: 2026-01-04T18:19:00.000-05:00
-tags: []
+date: 2026-01-04T18:40:00.000-05:00
+tags:
+  - post
 heroImage: /assets/images/uploads/canadian-gym-membership-rules.png
 layout: post.njk
 summary: Opening a gym in Canada? From 10-day cooling-off periods in Ontario to
