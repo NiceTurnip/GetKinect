@@ -7,8 +7,8 @@ tags:
 heroImage: /assets/images/uploads/gym-membership-paused.png
 layout: post.njk
 summary: Stop losing members to rigid contracts. Learn how to use flexible
-  membership holds and the right Canadian Gym Software to build loyalty. Protect
-  your revenue while being the hero your community loves
+  membership holds and the right Gym Software to build loyalty. Protect your
+  revenue while being the hero your community loves
 description: Manage gym membership holds like a pro. This guide shows you how to
   automate pauses using Canadian Gym Software to keep your billing clean and
   your members happy.
