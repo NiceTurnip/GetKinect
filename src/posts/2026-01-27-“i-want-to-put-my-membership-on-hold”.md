@@ -19,9 +19,11 @@ description: Manage gym membership holds like a pro. This guide shows you how to
 
 At my gyms, I like to keep things simple and easy. I let members pause their membership for up to two months, and they don't even have to tell me why! People often offer a reason, but I don't ask. They seem to feel like they have to convince me, and I don't want that. I know things come up in life, and I want to be friendly but still professional.
 
-What are your gyms policies around allowing members to pause or put holds on their memberships and payments? At my gyms I'm pretty flexible. I allow members to pause for up to two months for any reason. In fact I don't even ask them why they're positive although they do often offer  a reason. They sound like they're feeling they need to sell me on the pause or hold. In fact at my gyms I allow people to log into their account and put a hold on all themselvesWhat do you do when a gym member needs to stop their payments for a little while?
+What are your gyms policies around allowing members to pause or put holds on their memberships and payments? At my gyms I'm pretty flexible. I allow members to pause for up to two months for any reason. I don't even ask them why they want or need to pause although they do often offer  a reason. Often they sound like they're feeling they need to sell me on the pause or hold. In fact at my gyms I allow people to log into their account and put a hold on all themselves. 
 
-In fact, I've moved away from the old way of asking members a lot of questions. I learned that being flexible and allowing holds for most any reason actually makes members more loyal in the long run than a strict contract. When members feel they have to "sell" me on their break, it creates a bad feeling. We want our gym to be the friendly "Hometown Hero" in our community! Our members can even log into their account and set up the hold themselves, which is a great help.
+**What do you do when a gym member needs to stop their payments for a little while?**
+
+I've moved away from the old way of asking members a lot of questions. I learned that being flexible and allowing holds for most any reason actually makes members more loyal in the long run than a strict contract. When members feel they have to "sell" me on their break, it creates a bad feeling. We want our gym to be the friendly "Hometown Hero" in our community! Our members can even log into their account and set up the hold themselves, which is a great help.
 
 This flexible way might not be right for every gym owner, so here are a few things to think about, based on what I talk about every day with other fitness business owners.
 
