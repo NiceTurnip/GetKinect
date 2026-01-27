@@ -25,15 +25,17 @@ What are your gyms policies around allowing members to pause or put holds on the
 
 I've moved away from the old way of asking members a lot of questions. I learned that being flexible and allowing holds for most any reason actually makes members more loyal in the long run than a strict contract. When members feel they have to "sell" me on their break, it creates a bad feeling. We want our gym to be the friendly "Hometown Hero" in our community! Our members can even log into their account and set up the hold themselves, which is a great help.
 
-This flexible way might not be right for every gym owner, so here are a few things to think about, based on what I talk about every day with other fitness business owners.
+This model isn’t a one-size-fits-all solution. I analyzed data from small boutique studios to large-scale franchises. I also talk to gym owners every single day.
 
-Here are some **tips on how you can handle holds** like a pro, keep your recurring revenue stable, and use your Gym Software to do the heavy lifting.
+Here are the hard truths you must consider before setting your policy.
+
+**Tips on how you can handle holds** like a pro, keep your recurring revenue stable, and use your Gym Software to do the heavy lifting.
 
 ## **1. The "No Surprises" Notice Period**
 
 In a small town, a billing dispute is a reputation killer. You need a clear window to adjust the notification before the next invoice triggers.
 
-* **The Advice:** Don't settle for "whenever." Set a hard **7 to 10-day notice period**. Tell your members: *"I need a week to tell the system you’re taking a break so it doesn't accidentally charge you."* This isn't about being strict; it’s about **procedures**. It ensures their billing and their access stay synced.
+* **The Advice:** Don't settle for "whenever." Set a hard **7 to 10-day notice period**. Tell your members: "I need a week to tell the system you’re taking a break so it doesn't accidentally charge you." This isn't about being strict; it’s about **procedures**. It ensures their billing and their access stay synced.
 
 ## **2. Master "Ghost Mode" (Automated Access)**
 
