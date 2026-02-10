@@ -71,7 +71,6 @@
 
             &-image {
                 width: 70%;
-                height: 80%;
 
                 border-radius: 25px;
                 overflow: hidden;
@@ -86,6 +85,7 @@
                 img {
                     width: auto;
                     height: 100%;
+                    max-height: 75rem;
                     object-fit: cover;
                     object-position: left;
                 }

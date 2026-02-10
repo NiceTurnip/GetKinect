@@ -16,6 +16,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^4.0.2",
+    "animejs": "^4.3.5",
     "decap-cms": "^3.6.4",
     "del-cli": "^5.0.0",
     "dotenv": "^16.0.3",
@@ -25,7 +26,6 @@
   },
   "devDependencies": {
     "esbuild": "0.25.5",
-    "lightningcss-cli": "^1.29.3",
-    "uglify-js": "^3.19.3"
+    "lightningcss-cli": "^1.29.3"
   }
 }

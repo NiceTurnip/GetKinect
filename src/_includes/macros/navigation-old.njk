@@ -1,8 +1,8 @@
-{% macro navigation(styleType) %}
+{% macro navigation(logo, styleType) %}
   <nav class = "{{styleType}}" style = "visibility:hidden">
     <div class = "{{styleType}}-logo">
         <a href="/">
-            <p class = "logo-styling">KINECT</p>
+        <img src="{{logo}}" alt="text logo">
         </a>
     </div>
 
@@ -16,5 +16,9 @@
     <a class = "{{styleType}}-button" href="/booking">
         <button>Book a Demo</button>
     </a>
+
+    <div class = "mobile-button">
+        <img src="/assets/vectors/mobile-button.svg" alt="mobile navigation">
+    </div>
 </nav>
 {% endmacro %}

@@ -65,20 +65,13 @@ export default function(eleventyConfig) {
 
     //Support for Eleventy Image in templates
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-      // which file extensions to process
       extensions: "html",
-      // Add any other Image utility options here:
-      widths: [320, 640, 960],
-      
+      widths: [320, 640, 960, 1600, 1920],
       svgShortCircuit: true,
-      // optional, output image formats
-      formats: ["webp", "jpeg", "svg"],
-  
-      // optional, attributes assigned on <img> override these values.
+      formats: ["avif", "webp", "svg"],
       defaultAttributes: {
-        sizes: "(max-width: 768px) 100vw, 50vw",
+        sizes: "100vw",
         alt: "Descriptive alt text",
-        loading: "lazy",
         decoding: "async",
       },
     });
