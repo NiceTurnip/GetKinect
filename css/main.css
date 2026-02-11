@@ -1491,17 +1491,14 @@ problem in the header / main-nav html files. */
   }
 }
 .header__contents__left-title .eyebrow-blinker {
+  width: 22rem;
   padding: 0.2rem 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
   background-color: rgba(213, 179, 179, 0.164);
   border-radius: 10px;
-}
-@media only screen and (max-width: 56.25em) {
-  .header__contents__left-title .eyebrow-blinker {
-    align-items: center;
-    justify-content: center;
-  }
 }
 .header__contents__left-title .eyebrow-blinker img {
   width: 0.5rem;
