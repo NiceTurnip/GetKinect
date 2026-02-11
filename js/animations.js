@@ -80,11 +80,16 @@ const bounceForever = (el, { height = 12 } = {}) => {
   // This format matches the error you're seeing (library expects params.keyframes)
   animate(el, {
     keyframes: [
-      { translateY: -height, duration: 500, easing: "easeOutSine" },
-      { translateY: 0, duration: 900, easing: "spring(1, 80, 10, 0)" },
+      { translateY: -12, duration: 500, easing: "easeOutQuad" },
+      { translateY: -12, duration: 180, easing: "linear" },
+      { translateY: 0, duration: 750, easing: "easeInQuad" }
     ],
-    loop: true,
+    loop: true
   });
+
+
+
+
 };
 
 document.addEventListener("DOMContentLoaded", () => {

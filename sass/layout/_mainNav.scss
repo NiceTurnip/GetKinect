@@ -49,14 +49,17 @@
             width: 20rem;
             transition: all .2s;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        
+            @include mixins.respond(phone-big) {
+                width: 15rem;
+                height: 4rem;
+                padding: 0;
+            }
         }
         button:hover {
             outline: 5px solid variables.$color-primary-0;
             background-color: variables.$color-white;
             color: variables.$color-black;
-        }
-        @include mixins.respond(phone-sm) {
-            display: none;
         }
     }
     
