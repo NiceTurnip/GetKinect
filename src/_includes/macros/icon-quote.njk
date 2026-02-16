@@ -1,0 +1,22 @@
+{# Dummy Data #}
+
+{% macro iconQuote(icon, quote, author, subtext, header) %}
+
+  <section class = "iconQuote">
+    <img class = "iconQuote-icon" src="{{icon}}" alt="icon">
+
+    {% if header %}
+        <h3 class = "iconQuote-header">{{header}}</h3>
+    {% endif %}
+
+    <p class = "iconQuote-quote">"{{quote}}"</p>
+
+    <div>
+        <p class = "iconQuote-author">{{author}}</p>
+        {% if subtext %}
+            <p class = "iconQuote-subtext">{{subtext}}</p>
+        {% endif %}
+    </div>
+  </section>
+
+{% endmacro %}

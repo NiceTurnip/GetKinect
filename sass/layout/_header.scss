@@ -157,6 +157,7 @@
 
             @include mixins.respond(phone-big) {
                 width: 100%;
+                margin-bottom: 9rem;
             }
 
             &__container {
@@ -227,5 +228,32 @@
                 }
             }
         }      
+    }
+
+    .red-box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        backface-visibility: hidden;
+        transform: translateZ(0);
+        
+        margin-top: -1px;
+
+        width: 100%;
+        height: 45rem;
+
+        background-color: variables.$color-primary-0;
+        clip-path: polygon(0 75%, 100% 90%, 100% 100.2%, 0% 100.2%);
+
+        z-index: 11;
+        overflow: hidden;
+        
+        @include mixins.respond(desktop-sm) {
+            clip-path: polygon(0 85%, 102% 70%, 100% 100.2%, 0% 102%);
+        }
+        @include mixins.respond(phone-mini) {
+            height: 35rem;
+        }
     }
 }

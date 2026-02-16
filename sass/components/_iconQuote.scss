@@ -1,0 +1,50 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.iconQuote {
+    width: 100%;
+    padding: 6rem 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    text-align: center;
+
+    @include mixins.respond(phone-big) {
+        padding: 6rem 2rem;
+    }
+
+    &-icon {
+
+    }
+    &-header {
+        font-weight: 800;
+    }
+    &-quote {
+        width: 60%;
+
+        font-size: variables.$default-font-size;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 1.8;
+
+        opacity: 70%;
+
+        @include mixins.respond(phone-big) {
+            width: 90%;
+        }
+    }
+    &-author {
+        font-weight: 700;
+    }
+    &-subtext {
+        font-weight: 400;
+        font-size: variables.$subtext-font-size;
+        letter-spacing: 2px;
+
+        opacity: 70%;
+    }
+}

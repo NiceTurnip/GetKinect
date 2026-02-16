@@ -1,8 +1,8 @@
-{% macro navigation(styleType) %}
+{% macro navigation(logo ,styleType) %}
   <nav class = "{{styleType}}" style = "visibility:hidden">
     <div class = "{{styleType}}-logo">
         <a href="/">
-            <p class = "logo-styling">KINECT</p>
+            <img src="{{logo}}" alt="text logo">
         </a>
     </div>
 

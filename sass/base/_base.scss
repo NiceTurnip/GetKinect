@@ -128,3 +128,8 @@ form {
 ::-webkit-scrollbar-thumb {
     background: variables.$color-black;
 }
+
+[data-animate] {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+}

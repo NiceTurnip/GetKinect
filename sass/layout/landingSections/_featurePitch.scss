@@ -2,93 +2,144 @@
 @use "../../abstracts/variables";
 
 .featurePitch {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 12rem 6rem 8rem;
 
     display: flex;
 
-    padding: 12rem 14rem 6rem;
-    margin: 0 0 6rem;
+    background-color: variables.$color-secondary-0;
+    border-radius: 40px;
 
-    background-color: variables.$color-primary-0;
     color: variables.$color-white;
 
-    @include mixins.respond(tab-port) {
-        padding: 12rem 8rem 12rem;
-    }
     @include mixins.respond(phone-big) {
-        padding: 12rem 4rem 12rem;
+        width: 90%;
+        padding: 6rem 2rem;
+
+        flex-direction: column;
+        gap: 3rem;
+
+        text-align: center;
+        align-items: center;
     }
 
-    &__contents {
-        width: 100%;
+    &__left {
+        width: 50%;
 
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+
         @include mixins.respond(phone-big) {
-            flex-direction: column;
+            width: 100%;
+            align-items: center;
         }
 
-        &__left {
-            width: 60%;
-
+        &-header {
             display: flex;
-            flex-direction: column;
-            gap: 6rem;
+            align-items: center;
+            gap: 1rem;
+
+            opacity: 80%;
+
+            img {
+                width: 2rem;
+                height: auto;
+            }
+            p {
+                font-size: variables.$subtext-font-size;
+                color: variables.$color-primary-1;
+            }
+        }
+
+        &-body {
+            opacity: 60%;
+            line-height: 1.7;
+            width: 80%;
 
             @include mixins.respond(phone-big) {
                 width: 100%;
             }
-
-            h2 {
-                @include mixins.respond(phone-big) {
-                    text-align: center;
-                }
-            }
-
-            ul {
-                display: flex;
-                flex-direction: column;
-                gap: 6rem;
-
-                li {
-                    p {
-                        font-size: variables.$default-plus-font-size;
-                    }
-                    img {
-                        width: 4rem;
-                        height: auto;
-                    }
-
-                }
-            }
         }
-        &__right {
-            width: 40%;
 
+        ul {
             display: flex;
-            justify-content: end;
+            flex-direction: column;
+            gap: 2rem;
 
-            &-image {
-                width: 70%;
+            text-align: start;
+            
+            li {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
 
-                border-radius: 25px;
-                overflow: hidden;
-
-                @include mixins.respond(tab-land) {
-                    height: 100%;
-                }
                 @include mixins.respond(phone-big) {
-                    display: none;
+                    align-items: start;
                 }
 
                 img {
-                    width: auto;
-                    height: 100%;
-                    max-height: 75rem;
-                    object-fit: cover;
-                    object-position: left;
+                    width: 2rem;
+                    height: auto;
                 }
+            }
+            
+        }
+    }
+    &__right {
+        position: relative;
+
+        width: 50%;
+
+        @include mixins.respond(phone-big) {
+            width: 100%;
+        }
+
+        &-image {
+            width: 100%;
+            height: 100%;
+            padding: 2rem;
+            
+            border: 1px solid rgba(255, 255, 255, 0.233);
+            background-color: variables.$color-secondary-1;
+            border-radius: 30px;
+
+            img {
+                width: 100%;
+                height: 100%;
+
+                border-radius: 25px;
+                object-fit: cover;
+
+            }
+        }
+        .eyebrow-blinker {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+
+            padding: 1.5rem 2rem;
+            
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            background-color: variables.$color-white;
+            border-radius: 50px;
+
+            img {
+                width: 1rem;
+                height: 1rem;
+            }
+            p {
+                color: variables.$color-black;
+                font-weight: 900;
+                font-size: variables.$subtext-font-size;
+                text-wrap: nowrap;
             }
         }
     }

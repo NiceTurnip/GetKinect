@@ -40,7 +40,7 @@ h2 {
     }
 }
 h3 {
-    font-size: variables.$default-plus-font-size;
+    font-size: variables.$smallest-heading-size;
     font-weight: 500;
     line-height: 1.4;
 }
@@ -71,8 +71,6 @@ h5 {
 
 .copyFlair {
     color: variables.$color-primary-0;
-    font-weight: 500;
-
     display: inline-block;
 
     transition: .25s all;
@@ -89,6 +87,9 @@ h5 {
 
 .flair-color-1 {
     color: variables.$color-primary-0;
+}
+.flair-color-2 {
+    color: variables.$color-primary-1;
 }
 
 .bold-text {

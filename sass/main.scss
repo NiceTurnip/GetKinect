@@ -17,12 +17,15 @@
 @use "components/featureAccordion.scss";
 @use "components/actionCard.scss";
 @use "components/contactCard.scss";
+@use "components/iconQuote.scss";
+@use "components/textBlock.scss";
+@use "components/headachesCard.scss";
+@use "components/callToAction";
 
 // LAYOUT
 @use "layout/mainNav";
 @use "layout/header";
 @use "layout/pageHeader";
-@use "layout/callToAction";
 @use "layout/footer";
 
 @use "layout/forms/bookingForm";
@@ -30,6 +33,7 @@
 
 @use "layout/landingSections/featurePitch";
 @use "layout/landingSections/benefitsPitch";
+@use "layout/landingSections/headaches";
 
 @use "layout/pricingSections/pricingCards";
 
