@@ -535,21 +535,12 @@ h5 {
   transform: scale(1.25) skew(-10deg) translateX(1rem);
 }
 
-.gallery-subheading {
-  font-size: 2.8rem;
-  font-weight: 200;
-}
-
 .flair-color-1 {
   color: #dc2626;
 }
 
 .flair-color-2 {
   color: #ef4444;
-}
-
-.bold-text {
-  font-weight: 500;
 }
 
 .font-weight-100 {
@@ -1681,6 +1672,9 @@ problem in the header / main-nav html files. */
   .header__contents__left-title {
     align-items: center;
     justify-content: center;
+  }
+  .header__contents__left-title h1 {
+    font-size: 5rem;
   }
 }
 .header__contents__left-title .eyebrow-blinker {
@@ -3117,7 +3111,7 @@ problem in the header / main-nav html files. */
   border-radius: 25px;
 }
 .post__postHeader__right-number h2 {
-  font-size: 17.5rem;
+  font-size: 10.5rem;
   line-height: 0;
   margin-bottom: 1.5rem;
 }
