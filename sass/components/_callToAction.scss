@@ -4,7 +4,7 @@
 .callToAction {
      width: 70%;
      margin: 12rem auto;
-     padding: 6rem 16rem;
+     padding: 8rem 16rem;
 
      display: flex;
      flex-direction: column;
@@ -20,8 +20,11 @@
 
      @include mixins.respond(phone-big) {
           width: 90%;
-          padding: 6rem 2rem;
-          margin: 0 auto;
+          
+          padding: 5rem 3rem;
+          margin: 0 auto 6rem;
+          
+          gap: 3rem;
      }
 
      &-body {
