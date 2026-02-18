@@ -22,37 +22,25 @@ Data privacy mishandling leads to more than just sleepless nights. It could lead
 
 The shift toward 24/7 access and smartphone-based entry systems has changed gyms. We are now data-intensive hubs. This brings great convenience for our members. However, it also places you, the facility owner, at the center of a complex legal framework. You hold the ultimate accountability.
 
+
+
 ### **The Regulatory Landscape: Decoding PIPEDA for Fitness Facilities**
 
 **PIPEDA** is the federal mandate governing how private businesses in Canada handle personal data. It is not a suggestion. It is not a set of best practices for large corporations only. Every small gym and boutique studio must comply to avoid significant legal trouble.
+
+
+
+![](/assets/images/uploads/pipeda-for-gym-owners_infographic.png)
 
 **Accountability** remains the most misunderstood aspect of this law. Under the law, a gym owner is legally accountable for the entire life of any info collected. This remains true even if a third-party software provider processes it. This is why we believe your software must value high-level security above all else.
 
 The **Office of the Privacy Commissioner (OPC)** has the authority to launch formal investigations into your operations. These investigations can lead to public case summaries. These summaries will damage the reputation of your local brand. In a competitive market, you cannot afford that stain.
 
-### **Financial and Reputational Penalties for Non-Compliance**
 
-**Violation Category**
 
-**Potential Fine (CAD)**
+### **Financial and Reputation Penalties for Non-Compliance**
 
-**Impact on Brand Reputation**
-
-**Lesser Violation**
-
-Up to **$10,000**
-
-Individual complaints and local negative press coverage.
-
-**Serious Offense**
-
-Up to **$100,000 -** highly unlikely for a small gym business
-
-OPC public case summaries and permanent loss of member trust.
-
-**Compound Breach**
-
-**Seven-figure** liability
+![](/assets/images/uploads/pipeda-penalties-for-fitness-businesses-.png)
 
 Potential class-action lawsuits and permanent business closure.
 
@@ -60,7 +48,9 @@ Losing money is scary, but losing member trust is worse. If data leaks, members 
 
 To stay safe, you must follow the core rules of **PIPEDA**. These rules show you how to gather, store, and delete data the right way. You are also responsible for the software you pick.
 
-Ideally, you should name a **Privacy Officer**. This person ensures your tech partners keep data just as safe as you do. In a small fitness business, that person is probably you.
+Ideally, you should name a **Privacy Officer**. In a small fitness business, that person is probably you. This person ensures your tech partners keep data just as safe as you do. 
+
+
 
 ### **Keep Your Gym Member Data Safe Without the Headache**
 
@@ -89,8 +79,6 @@ Companies like **Amazon Web Services (AWS)** and **Stripe** handle the big stuff
 You are the final piece of the puzzle. You control who on your staff has a login and how they use the system. Even the best software cannot help if your staff shares passwords.
 
 The gym owner is responsible for **security in the cloud**. This focuses on how the software is used daily. Statistically, the majority of **PIPEDA** breaches in the fitness industry occur due to mistakes at the club level.
-
-
 
 ### **Data Taxonomy: Categorizing Gym Member Information**
 
