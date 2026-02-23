@@ -21,11 +21,13 @@ In 2013, I sat in my office and listened to an insurance agent tell me over the 
 
 He was certain that without a person standing behind a counter, the business would ineligible for coverage.
 
-He wasn’t wrong. The first insurance I could get was almost $500 per month! Today, this hurdle is insignificant as non-staffed gym times are commonplace. This enables two things people in smaller communities crave: **Convenience & Familiarity.**
+He wasn’t wrong. The first insurance I could get was almost $500 per month! Today, this hurdle is insignificant as non-staffed gym times are commonplace. 
+
+This enables two things people in smaller communities crave: **Convenience & Familiarity.**
 
 ## **The Shift to the "Third Place"**
 
-A gym in a small town isn't just a place to lift heavy circles. It is a **Third Place**. This is the essential social space between home and work.
+A gym in a small town isn't just a place to lift heavy circles. It is a **Third Place**. This is an essential social space between home and work for many.
 
 While big-box gyms focus on "churn and burn" volume, a small-town gym succeeds by being self-serve and convenient while doubling down on community.
 
