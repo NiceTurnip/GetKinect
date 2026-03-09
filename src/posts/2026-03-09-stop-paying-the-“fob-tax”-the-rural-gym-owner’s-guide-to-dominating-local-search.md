@@ -1,6 +1,6 @@
 ---
-title: "Stop Paying the “Fob Tax”: The Rural Gym Owner’s Guide to Dominating
-  Local Search"
+title: "Part 3: Stop Paying the “Fob Tax”: The Rural Gym Owner’s Guide to
+  Dominating Local Search"
 date: 2026-03-09T08:24:00.000-04:00
 tags:
   - post
