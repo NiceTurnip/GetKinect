@@ -1,6 +1,6 @@
 ---
-title: 'Small Towns are the New Frontier for Fitness in 2026: "Small Town, Big
-  Gains" 1 of 5'
+title: 'Part 1: Small Towns are the New Frontier for Fitness in 2026: "Small
+  Town, Big Gains" '
 date: 2026-02-22T13:30:00.000-05:00
 tags:
   - post
