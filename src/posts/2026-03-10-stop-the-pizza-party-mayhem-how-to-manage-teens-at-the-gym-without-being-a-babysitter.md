@@ -41,6 +41,8 @@ When it's just one or two teens, they usually work hard and stay on task. This i
 
 I can't stand at the door all night. Unstaffed for the most part is how I stay profitable and enjoy time with my family. This is the big advantage of my **Canadian gym management software** from Kinect. It does the heavy lifting for me. With Kinect, I have three ways to stop the mayhem:
 
+![](/assets/images/uploads/under-age-gym-membership-infographic.png)
+
 1. **The Access Schedule:** I don't give teens 24/7 access. My software shuts off their "key" at 9:00 PM. This minimizes the chance of  the gym from becoming a pre-party spot on Friday nights.
 2. **The Revoke Button:** If I catch a 14-year-old training without their dad, I don't have to yell. I just hit "Revoke Access" in the app. Their phone stops opening the door instantly. They are still a member, but they can't get in unless a parent taps them in. So they need to reach out and then I can address it.
 3. **The Wi-Fi Rule:** This is the big one. Because of Kinect, a kid can’t just text a screenshot of a barcode to his friends. They can’t share a fob either.  Their phone is the only key, and it only works when they are standing in my gym. And NOBODY shares their phone with someone!
