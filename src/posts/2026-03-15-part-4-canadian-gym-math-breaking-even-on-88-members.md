@@ -1,5 +1,6 @@
 ---
-title: "Part 4: Canadian Gym Math: Breaking Even on 88 Members"
+title: 'Part 4 "Small Town, Big Gains": Canadian Gym Math: Breaking Even on 88
+  Members'
 date: 2026-03-15T10:48:00.000-04:00
 tags:
   - post
