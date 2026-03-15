@@ -67,4 +67,4 @@ TL;DR
 * Use Smartphone-Native access to separate yourself from Fob gyms. 
 * Small adjustments based on member feedback drive massive loyalty. 
 
-Next Step: Now that your marketing is humming, let’s talk about the reality of the bank account. \[Click here for Part 4: Canadian Gym Math: Breaking Even on 150 Members].
+Next Step: Now that your marketing is humming, let’s talk about the reality of the bank account. \[Click here for Part 4: Canadian Gym Math: Breaking Even on 88 Members].
