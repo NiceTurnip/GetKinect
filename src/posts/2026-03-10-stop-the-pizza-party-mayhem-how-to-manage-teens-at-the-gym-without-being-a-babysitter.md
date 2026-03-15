@@ -20,11 +20,11 @@ If you are opening a new gym in a small town, I have a question for you: What ar
 
 I have owned two gyms in rural Ontario for over 11 years. I love my community, and I want kids to be healthy. But if you aren’t careful, your gym can turn into a hangout spot instead of a business.
 
-Here is exactly how I handle it, and the one night I almost lost it!.
+Here is exactly how I handle it, and the one night I almost lost it!
 
 #### **The Night of the Pizza Party**
 
-One Friday night, I was driving home from my hockey game. It was about 11:00 PM. As I drove past my gym, I saw the lights on. I walked in and couldn't believe my eyes.
+One Friday night, I was driving home from my hockey game. It was about 11:00 PM. As I drove past my gym, I saw the lights on. I looked in and couldn't believe my eyes.
 
 There were six teenagers in there. They weren't lifting weights. They were having a full-blown pizza party. One of them was even vaping. I almost lost my mind!
 
