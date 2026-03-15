@@ -1,5 +1,6 @@
 ---
-title: "Part 2: The Tech Stack: How to Run a 24/7 Gym on Admin Autopilot"
+title: 'Part 2 "Small Town, Big Gains": Tech Stack: How to Run a 24/7 Gym on
+  Admin Autopilot'
 date: 2026-03-01T10:55:00.000-05:00
 tags:
   - post
