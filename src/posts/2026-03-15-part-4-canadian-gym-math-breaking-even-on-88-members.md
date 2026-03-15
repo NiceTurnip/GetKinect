@@ -27,11 +27,11 @@ Add up your occupancy costs. This is the "keep the lights on" number: your rent,
 
 Now, look at your pricing lever. If you charge $50 a month, you need 80 members just to cover the walls. If you charge $75, that number drops to 53 members. Alternatively you can tweak the membership price based on your expected number of members. This is why we work backwards. You don't need a massive crowd. You just need a solid group of locals who value a clean, safe place to train.
 
-![](/assets/images/uploads/gym_month-y_occupational_expenses.jpg)
+![](/assets/images/uploads/gym_month-y_occupational_expenses.jpg "OPEX = Operational Expenses")
 
 ### The "Spouse and Partner" Phase
 
-Most of us "Hometown Hero" owners start as a family affair. In the beginning, it is probably just you, a spouse, a friend, or a dedicated partner doing the heavy lifting. This means your actual payroll is effectively zero.
+Most of us "Hometown Hero" owners start as a family affair. In the beginning, it is probably just you, a spouse, a friend or a dedicated partner doing the heavy lifting. This means your actual payroll is effectively zero.
 
 This is the most critical time to avoid the "Staffing Trap." I see so many new owners hire a front-desk person immediately because they think it makes them look "professional" or that they need this. In reality, a part-time staffer at $20/hour can easily cost you $35,000 to $40,000 a year with vacation and source expenses.
 
