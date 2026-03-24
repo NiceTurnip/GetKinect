@@ -4,17 +4,18 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 const getFinalOpacity = (el) => {
+  // Prefer explicit attributes if provided
   const mobileVal = el.dataset.opacMobile;
   const desktopVal = el.dataset.opac;
 
+  // Choose based on breakpoint
   const chosen = (isMobile && mobileVal != null) ? mobileVal : (desktopVal ?? "1");
+
   const num = Number(chosen);
   return Number.isFinite(num) ? num : 1;
 };
 
 const runAnimation = (el) => {
-  if (!el) return;
-
   const type = el.dataset.animate || "slide-up";
   const finalOpacity = getFinalOpacity(el);
 
@@ -50,9 +51,9 @@ export const initScrollAnimations = () => {
 
   if (prefersReducedMotion) {
     targets.forEach((el) => {
+      // respect mobile/desktop final opacity even in reduced motion
       el.style.opacity = String(getFinalOpacity(el));
-      // Don't force transform none unless you 100% never rely on transforms for layout.
-      // el.style.transform = "none";
+      el.style.transform = "none";
     });
     return;
   }
@@ -71,30 +72,19 @@ export const initScrollAnimations = () => {
   targets.forEach((el) => observer.observe(el));
 };
 
-const bounceForever = (el, { height = 12 } = {}) => {
-  if (!el) return;
-  if (prefersReducedMotion) return;
-  if (el.dataset.bouncing === "true") return;
-  el.dataset.bouncing = "true";
-
-  // This format matches the error you're seeing (library expects params.keyframes)
-  animate(el, {
-    keyframes: [
-      { translateY: -12, duration: 500, easing: "easeOutQuad" },
-      { translateY: -12, duration: 180, easing: "linear" },
-      { translateY: 0, duration: 750, easing: "easeInQuad" }
-    ],
-    loop: true
-  });
-
-
-
-
-};
-
 document.addEventListener("DOMContentLoaded", () => {
   initScrollAnimations();
 
-  const downtrendBox = document.querySelector(".downtrend-box");
-  bounceForever(downtrendBox, { height: 12 });
+  const slideInLeft = (el, { delay = 500, duration = 1500, offset = "-100%" } = {}) => {
+    if (!el) return;
+    animate(el, { translateX: [offset, 0], delay, duration, easing: "easeInSine" });
+  };
+
+  const headerContentsH1 = document.querySelector(".header__contents__text-h1");
+  const headerContentsBlurb = document.querySelector(".header__contents__text-blurb");
+  const headerContentsButton = document.querySelector(".header__contents-button");
+
+  slideInLeft(headerContentsH1);
+  slideInLeft(headerContentsBlurb, { delay: 750 });
+  slideInLeft(headerContentsButton, { delay: 1000 });
 });
