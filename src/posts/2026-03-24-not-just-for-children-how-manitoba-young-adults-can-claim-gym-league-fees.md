@@ -1,9 +1,8 @@
 ---
 title: "Not Just For Children: How Manitoba Young Adults Can Claim Gym & League Fees"
-date: 2026-03-23T23:16:00.000-04:00
+date: 2026-03-24T08:07:00.000-04:00
 tags:
-  - "post "
-  - publish
+  - post
 heroImage: /assets/images/uploads/young-adult-with-manitoba-fitness-tax-credit-cash.png
 layout: post.njk
 summary: Manitoba gym owners, are your young adult members leaving $54 on the
