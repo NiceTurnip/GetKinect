@@ -1,0 +1,134 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+.actionCard {
+    width: 25%;
+    height: 100%;
+    min-width: 30rem;
+    max-width: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: variables.$color-white;
+    color: variables.$color-black;
+    z-index: 2;
+
+    border-radius: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    @include mixins.respond(phone-big) {
+        width: clamp(50%, 50%, 80%)
+    }
+
+
+    &-header {
+        width: 100%;
+        padding: 1.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        color: var(--heading-color);
+        background-color: variables.$color-primary-0;
+        border-radius: 6px 6px 0 0;
+
+        h2 {
+            font-size: variables.$smallest-heading-size;
+            font-weight: 700;
+        }
+    }
+    
+    &__content {
+        width: 100%;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        &-text {            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                font-size: variables.$smallest-heading-size;
+                font-weight: 600;
+            }
+            h3 {
+                font-size: variables.$medium-heading-size;
+                font-weight: 700;
+                line-height: 1;
+            }
+            .smallerText {
+                font-size: variables.$default-plus-font-size;            
+            }
+        }
+
+        &-list {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                li div {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    .contrast {
+                        filter: brightness(0) saturate(100%) invert(13%) sepia(1%) saturate(794%) hue-rotate(314deg) brightness(103%) contrast(85%);
+                    }
+
+                    img {
+                        width: 2rem;
+
+                        filter: var(--icon-color);
+                    }
+                }
+            }
+        }
+        
+        &-button {
+            button {
+                padding: 0.5rem;
+                height: 4rem;
+                transition: all .2s;
+            }
+            button:hover {
+                outline: 5px solid variables.$color-primary-0;
+                background-color: variables.$color-white;
+                color: variables.$color-black;
+            }
+        }
+    }
+}
+
+.actionCard:nth-child(1) {
+    .actionCard-header {
+        background-color: variables.$color-primary-1;
+    }          
+}
+.actionCard:nth-child(2) {
+    z-index: 3;
+    margin-top: 5%;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    @include mixins.respond(phone-med) {
+        margin: 0;
+    }
+
+    .actionCard-header {
+        background-color: variables.$color-primary-0;
+    }          
+}
+.actionCard:nth-child(3) {
+    .actionCard-header {
+        background-color: variables.$color-primary-2;
+    }          
+}

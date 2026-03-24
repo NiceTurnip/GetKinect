@@ -1,0 +1,107 @@
+@use "../abstracts/mixins";
+
+.card2 {
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    @include mixins.respond(tab-land) {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    @include mixins.respond(phone-sm) {
+        gap: 6rem;
+    }
+    @include mixins.respond(phone-mini) {
+        padding: 3rem 1rem;
+    }
+
+    &__left {
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+
+        @include mixins.respond(tab-land) {
+            width: 100%;
+            align-items: center;
+        }
+        
+        &-image {
+            img {
+                width: 50rem;
+                height: auto;
+
+                @include mixins.respond(desktop-sm) {
+                    width: 45rem;
+                }
+                @include mixins.respond(tab-land) {
+                    width: 42rem;
+                }
+                @include mixins.respond(phone-sm) {
+                    width: 40rem;
+                }
+                @include mixins.respond(phone-mini) {
+                    width: 30rem;
+                }
+            }
+        }
+
+        &__content {
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            gap: 5rem;
+
+            @include mixins.respond(tab-land) {
+                justify-content: center;
+                gap: 2rem;
+            }
+
+            &-colors {
+                display: flex;
+                gap: 2rem;
+
+                div {
+                    width: 8rem;
+                    height: 8rem;
+                    border-radius: 100px;
+
+                    @include mixins.respond(phone-mini) {
+                        width: 5rem;
+                        height: 5rem;
+                    }
+                }
+            }
+        }
+    }
+    &__right {
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        @include mixins.respond(tab-land) {
+            width: 80%;
+            text-align: center;
+            align-items: center;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .spinButton {
+            margin-top: 4rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{% macro card1(image, header, text, link, btnName, btnIcon) %}
+
+<div class = "card1">
+    <div class ="card1-image">
+        <img src={{image}} alt="card image">
+    </div>
+
+    <div class = "card1-text">
+        <div class = "card1-text-header"> 
+            <h3>{{header}}</h3>
+            <p>{{text}}</p>
+        </div>
+
+        <a class = "card1-text-button" href="{{link}}" aria-label="Learn more about platform features">
+            <button>{{btnName}}</button>
+        </a>
+    </div>
+</div>
+
+{% endmacro %}

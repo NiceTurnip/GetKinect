@@ -1,0 +1,13 @@
+.listItem1 {
+    display: flex;
+    gap: 2rem;
+
+    img {
+        width: 2rem;
+        height: auto;
+    }
+    
+    &__content {
+        width: 100%;
+    }
+}

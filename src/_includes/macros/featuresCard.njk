@@ -1,0 +1,13 @@
+{% macro featuresCard(image, content) %}
+
+    <div class = "featuresCard">
+        <div class = "featuresCard__image">
+            <img src="{{image}}" alt="Card Image">
+        </div>
+
+        <div class = "featuresCard__content">
+            {{ content | markdown | safe}}
+        </div>
+    </div>
+
+{% endmacro %}

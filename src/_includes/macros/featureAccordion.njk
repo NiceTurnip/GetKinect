@@ -1,0 +1,48 @@
+{% import "macros/sectionHeader.njk" as sectHeader %}
+
+{% macro featureAccordion(items, planLabels) %}
+    <section class="feature-accordion">
+        {{ sectHeader.sectionHeader("Membership Pricing ", "Tiers", "Not sure which plan is right for you? Use this side-by-side comparison to see what’s included in each membership tier—so you can make the best choice for your gym.") }}
+
+        {% for category in items %}
+            <div class="accordion__item">
+                <button class="accordion__item__header" aria-expanded="false">
+                    {{ category.category }}
+                    <img src="/assets/vectors/plus-icon.svg" alt="expand" class="icon-plus">
+                    <img src="/assets/vectors/minus-icon.svg" alt="collapse" class="icon-minus" hidden>
+                </button>
+
+                <div class="accordion__item__content" hidden>
+                    <div class="feature-table">
+                        <div class="feature-table__head">
+                            <span class="feature-label"></span>
+                            
+                            <div class = "feature-labels">
+                                {% for label in planLabels %}
+                                    <span class="feature-plan-label">{{ label }}</span>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        {% for feature in category.features %}
+                            <div class="feature-row">
+                                <span class="feature-label">{{ feature.label }}</span>
+                                <div class = "feature-icons">
+                                    {% for value in feature.plans %}
+                                        <span class="feature-icon">
+                                            {% if value == "yes" %}
+                                            <img src="/assets/vectors/check-icon.svg" alt="Included">
+                                            {% else %}
+                                            <img src="/assets/vectors/x-icon.svg" alt="Not included">
+                                            {% endif %}
+                                        </span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+{% endmacro %}

@@ -1,0 +1,27 @@
+{% import "macros/navigation.njk" as nav %}
+{% import "macros/mobileNav.njk" as mobileNav %}
+
+{% macro pageHeader(text, flairText, subtext) %}
+    <header class="pageHeader">
+        {{ nav.navigation("/assets/images/logo-full.png","main-nav") }}
+
+        {% if text or flairText %}
+        <div class="pageHeader__contents">
+            <h1>
+                {{ text }}
+                {% if flairText %}
+                    <span class="flair-color-1">{{ flairText }}</span>
+                {% endif %}
+            </h1>
+        </div>
+        {% endif %}
+
+        {% if subtext %}
+        <div class="pageHeader__subtext">
+            <p>{{ subtext }}</p>
+        </div>
+        {% endif %}
+    </header>
+
+    {{ mobileNav.mobileNav() }}
+{% endmacro %}
