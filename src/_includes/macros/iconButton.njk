@@ -1,0 +1,10 @@
+{% macro iconButton(icon, text,link) %}
+
+  <a class = "iconButton" href="{{link}}">
+    <div class="iconButton__wrap">
+      <img src="{{icon}}" alt="icon">
+      <p>{{ text }}</p>
+    </div>
+  </a>
+
+{% endmacro %}

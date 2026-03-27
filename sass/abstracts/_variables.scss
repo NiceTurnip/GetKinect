@@ -1,6 +1,6 @@
 // COLOURS
 
-$color-white: #F3f3f3;
+$color-white: #fcfbff;
 $color-black: #2c2c2c;
 
 $color-white-light-1:#F7F7F7;
@@ -8,17 +8,19 @@ $color-white-light-2: #EEE;
 
 $background-color: $color-white;
 
-$color-primary-0: #b73c3a;	// Main Primary color */
-//$color-primary-0: #D2002E; Old Main Primary color (saved for BJ) */
-$color-primary-1: #FF2454;
+$color-primary-0: #dc2626;	// Main Primary color */
+$color-primary-1: #ef4444;	// Main Primary color */
 $color-primary-2: #9E0728;
 
+$color-secondary-0: #0F172a;
+$color-secondary-1: #1d2c4f;
+
 // Perfect Fourth Font Sizing 1.33
-$biggest-heading-size: 17.5rem;
-$big-heading-size: 7.478rem;
+$biggest-heading-size: 10.5rem;
+$big-heading-size: 6.478rem;
 $medium-heading-size: 5.61rem;
 $small-heading-size: 4.209rem;
-$smallest-heading-size: 3.157rem;
+$smallest-heading-size: 2.8rem;
 $default-plus-font-size: 2.369rem;
 $default-font-size: 1.6rem;
 $subtext-font-size: 1.333rem;

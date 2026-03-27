@@ -1,24 +1,33 @@
 <header class = "header">
-    {{ nav.navigation("/assets/images/logo-full.png", "main-nav") }}
+    {{ nav.navigation("/assets/images/logo-full.png","main-nav") }}
 
     <section class = "header__contents">
         <div class = "header__contents__left">
             <div class = "header__contents__left-title">
-                <h1>Turn Any Smartphone Into a <span class = "flair-color-1">Gym Key</span></h1>
-                <p>Reduce costs, streamline access, and enhance member convenience. Our app transforms any smartphone into a secure gym key—no extra hardware required.</p>
+                <div class = "eyebrow-blinker"><img src="/assets/vectors/red-dot-icon.svg" alt="icon"><p class = "eyebrow">THE ADMIN AUTOPILOT</p></div>
+                <h1>The Only The Gym Platform with Door Access <span class = "flair-color-1">Built Right In.</span></h1>
+                <p>The only platform where your door access, billing, and member signups live in one place. Built specifically for independent gym owners. No fobs. No second system. No extra staff needed..</p>
             </div>
 
-            <a class = "header__contents__left-button" href="/pages/booking">
-                <button>Book a Demo</button>
-            </a>
+            <div class = "header__contents__left__buttons">
+                {{ iconButton.iconButton("/assets/vectors/rocket-icon.svg", "Book a Demo", "/booking") }}
+                {{ iconButton.iconButton("/assets/vectors/right-icon.svg", "How Built-in Access Works", "https://dashboard.facilitykinetics.ca/dashboard/createAccount") }}
+            </div>
         </div>
         <div class = "header__contents__right">
-            <img src="/assets/images/header-image-nobg-min.png" alt="Header" loading = "eager">
+            <div class = "header__contents__right__container">
+                <img src="/assets/images/new-hero-image.png" alt="header image">
+            </div>
+            <div class = "downtrend-box">
+                <img src="/assets/vectors/down-trend-icon.svg" alt="icon">
+                <div>
+                    <p class = "eyebrow">ADMIN EFFICIENCY</p>
+                    <p class = "body">130+ Canadian Gyms Save 24+ Staff Hours/Week</p>
+                </div>
+            </div>
         </div>
-        <div class = "red-box">
+        {# <div class = "red-box"> #}
             {# Clip Path in header #}
-        </div>
+        {# </div> #}
     </section>
 </header>
-
-{{ mobileNav.mobileNav() }}

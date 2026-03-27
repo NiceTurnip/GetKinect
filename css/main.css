@@ -313,32 +313,26 @@ template {
 html[data-theme=contrasty] {
   --button-color: #2c2c2c;
   --heading-color: #2c2c2c;
-  --flair-color-1: #F3f3f3;
+  --flair-color-1: #fcfbff;
   --flair-color-2: #2c2c2c;
   --icon-color: brightness(0) saturate(100%) invert(13%) sepia(1%) saturate(794%) hue-rotate(314deg) brightness(103%) contrast(85%);
 }
 
 html[data-theme=normal] {
   --button-color: #2c2c2c;
-  --heading-color: #F3f3f3;
-  --flair-color-1: #b73c3a;
-  --flair-color-2: #b73c3a;
+  --heading-color: #fcfbff;
+  --flair-color-1: #dc2626;
+  --flair-color-2: #dc2626;
 }
 
 :root {
-  --color-white: #F3f3f3;
+  --color-white: #fcfbff;
   --color-black: #2c2c2c;
-  --color-primary-0: #b73c3a;
-  --color-primary-1: #FF2454;
+  --color-primary-0: #dc2626;
+  --color-primary-1: #ef4444;
   --color-primary-2: #9E0728;
 }
 
-@font-face {
-  font-family: "BebasNeueRegular";
-  src: url("../../assets/fonts/BebasNeueRegular.eot");
-  src: url("../../assets/fonts/BebasNeueRegular.eot") format("embedded-opentype"), url("../../assets/fonts/BebasNeueRegular.woff2") format("woff2"), url("../../assets/fonts/BebasNeueRegular.woff") format("woff"), url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype"), url("../../assets/fonts/BebasNeueRegular.svg#BebasNeueRegular") format("svg");
-  font-display: swap;
-}
 *, html, body {
   box-sizing: border-box;
   scroll-behavior: smooth !important;
@@ -348,7 +342,7 @@ html[data-theme=normal] {
 
 html, body {
   height: 100%;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
   overflow-x: hidden;
 }
 
@@ -412,8 +406,8 @@ button {
   border-radius: 40px;
   border: none;
   text-decoration: none;
-  color: #F3f3f3;
-  background-color: #b73c3a;
+  color: #fcfbff;
+  background-color: #dc2626;
   font-weight: 600;
   cursor: pointer;
   transition: all 1s;
@@ -424,16 +418,16 @@ form {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  color: #F3f3f3;
+  color: #fcfbff;
 }
 form input, form textarea {
   border: none;
   border-radius: 0;
-  border-bottom: 0.5px solid #F3f3f3;
+  border-bottom: 0.5px solid #fcfbff;
   outline: none;
   resize: none;
   background: none;
-  color: #F3f3f3;
+  color: #fcfbff;
 }
 form input:focus, form textarea:focus {
   border-color: transparent;
@@ -449,15 +443,20 @@ form .input-pair {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F3f3f3;
+  background: #fcfbff;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #2c2c2c;
 }
 
+[data-animate] {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 1.7;
@@ -465,7 +464,7 @@ body {
 }
 
 p, li, a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.3;
@@ -477,8 +476,8 @@ a {
 }
 
 h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 7.478rem;
+  font-family: "Inter", sans-serif;
+  font-size: 6.478rem;
   font-weight: 800;
   line-height: 1;
   margin-top: 0;
@@ -486,7 +485,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 5.61rem;
   font-weight: 800;
   line-height: 1.1;
@@ -498,7 +497,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.369rem;
+  font-size: 2.8rem;
   font-weight: 500;
   line-height: 1.4;
 }
@@ -515,14 +514,29 @@ h5 {
   line-height: 1.3;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
+.opaque-bold-text {
+  opacity: 60%;
+  font-weight: 700;
+}
+
+.logo-styling {
+  font-size: 4.209rem;
+  font-weight: 800;
+  color: #dc2626;
+  font-style: italic;
+}
+
 .subtext {
   font-size: 1.333rem;
   font-weight: 100;
 }
 
 .copyFlair {
-  color: #b73c3a;
-  font-weight: 500;
+  color: #dc2626;
   display: inline-block;
   transition: 0.25s all;
 }
@@ -530,21 +544,12 @@ h5 {
   transform: scale(1.25) skew(-10deg) translateX(1rem);
 }
 
-.gallery-subheading {
-  font-size: 3.157rem;
-  font-weight: 200;
-}
-
 .flair-color-1 {
-  color: var(--flair-color-1);
+  color: #dc2626;
 }
 
 .flair-color-2 {
-  color: var(--flair-color-2);
-}
-
-.bold-text {
-  font-weight: 500;
+  color: #ef4444;
 }
 
 .font-weight-100 {
@@ -585,51 +590,25 @@ h5 {
   font-weight: 400;
 }
 
-.button-wrap {
-  position: relative;
-  width: 20rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media only screen and (max-width: 68.75em) {
-  .button-wrap {
-    order: 2;
-  }
-}
-.button-wrap-button {
-  position: relative;
-  width: 17rem;
-  height: 5rem;
-  padding: 1.5rem;
-  border-radius: 40px;
-  border: none;
-  background-color: #b73c3a;
+.iconButton__wrap {
+  width: 100%;
+  height: 6rem;
+  padding: 1rem 3rem;
+  background-color: #dc2626;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  gap: 1rem;
 }
-.button-wrap-button img {
-  filter: var(--icon-color);
+.iconButton__wrap img {
+  width: 2rem;
+  height: auto;
 }
-.button-wrap-button p {
-  color: var(--heading-color);
-  font-weight: 600;
-}
-
-.button-wrap-button-text,
-.button-wrap-button-image {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease;
-  position: absolute;
-}
-
-.button-wrap-button-text.visible,
-.button-wrap-button-image.visible {
-  opacity: 1;
-  visibility: visible;
+.iconButton__wrap p {
+  color: #fcfbff;
+  font-weight: 700;
 }
 
 .card1 {
@@ -695,8 +674,8 @@ h5 {
   height: 5rem;
 }
 .card1-text-button button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
+  outline: 5px solid #dc2626;
+  background-color: #fcfbff;
   color: #2c2c2c;
 }
 
@@ -923,7 +902,7 @@ h5 {
   -webkit-appearance: none;
   width: 100%;
   height: 100%;
-  background: #F3f3f3;
+  background: #fcfbff;
   color: #2c2c2c;
   text-align: left;
   border-radius: 0;
@@ -934,7 +913,7 @@ h5 {
   font-weight: 500;
 }
 .accordion__items__item-question[aria-expanded=true] {
-  background: #F3f3f3;
+  background: #fcfbff;
 }
 .accordion__items__item-answer {
   width: 100%;
@@ -942,7 +921,7 @@ h5 {
   flex-direction: column;
   gap: 3rem;
   padding: 1rem;
-  background: #F3f3f3;
+  background: #fcfbff;
   color: #2c2c2c;
 }
 
@@ -995,7 +974,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #F3f3f3;
+  background: #fcfbff;
   color: #2c2c2c;
   text-align: left;
   border-radius: 0;
@@ -1011,7 +990,7 @@ h5 {
   flex-direction: column;
   gap: 3rem;
   padding: 1rem;
-  background: #F3f3f3;
+  background: #fcfbff;
   color: #2c2c2c;
 }
 .feature-accordion .accordion__item__content .feature-table {
@@ -1122,7 +1101,7 @@ h5 {
   }
 }
 .feature-accordion__header[aria-expanded=true] {
-  background: #F3f3f3;
+  background: #fcfbff;
 }
 
 .accordion__item__content[hidden] {
@@ -1140,7 +1119,7 @@ h5 {
   max-width: 75%;
   display: flex;
   flex-direction: column;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
   color: #2c2c2c;
   z-index: 2;
   border-radius: 6px;
@@ -1158,11 +1137,11 @@ h5 {
   align-items: center;
   justify-content: center;
   color: var(--heading-color);
-  background-color: #b73c3a;
+  background-color: #dc2626;
   border-radius: 6px 6px 0 0;
 }
 .actionCard-header h2 {
-  font-size: 3.157rem;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 .actionCard__content {
@@ -1180,7 +1159,7 @@ h5 {
   justify-content: center;
 }
 .actionCard__content-text p {
-  font-size: 3.157rem;
+  font-size: 2.8rem;
   font-weight: 600;
 }
 .actionCard__content-text h3 {
@@ -1214,13 +1193,13 @@ h5 {
   transition: all 0.2s;
 }
 .actionCard__content-button button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
+  outline: 5px solid #dc2626;
+  background-color: #fcfbff;
   color: #2c2c2c;
 }
 
 .actionCard:nth-child(1) .actionCard-header {
-  background-color: #FF2454;
+  background-color: #ef4444;
 }
 
 .actionCard:nth-child(2) {
@@ -1235,7 +1214,7 @@ h5 {
   }
 }
 .actionCard:nth-child(2) .actionCard-header {
-  background-color: #b73c3a;
+  background-color: #dc2626;
 }
 
 .actionCard:nth-child(3) .actionCard-header {
@@ -1251,7 +1230,7 @@ h5 {
   justify-content: space-between;
   gap: 3rem;
   background-color: #2c2c2c;
-  color: #F3f3f3;
+  color: #fcfbff;
   border-radius: 10px;
 }
 @media only screen and (max-width: 100em) {
@@ -1314,9 +1293,200 @@ h5 {
   transition: all 0.2s;
 }
 .contactCard-button button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
+  outline: 5px solid #dc2626;
+  background-color: #fcfbff;
   color: #2c2c2c;
+}
+
+.iconQuote {
+  width: 100%;
+  padding: 6rem 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+@media only screen and (max-width: 56.25em) {
+  .iconQuote {
+    padding: 6rem 2rem;
+  }
+}
+.iconQuote-header {
+  font-weight: 800;
+}
+.iconQuote-quote {
+  width: 60%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.8;
+  opacity: 70%;
+}
+@media only screen and (max-width: 56.25em) {
+  .iconQuote-quote {
+    width: 90%;
+  }
+}
+.iconQuote-author {
+  font-weight: 700;
+}
+.iconQuote-subtext {
+  font-weight: 400;
+  font-size: 1.333rem;
+  letter-spacing: 2px;
+  opacity: 70%;
+}
+
+.textBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.textBlock-header {
+  display: flex;
+  flex-direction: column;
+}
+.textBlock-header .eyebrow {
+  font-weight: 200;
+  font-size: 1.6rem;
+}
+.headachesCard {
+  width: 35rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 3px solid rgba(0, 0, 0, 0.057);
+  border-radius: 20px;
+  transition: border 0.5s;
+}
+.headachesCard__header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.headachesCard__header h3 {
+  font-weight: 700;
+}
+.headachesCard__blurbs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.headachesCard__blurbs-blurb {
+  display: flex;
+  gap: 1rem;
+}
+.headachesCard__blurbs-blurb img {
+  width: 2rem;
+  height: 2rem;
+}
+.headachesCard__blurbs-blurb .eyebrow {
+  font-size: calc(1.333rem - 20%);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #dc2626;
+}
+.headachesCard__blurbs-blurb .body {
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: calc(1.6rem - 10%);
+}
+.headachesCard__blurbs-blurb:nth-child(2) {
+  padding: 1.5rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+.headachesCard__blurbs-blurb:nth-child(2) .eyebrow {
+  color: #2c2c2c;
+  opacity: 50%;
+}
+.headachesCard__blurbs-blurb:nth-child(2) .body {
+  font-weight: 600;
+}
+.headachesCard__blurbs-blurb:nth-child(3) .eyebrow {
+  color: rgb(6, 171, 6);
+}
+
+.headachesCard:hover {
+  border: 3px solid #dc2626;
+}
+
+.callToAction {
+  width: 70%;
+  margin: 12rem auto;
+  padding: 8rem 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+  color: #fcfbff;
+  border-radius: 40px;
+  background-color: #0F172a;
+}
+@media only screen and (max-width: 56.25em) {
+  .callToAction {
+    width: 90%;
+    padding: 5rem 3rem;
+    margin: 0 auto 6rem;
+    gap: 3rem;
+  }
+}
+.callToAction-body {
+  width: 75%;
+  opacity: 70%;
+  font-weight: 400;
+}
+@media only screen and (max-width: 56.25em) {
+  .callToAction-body {
+    width: 90%;
+  }
+}
+.callToAction__buttons {
+  display: flex;
+  gap: 2rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .callToAction__buttons {
+    flex-direction: column;
+  }
+}
+.callToAction__buttons-iconButton {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: #dc2626;
+  border-radius: 15px;
+  color: #fcfbff;
+}
+.callToAction__buttons-iconButton p {
+  font-weight: 800;
+}
+.callToAction__buttons-iconButton img {
+  width: 2rem;
+  height: auto;
+}
+a:nth-child(2) .callToAction__buttons-iconButton {
+  background-color: rgba(236, 236, 236, 0.091);
+  border: 1px solid rgba(134, 134, 134, 0.532);
+}
+.callToAction__buttons a:hover .callToAction__buttons-iconButton {
+  background-color: rgb(109, 47, 47);
+}
+.callToAction__buttons a:hover:nth-child(2) .callToAction__buttons-iconButton {
+  background-color: rgba(255, 255, 255, 0.185);
+}
+.callToAction-subtext {
+  opacity: 40%;
+  font-size: 1.333rem;
 }
 
 .main-nav {
@@ -1356,21 +1526,24 @@ h5 {
   border-bottom: 0px solid transparent;
 }
 .main-nav-list a:hover {
-  border-bottom: 1px solid #F3f3f3;
+  border-bottom: 1px solid #fcfbff;
 }
 .main-nav-button button {
   width: 20rem;
   transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+@media only screen and (max-width: 56.25em) {
+  .main-nav-button button {
+    width: 15rem;
+    height: 4rem;
+    padding: 0;
+  }
 }
 .main-nav-button button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
+  outline: 5px solid #dc2626;
+  background-color: #fcfbff;
   color: #2c2c2c;
-}
-@media only screen and (max-width: 40.65em) {
-  .main-nav-button {
-    display: none;
-  }
 }
 .main-nav .mobile-button {
   display: none;
@@ -1397,7 +1570,7 @@ problem in the header / main-nav html files. */
   height: 100vh;
   height: 100dvh;
   z-index: 1000;
-  background-color: #b73c3a;
+  background-color: #dc2626;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -1406,7 +1579,7 @@ problem in the header / main-nav html files. */
   padding: 8rem 0;
 }
 .mobile-nav a, .mobile-nav p {
-  color: #F3f3f3;
+  color: #fcfbff;
 }
 .mobile-nav .x-icon {
   width: 100%;
@@ -1452,21 +1625,16 @@ problem in the header / main-nav html files. */
   height: 100%;
   height: 100vh;
   height: 100dvh;
-  padding-top: 4rem;
-  padding-right: 10rem;
-  padding-left: 10rem;
+  padding: 4rem 15rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-}
-@media only screen and (max-width: 68.75em) {
-  .header {
-    padding: 4rem 6rem 0;
-  }
+  gap: 6rem;
 }
 @media only screen and (max-width: 56.25em) {
   .header {
-    padding: 4rem 4rem 0;
+    height: auto;
+    padding: 4rem 2rem;
   }
 }
 .header__contents {
@@ -1475,21 +1643,17 @@ problem in the header / main-nav html files. */
   display: flex;
   justify-content: center;
   gap: 6rem;
-  margin-top: 6rem;
 }
 @media only screen and (max-width: 56.25em) {
   .header__contents {
-    padding: 0;
-    margin-top: 6rem;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 5rem;
   }
 }
 .header__contents__left {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 6rem;
@@ -1507,74 +1671,144 @@ problem in the header / main-nav html files. */
     align-items: center;
   }
 }
+.header__contents__left-title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 @media only screen and (max-width: 56.25em) {
   .header__contents__left-title {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-  }
-}
-@media only screen and (max-width: 40.65em) {
-  .header__contents__left-title h1 {
-    font-size: 6rem;
-  }
-}
-@media only screen and (max-width: 28.12em) {
-  .header__contents__left-title h1 {
-    font-size: 4.5rem;
-  }
-}
-.header__contents__left-title p {
-  width: 75%;
-  font-size: 2rem;
-}
-@media only screen and (max-width: 40.65em) {
-  .header__contents__left-title p {
-    width: 100%;
-  }
-}
-.header__contents__left-button {
-  justify-content: center;
-}
-@media only screen and (max-width: 56.25em) {
-  .header__contents__left-button {
     justify-content: center;
   }
+  .header__contents__left-title h1 {
+    font-size: 5rem;
+  }
 }
-.header__contents__left-button button {
+.header__contents__left-title .eyebrow-blinker {
   width: 20rem;
-  transition: all 0.2s;
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(213, 179, 179, 0.164);
+  border-radius: 10px;
 }
-.header__contents__left-button button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
+.header__contents__left-title .eyebrow-blinker img {
+  width: 0.5rem;
+  height: auto;
+}
+.header__contents__left-title .eyebrow-blinker .eyebrow {
+  font-size: calc(1.333rem - 10%);
+  font-weight: 600;
+  color: #dc2626;
+  letter-spacing: 0.1rem;
+}
+.header__contents__left__buttons {
+  display: flex;
+  gap: 2rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .header__contents__left__buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header__contents__left__buttons .iconButton__wrap {
+    max-width: 100%;
+  }
+}
+.header__contents__left__buttons .iconButton:hover .iconButton__wrap {
+  transition: background-color 1s;
+  background-color: #ef4444;
+}
+.header__contents__left__buttons .iconButton:hover img {
+  transition: transform 0.75s;
+  transform: translate(6px, -6px);
+}
+.header__contents__left__buttons .iconButton:nth-child(2) .iconButton__wrap {
+  background-color: #fcfbff;
+  box-shadow: none;
+  border: 2px solid rgba(181, 181, 181, 0.311);
+  gap: 1;
+}
+.header__contents__left__buttons .iconButton:nth-child(2) .iconButton__wrap p {
   color: #2c2c2c;
+  order: 1;
+}
+.header__contents__left__buttons .iconButton:nth-child(2) .iconButton__wrap img {
+  order: 2;
+  transform: none;
+}
+.header__contents__left__buttons .iconButton:nth-child(2):hover .iconButton__wrap {
+  border: 2px solid #dc2626;
+}
+.header__contents__left__buttons .iconButton:nth-child(2):hover .iconButton__wrap p {
+  color: #dc2626;
 }
 .header__contents__right {
-  width: 40%;
+  position: relative;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
-}
-.header__contents__right img {
-  position: absolute;
-  top: 15rem;
-  right: 15rem;
-  width: auto;
-  height: 70rem;
-  overflow-x: hidden;
-}
-@media only screen and (max-width: 68.75em) {
-  .header__contents__right img {
-    right: 6rem;
-    top: 15rem;
-  }
+  align-items: center;
 }
 @media only screen and (max-width: 56.25em) {
-  .header__contents__right img {
-    display: none;
+  .header__contents__right {
+    width: 100%;
+    margin-bottom: 9rem;
   }
+}
+.header__contents__right__container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(46deg, rgba(235, 178, 178, 0.37) 0%, rgba(235, 178, 178, 0) 100%);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transform: rotate(5deg);
+  transition: rotate 2s;
+}
+@media only screen and (max-width: 56.25em) {
+  .header__contents__right__container {
+    transform: rotate(0);
+  }
+}
+.header__contents__right__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header__contents__right .downtrend-box {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  padding: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  background-color: #fcfbff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 56.25em) {
+  .header__contents__right .downtrend-box {
+    bottom: -8%;
+    left: -2%;
+  }
+}
+.header__contents__right .downtrend-box img {
+  width: 4rem;
+  height: 4rem;
+}
+.header__contents__right .downtrend-box div .eyebrow {
+  font-size: calc(1.333rem - 10%);
+  font-weight: 800;
+  opacity: 80%;
+}
+.header__contents__right .downtrend-box div .body {
+  font-weight: 700;
 }
 .header .red-box {
   position: absolute;
@@ -1585,8 +1819,8 @@ problem in the header / main-nav html files. */
   margin-top: -1px;
   width: 100%;
   height: 45rem;
-  background-color: #b73c3a;
-  clip-path: polygon(0 80%, 100% 90%, 100% 100.2%, 0% 100.2%);
+  background-color: #dc2626;
+  clip-path: polygon(0 75%, 100% 90%, 100% 100.2%, 0% 100.2%);
   z-index: 11;
   overflow: hidden;
 }
@@ -1658,7 +1892,7 @@ problem in the header / main-nav html files. */
 }
 @media only screen and (max-width: 40.65em) {
   .pageHeader__contents h1 {
-    font-size: 7.478rem;
+    font-size: 6.478rem;
   }
 }
 @media only screen and (max-width: 28.12em) {
@@ -1697,209 +1931,96 @@ problem in the header / main-nav html files. */
   font-size: 2.369rem;
 }
 
-.callToAction {
-  width: 100%;
-  padding: 16rem;
-  display: flex;
-  flex-direction: column;
-  gap: 6rem;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-@media only screen and (max-width: 56.25em) {
-  .callToAction {
-    padding: 10rem 6rem;
-  }
-}
-.callToAction p {
-  width: 60%;
-}
-@media only screen and (max-width: 56.25em) {
-  .callToAction p {
-    width: 100%;
-  }
-}
-.callToAction button {
-  min-width: 20rem;
-  transition: all 0.2s;
-}
-.callToAction button:hover {
-  outline: 5px solid #b73c3a;
-  background-color: #F3f3f3;
-  color: #2c2c2c;
-}
-
 .footer {
-  position: relative;
   width: 100%;
+  padding: 4rem 30rem;
+  background-color: #EEE;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  padding: 8rem 8rem 8rem 15rem;
-  background-color: #b73c3a;
-  color: #F3f3f3;
-  z-index: 1;
-  overflow: hidden;
-}
-@media only screen and (max-width: 100em) {
-  .footer {
-    padding: 8rem 5rem 8rem 15rem;
-  }
-}
-@media only screen and (max-width: 68.75em) {
-  .footer {
-    padding: 8rem 2rem 8rem 15rem;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .footer {
-    padding: 8rem 5rem;
-  }
-}
-.footer button {
-  background-color: #2c2c2c;
-  color: #F3f3f3;
-}
-.footer h4, .footer h3 {
-  font-size: 4.209rem;
-  font-weight: 700;
-}
-.footer__content {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
   gap: 3rem;
 }
 @media only screen and (max-width: 56.25em) {
-  .footer__content {
-    flex-direction: column;
+  .footer {
+    padding: 4rem 2rem;
   }
 }
-.footer__content__left {
-  width: 60%;
+.footer__top {
+  width: 100%;
   display: flex;
-  gap: 10rem;
 }
 @media only screen and (max-width: 56.25em) {
-  .footer__content__left {
-    width: 100%;
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 40.65em) {
-  .footer__content__left {
+  .footer__top {
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
   }
 }
-.footer__content__left__inner-left {
+.footer__top__left {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
+}
+.footer__top__left img {
+  width: 12rem;
+  height: auto;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer__top__left img {
+    width: 100%;
+  }
+}
+.footer__top__left p {
+  width: 50%;
+  opacity: 65%;
+  line-height: 1.7;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer__top__left p {
+    width: 100%;
+  }
+}
+.footer__top__right {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
-  gap: 5rem;
 }
-@media only screen and (max-width: 40.65em) {
-  .footer__content__left__inner-left {
-    order: 2;
-  }
-}
-.footer__content__left__inner-left ul {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.footer__content__left__inner-left ul li {
-  display: flex;
-  gap: 2rem;
-}
-.footer__content__left__inner-left ul li img {
-  width: 3rem;
-}
-.footer__content__left__inner-right {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-}
-.footer__content__right {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-}
-.footer__content__right__inner-top {
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-}
-.footer__content__right__inner-top ul {
+.footer__top__right ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.footer__content__right__inner-top a {
-  color: #F3f3f3;
+.footer__top__right ul a li {
+  opacity: 65%;
+  font-weight: 500;
+  font-size: 1.333rem;
 }
-@media only screen and (max-width: 56.25em) {
-  .footer__content__right__inner-top {
-    display: none;
-  }
+.footer__top__right .first {
+  opacity: 100%;
+  font-weight: 800;
+  margin-bottom: 1rem;
 }
-.footer__content__right__inner-bottom {
-  height: 50%;
+.footer__bottom {
   display: flex;
-  justify-content: end;
-}
-.footer__content__right__inner-bottom img {
-  height: 100%;
-  width: auto;
-  filter: drop-shadow(0 4px 8px #2c2c2c);
-  transition: filter 0.3s ease;
-  cursor: pointer;
-}
-@media only screen and (max-width: 81.25em) {
-  .footer__content__right__inner-bottom img {
-    height: 90%;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .footer__content__right__inner-bottom img {
-    display: none;
-  }
-}
-.footer__content__right__inner-bottom img:hover {
-  filter: drop-shadow(0 1px 2px #2c2c2c);
-}
-
-.socials {
-  display: flex;
-  justify-content: start;
   align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.068);
+  padding-top: 3rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer__bottom {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}
+.footer__bottom p, .footer__bottom a {
+  opacity: 45%;
+  font-size: 1.333rem;
+}
+.footer__bottom-socials {
+  display: flex;
   gap: 2rem;
-}
-@media only screen and (max-width: 56.25em) {
-  .socials {
-    gap: 1.5rem;
-  }
-}
-.socials img {
-  width: auto;
-  height: 2rem;
-}
-
-.footer::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #F3f3f3;
-  clip-path: polygon(100% 1%, 100% 0%, 100% 100%, 60% 100%);
-  z-index: 0;
-}
-@media only screen and (max-width: 56.25em) {
-  .footer::before {
-    display: none;
-  }
+  align-items: center;
 }
 
 .bookingForm {
@@ -1908,7 +2029,7 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
   color: #2c2c2c;
   border-radius: 15px;
   z-index: 1000;
@@ -1939,7 +2060,7 @@ problem in the header / main-nav html files. */
   flex-direction: row;
   justify-content: flex-start;
   background-color: #2c2c2c;
-  color: #F3f3f3;
+  color: #fcfbff;
   border-radius: 10px;
 }
 .bookingForm-top .input-pair input {
@@ -2003,7 +2124,7 @@ problem in the header / main-nav html files. */
 /* Selected (checked) state */
 .radio-button:has(input[type=radio]:checked) {
   background-color: #2c2c2c;
-  color: #F3f3f3;
+  color: #fcfbff;
 }
 
 .formConfirmation {
@@ -2019,7 +2140,7 @@ problem in the header / main-nav html files. */
   z-index: 9999;
 }
 .formConfirmation-content {
-  background: #F3f3f3;
+  background: #fcfbff;
   color: #2c2c2c;
   max-width: 90%;
   padding: 5rem;
@@ -2032,88 +2153,125 @@ problem in the header / main-nav html files. */
 }
 
 .featurePitch {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  padding: 12rem 6rem 8rem;
   display: flex;
-  padding: 12rem 14rem 6rem;
-  margin: 0 0 6rem;
-  background-color: #b73c3a;
-  color: #F3f3f3;
-}
-@media only screen and (max-width: 68.75em) {
-  .featurePitch {
-    padding: 12rem 8rem 12rem;
-  }
+  background-color: #0F172a;
+  border-radius: 40px;
+  color: #fcfbff;
 }
 @media only screen and (max-width: 56.25em) {
   .featurePitch {
-    padding: 12rem 4rem 12rem;
-  }
-}
-.featurePitch__contents {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-@media only screen and (max-width: 56.25em) {
-  .featurePitch__contents {
+    width: 90%;
+    padding: 6rem 3rem;
     flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
   }
 }
-.featurePitch__contents__left {
-  width: 60%;
+.featurePitch__left {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 2rem;
 }
 @media only screen and (max-width: 56.25em) {
-  .featurePitch__contents__left {
+  .featurePitch__left {
+    width: 100%;
+    align-items: center;
+  }
+}
+.featurePitch__left-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  opacity: 80%;
+}
+.featurePitch__left-header img {
+  width: 2rem;
+  height: auto;
+}
+.featurePitch__left-header p {
+  font-size: 1.333rem;
+  color: #ef4444;
+}
+.featurePitch__left-body {
+  opacity: 60%;
+  line-height: 1.7;
+  width: 80%;
+}
+@media only screen and (max-width: 56.25em) {
+  .featurePitch__left-body {
     width: 100%;
   }
 }
-@media only screen and (max-width: 56.25em) {
-  .featurePitch__contents__left h2 {
-    text-align: center;
-  }
-}
-.featurePitch__contents__left ul {
+.featurePitch__left ul {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 2rem;
+  text-align: start;
 }
-.featurePitch__contents__left ul li p {
-  font-size: 2.369rem;
-}
-.featurePitch__contents__left ul li img {
-  width: 4rem;
-  height: auto;
-}
-.featurePitch__contents__right {
-  width: 40%;
+.featurePitch__left ul li {
   display: flex;
-  justify-content: end;
-}
-.featurePitch__contents__right-image {
-  width: 70%;
-  height: 80%;
-  border-radius: 25px;
-  overflow: hidden;
-}
-@media only screen and (max-width: 81.25em) {
-  .featurePitch__contents__right-image {
-    height: 100%;
-  }
+  align-items: center;
+  gap: 1rem;
 }
 @media only screen and (max-width: 56.25em) {
-  .featurePitch__contents__right-image {
-    display: none;
+  .featurePitch__left ul li {
+    align-items: start;
   }
 }
-.featurePitch__contents__right-image img {
-  width: auto;
+.featurePitch__left ul li img {
+  width: 2rem;
+  height: auto;
+}
+.featurePitch__right {
+  position: relative;
+  width: 50%;
+}
+@media only screen and (max-width: 56.25em) {
+  .featurePitch__right {
+    width: 100%;
+  }
+}
+.featurePitch__right-image {
+  width: 100%;
   height: 100%;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.233);
+  background-color: #1d2c4f;
+  border-radius: 30px;
+}
+.featurePitch__right-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
   object-fit: cover;
-  object-position: left;
+}
+.featurePitch__right .eyebrow-blinker {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #fcfbff;
+  border-radius: 50px;
+}
+.featurePitch__right .eyebrow-blinker img {
+  width: 1rem;
+  height: 1rem;
+}
+.featurePitch__right .eyebrow-blinker p {
+  color: #2c2c2c;
+  font-weight: 900;
+  font-size: 1.333rem;
+  text-wrap: nowrap;
 }
 
 .benefitsPitch {
@@ -2139,6 +2297,239 @@ problem in the header / main-nav html files. */
   }
 }
 
+.headaches {
+  width: 100%;
+  padding: 6rem 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .headaches {
+    padding: 6rem 2rem;
+  }
+}
+.headaches .textBlock {
+  text-align: center;
+}
+.headaches .textBlock-header {
+  gap: 1.5rem;
+}
+.headaches .textBlock-header .eyebrow {
+  font-size: 1.333rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #dc2626;
+}
+.headaches .textBlock-body {
+  opacity: 60%;
+  width: 40%;
+}
+@media only screen and (max-width: 56.25em) {
+  .headaches .textBlock-body {
+    width: 90%;
+  }
+}
+.headaches__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 3rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .headaches__cards {
+    flex-direction: column;
+  }
+}
+
+.aiAssistant {
+  width: 100%;
+  padding: 6rem 15rem;
+  display: flex;
+  align-items: center;
+  background-color: #fff1f1;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant {
+    flex-direction: column;
+    padding: 6rem 2rem;
+  }
+}
+.aiAssistant__left {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__left {
+    width: 100%;
+    align-items: center;
+  }
+}
+.aiAssistant__left__header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 80%;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__left__header {
+    text-align: center;
+    width: 100%;
+  }
+}
+.aiAssistant__left__header-body {
+  opacity: 75%;
+  font-size: 2.369rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.aiAssistant__left__header-eyebrow {
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fcfbff;
+  border-radius: 25px;
+  border: 1px solid rgb(219, 200, 200);
+}
+.aiAssistant__left__header-eyebrow p {
+  color: rgb(114, 46, 46);
+  font-weight: 600;
+}
+.aiAssistant__left__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.aiAssistant__left__list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.aiAssistant__left__list ul .listItem1 {
+  width: 85%;
+  padding: 2rem;
+  background-color: #fcfbff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__left__list ul .listItem1 {
+    width: 100%;
+  }
+}
+.aiAssistant__left__list ul .listItem1 img {
+  width: 3rem;
+  height: auto;
+}
+.aiAssistant__left__list ul .listItem1__content-body {
+  font-weight: 400;
+  font-size: calc(1.6rem - 10%);
+  opacity: 75%;
+}
+.aiAssistant__left__list ul .listItem1 .bold-text {
+  font-weight: 700;
+}
+.aiAssistant__left__list a button {
+  background-color: rgb(36, 36, 41);
+  border-radius: 15px;
+  height: 6rem;
+  width: 20rem;
+}
+.aiAssistant__right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__right {
+    width: 100%;
+  }
+}
+.aiAssistant__right__container {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(46deg, rgba(235, 178, 178, 0.37) 0%, rgba(235, 178, 178, 0) 100%);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__right__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.aiAssistant__right__container-background {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.aiAssistant__right__container__profile {
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  z-index: 10;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #ededed;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__right__container__profile {
+    top: 1%;
+    right: 1%;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+.aiAssistant__right__container__profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aiAssistant__right__container__overlay {
+  position: absolute;
+  top: 25%;
+  right: -10%;
+  z-index: 9;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background-color: #fcfbff;
+  border-radius: 12px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+@media only screen and (max-width: 56.25em) {
+  .aiAssistant__right__container__overlay {
+    position: static;
+    width: 100%;
+  }
+}
+.aiAssistant__right__container__overlay div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.aiAssistant__right__container__overlay div img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
 .pricingCards {
   width: 100%;
   padding: 6rem 0;
@@ -2151,7 +2542,7 @@ problem in the header / main-nav html files. */
 .pricingCards__currency {
   width: 20rem;
   height: 5rem;
-  border: 5px solid #b73c3a;
+  border: 5px solid #dc2626;
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -2356,7 +2747,7 @@ problem in the header / main-nav html files. */
 .bookingContent {
   width: 100%;
   display: flex;
-  color: #F3f3f3;
+  color: #fcfbff;
   z-index: 0;
 }
 .bookingContent-background-color {
@@ -2365,7 +2756,7 @@ problem in the header / main-nav html files. */
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #b73c3a;
+  background-color: #dc2626;
   z-index: 10;
   clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
 }
@@ -2451,7 +2842,7 @@ problem in the header / main-nav html files. */
   text-align: center;
 }
 .bookingContent__topForm-forms-calendar p a {
-  color: #b73c3a;
+  color: #dc2626;
 }
 .bookingContent__topForm-forms-calendar button {
   width: 40rem;
@@ -2477,7 +2868,7 @@ problem in the header / main-nav html files. */
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  color: #F3f3f3;
+  color: #fcfbff;
   padding: 12rem 0 25rem;
 }
 @media only screen and (max-width: 56.25em) {
@@ -2491,7 +2882,7 @@ problem in the header / main-nav html files. */
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #b73c3a;
+  background-color: #dc2626;
   clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 100%);
   z-index: 1;
 }
@@ -2513,7 +2904,7 @@ problem in the header / main-nav html files. */
 }
 @media only screen and (max-width: 56.25em) {
   .blogLanding__header h1 {
-    font-size: 7.478rem;
+    font-size: 6.478rem;
   }
 }
 .blogLanding__header p {
@@ -2535,7 +2926,7 @@ problem in the header / main-nav html files. */
   z-index: 99;
 }
 .blogLanding .pagefind-ui__results {
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
   z-index: 1000;
 }
 
@@ -2573,7 +2964,7 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  color: #F3f3f3;
+  color: #fcfbff;
 }
 @media only screen and (max-width: 56.25em) {
   .subscribe__left {
@@ -2595,7 +2986,7 @@ problem in the header / main-nav html files. */
 }
 .subscribe__right form input {
   padding: 0 3rem;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
   border-radius: 25px;
   height: 5rem;
   color: #2c2c2c;
@@ -2640,8 +3031,8 @@ problem in the header / main-nav html files. */
   justify-content: center;
   text-align: center;
   border-radius: 100%;
-  background-color: #b73c3a;
-  color: #F3f3f3;
+  background-color: #dc2626;
+  color: #fcfbff;
 }
 .postList__header {
   width: 100%;
@@ -2688,9 +3079,6 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 .postList__list-post a .postList__list-post-img {
   width: 100%;
@@ -2707,6 +3095,11 @@ problem in the header / main-nav html files. */
 .postList__list-post a h4 {
   font-weight: 600;
 }
+.postList__list-post a {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
 .pagefind-ui__result, .pagefind-ui__result-title, .pagefind-ui__result-link, .pagefind-ui__result-excerpt {
   color: #2c2c2c !important;
@@ -2719,7 +3112,12 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
+}
+@media only screen and (max-width: 56.25em) {
+  .indexPage {
+    gap: 6rem;
+  }
 }
 
 .pricingPage {
@@ -2729,7 +3127,7 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
 }
 
 .contactPage {
@@ -2738,7 +3136,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
 }
 
 .bookingPage {
@@ -2747,7 +3145,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
 }
 
 .bookingPage {
@@ -2757,7 +3155,7 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   z-index: 1;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
 }
 
 .blogPage {
@@ -2766,7 +3164,7 @@ problem in the header / main-nav html files. */
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #F3f3f3;
+  background-color: #fcfbff;
 }
 .blogPage .pageHeader {
   padding: 2rem 8rem;
@@ -2822,13 +3220,13 @@ problem in the header / main-nav html files. */
     width: 100%;
   }
 }
+.blogCategories__list-post a h4 {
+  font-weight: 600;
+}
 .blogCategories__list-post a {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-}
-.blogCategories__list-post a h4 {
-  font-weight: 600;
 }
 
 .post {
@@ -2895,12 +3293,12 @@ problem in the header / main-nav html files. */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #b73c3a;
-  color: #F3f3f3;
+  background-color: #dc2626;
+  color: #fcfbff;
   border-radius: 25px;
 }
 .post__postHeader__right-number h2 {
-  font-size: 17.5rem;
+  font-size: 10.5rem;
   line-height: 0;
   margin-bottom: 1.5rem;
 }

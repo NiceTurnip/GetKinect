@@ -9,20 +9,17 @@
     height: 100%;
     height: 100vh;
     height: 100dvh;
-    padding-top: 4rem;
-    padding-right: 10rem;
-    padding-left: 10rem;
+    padding: 4rem 15rem;
 
     overflow: hidden;
 
     display: flex;
     flex-direction: column; 
+    gap: 6rem;
 
-    @include mixins.respond(tab-port) {
-        padding: 4rem 6rem 0;
-    }
     @include mixins.respond(phone-big) {
-        padding: 4rem 4rem 0 
+        height: auto;
+        padding: 4rem 2rem;
     }
 
     &__contents {
@@ -33,25 +30,18 @@
         
         gap: 6rem;
 
-        margin-top: 6rem;
-
         @include mixins.respond(phone-big) {
-            padding: 0;
-            margin-top: 6rem;
             text-align: center;
 
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             gap: 5rem;
         }
         &__left {
-            width: 60%;
+            width: 50%;
+
             display: flex;
             flex-direction: column;
-
-            //z-index: 11;
-
             gap: 6rem;
 
             @include mixins.respond(tab-port) {
@@ -65,80 +55,174 @@
             }
 
             &-title {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
                 @include mixins.respond(phone-big) {
-                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+
+                    h1 {
+                        font-size: 5rem;
+                    }
+                }
+
+                .eyebrow-blinker {
+                    width: 20rem;
+                    padding: .2rem 0;
 
                     display: flex;
-                    flex-direction: column;
                     align-items: center;
-                }
-                @include mixins.respond(phone-sm) {
-                    h1 {
-                        font-size: 6rem;
-                    }
-                }
-                @include mixins.respond(phone-mini) {
-                    h1 {
-                        font-size: 4.5rem;
-                    }
-                }
+                    justify-content: center;
+                    gap: 1rem;
 
-                p {
-                    width: 75%;
-                    font-size: 2rem;
+                    background-color: rgba(213, 179, 179, 0.164);
+                    border-radius: 10px;
 
-                    @include mixins.respond(phone-sm) {
-                        width: 100%;
+                    img {
+                        width: .5rem;
+                        height: auto;
+                    }
+                    .eyebrow {
+                        font-size: calc(variables.$subtext-font-size - 10%);
+                        font-weight: 600;
+                        color: variables.$color-primary-0;
+                        letter-spacing: .1rem;
                     }
                 }
             }
 
-            &-button {
-                justify-content: center;
+            &__buttons {
+                display: flex;
+                gap: 2rem;
 
                 @include mixins.respond(phone-big) {
-                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+
+                    .iconButton {
+                        &__wrap {
+                            max-width: 100%;
+                        }
+                    }
                 }
-            
-                button {
-                    width: 20rem;
-                    transition: all .2s;
+                
+                .iconButton:hover {
+                    .iconButton__wrap {
+                        transition: background-color 1s;
+                        background-color: variables.$color-primary-1;
+                    }
+                    img {
+                        transition: transform .75s;
+                        transform: translate(6px, -6px);
+                    }
                 }
-                button:hover {
-                    outline: 5px solid variables.$color-primary-0;
+            }
+
+            &__buttons .iconButton:nth-child(2) {
+                .iconButton__wrap {
                     background-color: variables.$color-white;
-                    color: variables.$color-black;
+                    box-shadow: none;
+                    border: 2px solid rgba(181, 181, 181, 0.311);
+                    gap: 1;
+
+                    p {
+                        color: variables.$color-black;
+                        order: 1;
+                    }
+                    img {
+                        order: 2;
+                        transform: none;
+                    }
+                }
+
+                &:hover {
+                    .iconButton__wrap {
+                        border: 2px solid variables.$color-primary-0;
+                        
+                        p {
+                            color: variables.$color-primary-0; 
+                        }
+                    }
                 }
             }
 
         }
 
         &__right {
-            width: 40%;
+            position: relative;
+
+            width: 50%;
             height: 100%;
             
             display: flex;
             justify-content: center;
-            
-            img {
-                position: absolute;
-                top: 15rem;
-                right: 15rem;
+            align-items: center;
+
+            @include mixins.respond(phone-big) {
+                width: 100%;
+                margin-bottom: 9rem;
+            }
+
+            &__container {
+                padding: 2rem;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 
-                width: auto;
-                height: 70rem;
+                background: linear-gradient(46deg,rgba(235, 178, 178, 0.37) 0%, rgba(235, 178, 178, 0) 100%);
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
-                overflow-x: hidden;
+                transform: rotate(5deg);
+                transition: rotate 2s;
 
-                @include mixins.respond(desktop-sm) {
-                    
-                }
-                @include mixins.respond(tab-port) {
-                    right: 6rem;
-                    top: 15rem;
-                }
                 @include mixins.respond(phone-big) {
-                    display: none;
+                    transform: rotate(0);
+                }
+
+                img {     
+                    width: 100%;
+                    height: 100%;             
+
+                    object-fit: cover; 
+                }
+            } 
+
+            .downtrend-box {
+                position: absolute;
+                bottom: 10%;
+                left: 0;
+
+                padding: 1.5rem;
+
+                display: flex;
+                gap: 2rem;
+
+                background-color: variables.$color-white;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 10px;
+
+                @include mixins.respond(phone-big) {
+                    bottom: -8%;
+                    left: -2%;
+                }
+
+                img {
+                    width: 4rem;
+                    height: 4rem;
+                }
+                div {
+                    .eyebrow {
+                        font-size: calc(variables.$subtext-font-size - 10%);
+                        font-weight: 800;
+                        opacity: 80%;
+                    }
+                    .body {
+                        font-weight: 700;
+                    }
                 }
             }
         }      
@@ -158,7 +242,7 @@
         height: 45rem;
 
         background-color: variables.$color-primary-0;
-        clip-path: polygon(0 80%, 100% 90%, 100% 100.2%, 0% 100.2%);
+        clip-path: polygon(0 75%, 100% 90%, 100% 100.2%, 0% 100.2%);
 
         z-index: 11;
         overflow: hidden;

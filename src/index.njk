@@ -5,27 +5,26 @@ layout: 'base.njk'
 
 {% import "macros/navigation.njk" as nav %}
 {% import "macros/mobileNav.njk" as mobileNav %}
-{% import "macros/button.njk" as btn %}
+{% import "macros/iconButton.njk" as iconButton %}
 {% import "macros/listItem1.njk" as li1 %}
 {% import "macros/listItem1-link.njk" as li1Link %}
 {% import "macros/card1.njk" as card1 %}
-{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/call-to-action.njk" as callToAction %}
 {% import "macros/sectionHeader.njk" as sectHeader %}
 {% import "macros/accordion.njk" as accordion %}
+{% import "macros/icon-quote.njk" as iconQuote %}
+{% import "macros/textBlock.njk" as textBlock %}
+{% import "macros/headachesCard.njk" as headachesCard %}
 
 <!-- HEADER -->
 {% include 'partials/header.njk' %}
 
 <main class = "indexPage">
+    {{ iconQuote.iconQuote("/assets/vectors/shield-icon.svg", "Kinect was engineered by veteran gym owners who lived the daily administrative grind. We built this platform to solve the exact bottlenecks that stall growth and cost time and money. It's more than software; it's a proven system designed to run facilities on high-performance autopilot.", "The Kinect Leadership Team", "BUILT BY OWNERS FOR OWNERS", "Born in the Gym. Built for the Industry.")}}
+    {% include 'partials/landingSections/headaches.njk' %}   
     {% include 'partials/landingSections/feature-pitch.njk' %}
-
-    {# {{ cta.callToAction("Discover More", "Explore our blog for helpful insights or check out our pricing page to find the perfect fit for your gym. Have questions? Reach out to us anytime.", "Browse Our Blog", "/pages/blog") }} #}
-
-    {% include 'partials/landingSections/benefits-pitch.njk' %}
-    
-    {{ cta.callToAction("Try Kinect Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try it Free", "https://dashboard.facilitykinetics.ca/dashboard/createAccount") }}
-
-    {{ accordion.accordion("Frequently Asked Questions", faqList) }}
+    {% include 'partials/landingSections/ai-assistant.njk' %}
+    {{ callToAction.callToAction("Ready to put your gym on <span class = 'flair-color-1'>Autopilot?</span>", "Join the independent gym owners who have ditched the fobs and reclaimed their time with Kinect.", "Get Started Today", "Book a Demo", "https://dashboard.facilitykinetics.ca/dashboard/createAccount", "/booking", "NO HARDWARE TO BUY • NO FOB FEES • NO CONTRACTS") }}
 </main>
 
 <!-- FOOTER -->
