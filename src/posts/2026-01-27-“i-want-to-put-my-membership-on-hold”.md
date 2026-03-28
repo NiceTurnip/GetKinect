@@ -61,7 +61,7 @@ Before I give you my take, here's how the industry generally handles holds. This
 
 One thing worth noting: if a member scans in while on hold, most systems will reactivate their billing automatically. That is a feature, not a bug. Set it up that way on purpose.
 
-**TL;DR: Stop making members "sell" you on why they need a break. Flexibility builds loyal fans and a better gym culture. Use a 7 to 10-day notice period and automated software to keep your billing clean and your access secure. Protect your revenue with a small hold fee, but keep your Hometown Hero status by waiving it for medical needs.**
+## **TL;DR:** 
 
 Stop making members "sell" you on why they need a break. Flexibility builds **loyal fans** and a better gym culture.
 
