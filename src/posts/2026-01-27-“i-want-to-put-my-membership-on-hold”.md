@@ -39,7 +39,7 @@ In a small town, a billing dispute is a reputation killer. You need a clear wind
 
 When someone goes on hold, they shouldn't have access to the gym. Period. If the subscription is paused, the signal (access) is cut. It is easy to do with the Kinect platform. Do the same at your fitness studio.
 
-* **The Advice:** Don't manually track who is on hold. Your software should allow you to put a membership into 'Hold or Pause Mode.' The second the hold begins, their access is deactivated and billing stops. If they try to scan in during a hold, the system reactivates their billing automatically. This keeps Member-Only Hours sacred and prevents free riders from taking advantage of you. For members who give you a return date, just enter it in the software. Payments restart automatically at the agreed-upon time. No calendar reminders, no mental load. You just set it and forget it
+* **The Advice:** Don't manually track who is on hold. Your software should allow you to put a membership into 'Hold or Pause Mode.' The second the hold begins, their access is deactivated and billing stops. If they try to scan in during a hold, the system reactivates their billing automatically. This keeps Member-Only Hours sacred and prevents free riders from taking advantage of you. For members who give you a return date, just enter it in the software. Payments restart automatically at the agreed-upon time. No calendar reminders, no mental load. You just set it and forget it.
 
 ## **3. The "Hold Fee" vs. The "Cancellation"**
 
