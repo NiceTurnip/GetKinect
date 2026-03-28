@@ -58,11 +58,189 @@ Life happens. Injuries, surgeries, pregnancies, you name it. This is where you e
 
 Have a Medical Waiver ready. If they bring in a note, waive the hold fee entirely. It shows you care about the person, not just the payment. Just make sure your software has an end date attached to that hold. You don't want a medical pause to quietly turn into a permanent ghost you're still paying licensing fees for.
 
+Before I give you my take, here's how the industry generally handles holds. This is pulled from a cross-section of gym policies so you have a baseline to work from.
+
+<table>
+
+  <thead>
+
+\    <tr>
+
+\    <th>Category</th>
+
+\    <th>What Most Gyms Do</th>
+
+\    </tr>
+
+  </thead>
+
+  <tbody>
+
+\    <tr>
+
+\    <td>Notice Required</td>
+
+\    <td>7 to 10 days before the next billing cycle</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>How to Request</td>
+
+\    <td>Written request, email, or through a member app</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Retroactive Holds</td>
+
+\    <td>Almost never allowed</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Maximum Hold Length</td>
+
+\    <td>90 days per year, some cap at 60</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Minimum Hold Length</td>
+
+\    <td>2 weeks to 1 month</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Hold Fee</td>
+
+\    <td>Anywhere from $2.50 a week to $25 a month</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Medical Holds</td>
+
+\    <td>Fee usually waived with a doctor's note</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Access During Hold</td>
+
+\    <td>Revoked, key fob or app disabled</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Early Return</td>
+
+\    <td>Member contacts gym to reactivate</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Contract Extension</td>
+
+\    <td>Hold time gets added to the end of your contract term</td>
+
+\    </tr>
+
+\    <tr>
+
+\    <td>Cancellation While on Hold</td>
+
+\    <td>Standard cancellation notice still applies</td>
+
+\    </tr>
+
+  </tbody>
+
+</table>
+
+One thing worth noting: if a member scans in while on hold, most systems will reactivate their billing automatically. That is a feature, not a bug. Set it up that way on purpose.
+
+**TL;DR: Stop making members "sell" you on why they need a break. Flexibility builds loyal fans and a better gym culture. Use a 7 to 10-day notice period and automated software to keep your billing clean and your access secure. Protect your revenue with a small hold fee, but keep your Hometown Hero status by waiving it for medical needs.**
+
+That way the table does the heavy lifting for the data, your voice bookends it, and the TL;DR sends the reader right back into the conversation.
 
 
-Based on the provided sources, here is an overview of the typical processes and options for pausing or holding a gym membership.
 
-## The General Process
+
+
+
+
+Category
+What Most Gyms Do
+
+
+
+
+Notice Required
+7 to 10 days before the next billing cycle
+
+
+How to Request
+Written request, email, or through a member app
+
+
+Retroactive Holds
+Almost never allowed
+
+
+Maximum Hold Length
+90 days per year, some cap at 60
+
+
+Minimum Hold Length
+2 weeks to 1 month
+
+
+Hold Fee
+Anywhere from $2.50 a week to $25 a month
+
+
+Medical Holds
+Fee usually waived with a doctor's note
+
+
+Access During Hold
+Revoked, key fob or app disabled
+
+
+Early Return
+Member contacts gym to reactivate
+
+
+Contract Extension
+Hold time gets added to the end of your contract term
+
+
+Cancellation While on Hold
+Standard cancellation notice still applies
+
+
+
+
+
+
+
+
+
+
+
+
+## The General Process for Gym Holds/Pauses
 
 To initiate a hold, members are generally required to follow a formal procedure rather than simply stopping attendance or payments.
 
@@ -85,28 +263,28 @@ Gyms rarely allow open-ended or indefinite holds. They typically impose specific
 
 ## Financial Implications
 
-Pausing a membership is rarely free unless there is a specific medical exemption. Let's add up the cost.
+Pausing a membership is rarely free unless there is a specific medical exemption. Let's add up the cost. I went through a bunch of fitness business advertised pause rules. Here is the gist:
 
 * **Freeze Fees:** Instead of the full membership rate, gyms often charge a reduced "maintenance" or "freeze" fee to keep the account open and the rate locked in. Examples from the sources include:
-* **$2.50 per week** 4, 18.
-* **$5.00 per month** 8, 14.
-* **$8.00 per week** 1.
-* **$25.00 per month** (or per 4-week period) 15, 19.
-* **Medical Waivers:** If the pause is due to injury, illness, or pregnancy, gyms often waive the freeze fee. This typically requires submitting a letter or certificate from a doctor 4, 14, 15, 20.
-* **Billing Resume:** Once the hold period expires, billing automatically resumes at the standard rate. Members do not usually need to contact the gym to "unfreeze" unless they wish to return early 1, 21.
+* **$2.50 per week** 
+* **$5.00 per month** 
+* **$8.00 per week**
+* **$25.00 per month** (or per 4-week period) 
+* **Medical Waivers:** If the pause is due to injury, illness, or pregnancy, gyms often waive the freeze fee. This typically requires submitting a letter or certificate from a doctor.
+* **Billing Resume:** Once the hold period expires, billing automatically resumes at the standard rate. Members do not usually need to contact the gym to "unfreeze" unless they wish to return early.
 
 ## Impact on Membership Terms
 
 Putting a membership on hold has several operational consequences:
 
-* **Contract Extension:** The time spent on hold is almost always added to the end of the contract term. For example, if you freeze a 12-month contract for one month, your obligation ends one month later than originally scheduled 1, 4, 14, 22.
-* **Suspended Access:** During the freeze period, access to the facility is revoked. Key fobs or access cards are typically disabled 9, 14.
-* **Immediate Reactivation:** If a member enters the gym or checks into a class while on hold, the system may automatically reactivate the membership and charge the regular dues immediately 21.
-* **Class Cancellations:** Gym management systems (like Glofox or Zen Planner) will often automatically cancel any future class bookings that fall within the requested pause window 23, 24.
+* **Contract Extension:** The time spent on hold is almost always added to the end of the contract term. For example, if you freeze a 12-month contract for one month, your obligation ends one month later than originally scheduled.
+* **Suspended Access:** During the freeze period, access to the facility is revoked. Key fobs or access cards are typically disabled.
+* **Immediate Reactivation:** If a member enters the gym or checks into a class while on hold, the system may automatically reactivate the membership and charge the regular dues immediately.
+* **Class Cancellations:** Gym management systems will often automatically cancel any future class bookings that fall within the requested pause window.
 
 ## Cancellation During a Hold
 
-If a member decides to cancel their membership entirely while it is on hold, standard cancellation policies usually still apply. This often means the member must reactivate the membership or pay out the standard notice period (e.g., 30 days) before the contract is fully terminated 1, 25, 26.
+If a member decides to cancel their membership entirely while it is on hold, standard cancellation policies usually still apply. This often means the member must reactivate the membership or pay out the standard notice period (e.g., 30 days) before the contract is fully terminated.
 
 **TL;DR**
 
