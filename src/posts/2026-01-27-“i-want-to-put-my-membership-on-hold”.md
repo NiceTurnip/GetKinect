@@ -49,9 +49,6 @@ You’re running a $10k–$45k MRR business. Every cancellation is a leak you ha
 
   The exception is your Institutional Anchors, the shift workers at the mine or the plant. Be the Hometown Hero for those people. If they're on a 2-week-on/2-week-off rotation, build a policy that fits their life. That kind of loyalty creates a monopoly no big-box gym can touch.
 
-
-
-
 ## **4. The "Doctor’s Note" Safety Net**
 
 Life happens. Injuries, surgeries, pregnancies, you name it. This is where you earn the Hometown Hero title.
@@ -60,120 +57,66 @@ Have a Medical Waiver ready. If they bring in a note, waive the hold fee entirel
 
 Before I give you my take, here's how the industry generally handles holds. This is pulled from a cross-section of gym policies so you have a baseline to work from.
 
+```
 <table>
-
   <thead>
-
-\    <tr>
-
-\    <th>Category</th>
-
-\    <th>What Most Gyms Do</th>
-
-\    </tr>
-
+    <tr>
+      <th>Category</th>
+      <th>What Most Gyms Do</th>
+    </tr>
   </thead>
-
   <tbody>
-
-\    <tr>
-
-\    <td>Notice Required</td>
-
-\    <td>7 to 10 days before the next billing cycle</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>How to Request</td>
-
-\    <td>Written request, email, or through a member app</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Retroactive Holds</td>
-
-\    <td>Almost never allowed</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Maximum Hold Length</td>
-
-\    <td>90 days per year, some cap at 60</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Minimum Hold Length</td>
-
-\    <td>2 weeks to 1 month</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Hold Fee</td>
-
-\    <td>Anywhere from $2.50 a week to $25 a month</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Medical Holds</td>
-
-\    <td>Fee usually waived with a doctor's note</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Access During Hold</td>
-
-\    <td>Revoked, key fob or app disabled</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Early Return</td>
-
-\    <td>Member contacts gym to reactivate</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Contract Extension</td>
-
-\    <td>Hold time gets added to the end of your contract term</td>
-
-\    </tr>
-
-\    <tr>
-
-\    <td>Cancellation While on Hold</td>
-
-\    <td>Standard cancellation notice still applies</td>
-
-\    </tr>
-
+    <tr>
+      <td>Notice Required</td>
+      <td>7 to 10 days before the next billing cycle</td>
+    </tr>
+    <tr>
+      <td>How to Request</td>
+      <td>Written request, email, or through a member app</td>
+    </tr>
+    <tr>
+      <td>Retroactive Holds</td>
+      <td>Almost never allowed</td>
+    </tr>
+    <tr>
+      <td>Maximum Hold Length</td>
+      <td>90 days per year, some cap at 60</td>
+    </tr>
+    <tr>
+      <td>Minimum Hold Length</td>
+      <td>2 weeks to 1 month</td>
+    </tr>
+    <tr>
+      <td>Hold Fee</td>
+      <td>Anywhere from $2.50 a week to $25 a month</td>
+    </tr>
+    <tr>
+      <td>Medical Holds</td>
+      <td>Fee usually waived with a doctor's note</td>
+    </tr>
+    <tr>
+      <td>Access During Hold</td>
+      <td>Revoked, key fob or app disabled</td>
+    </tr>
+    <tr>
+      <td>Early Return</td>
+      <td>Member contacts gym to reactivate</td>
+    </tr>
+    <tr>
+      <td>Contract Extension</td>
+      <td>Hold time gets added to the end of your contract term</td>
+    </tr>
+    <tr>
+      <td>Cancellation While on Hold</td>
+      <td>Standard cancellation notice still applies</td>
+    </tr>
   </tbody>
-
 </table>
+```
 
 One thing worth noting: if a member scans in while on hold, most systems will reactivate their billing automatically. That is a feature, not a bug. Set it up that way on purpose.
 
 **TL;DR: Stop making members "sell" you on why they need a break. Flexibility builds loyal fans and a better gym culture. Use a 7 to 10-day notice period and automated software to keep your billing clean and your access secure. Protect your revenue with a small hold fee, but keep your Hometown Hero status by waiving it for medical needs.**
-
-
-**TL;DR**
 
 Stop making members "sell" you on why they need a break. Flexibility builds **loyal fans** and a better gym culture.
 
