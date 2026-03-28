@@ -54,9 +54,11 @@ You’re running a $10k–$45k MRR business. Every cancellation is a leak you ha
 
 ## **4. The "Doctor’s Note" Safety Net**
 
-Life happens. Injuries, surgeries, or pregnancies and more. This is where you earn your "Hometown Hero" title.
+Life happens. Injuries, surgeries, pregnancies, you name it. This is where you earn the Hometown Hero title.
 
-* **The Advice:** Have a "Medical Waiver" ready. If they provide a note, waive the hold fee entirely. It shows you care about the person, not just the payment. A key is to make sure your **Canadian Gym Software** has an end date for that hold. You don't want a "medical hold" to turn into a "permanent ghost" that you're still paying licensing fees for.
+Have a Medical Waiver ready. If they bring in a note, waive the hold fee entirely. It shows you care about the person, not just the payment. Just make sure your software has an end date attached to that hold. You don't want a medical pause to quietly turn into a permanent ghost you're still paying licensing fees for.
+
+
 
 Based on the provided sources, here is an overview of the typical processes and options for pausing or holding a gym membership.
 
