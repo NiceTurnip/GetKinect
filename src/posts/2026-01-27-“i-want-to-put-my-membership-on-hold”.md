@@ -37,16 +37,20 @@ In a small town, a billing dispute is a reputation killer. You need a clear wind
 
 ## **2. Master "Ghost Mode" (Automated Access)**
 
-When someone goes on hold, they shouldn't have access to the gym. Period. This is the **Wi-Fi Rule**: if the subscription is paused, the signal (access) is cut. Do the same at your fitness studio.
+When someone goes on hold, they shouldn't have access to the gym. Period. If the subscription is paused, the signal (access) is cut. It is easy to do with the Kinect platform. Do the same at your fitness studio.
 
-* **The Advice:** Don't manually track who is on hold. Your software should automatically put the member into **"Hold or Pause Mode."** Their entry or access is deactivated the second the hold begins. If they try to scan in during a hold, the system should reactivate their billing automatically. It keeps the "Member-Only Hours" sacred and prevents "free riders" from taking advantage of you.
+* **The Advice:** Don't manually track who is on hold. Your software should allow you to put a membership into 'Hold or Pause Mode.' The second the hold begins, their access is deactivated and billing stops. If they try to scan in during a hold, the system reactivates their billing automatically. This keeps Member-Only Hours sacred and prevents free riders from taking advantage of you. For members who give you a return date, just enter it in the software. Payments restart automatically at the agreed-upon time. No calendar reminders, no mental load. You just set it and forget it
 
 ## **3. The "Hold Fee" vs. The "Cancellation"**
 
-You’re running a $10k–$25k MRR business. Every cancellation is a leak you have to plug.
+You’re running a $10k–$45k MRR business. Every cancellation is a leak you have to plug.
 
-* **The Advice:** Instead of letting them quit, offer a **Maintenance Fee** (usually $15–$25 a month). Frame it as "Rate Insurance." They pay a small fee to keep their current membership rate locked in and their account active in the system.
-* **The Exception:** For your **Institutional Anchors** (the shift workers at the mine or the plant), be the "Hometown Hero." If they’re on a 2-week-on/2-week-off rotation, build a policy that fits their life. It builds a "monopoly" on loyalty that no big-box gym can touch.
+* Instead of letting them quit outright, offer a Maintenance Fee, usually $15 to $25 a month. Frame it as 'Rate Insurance.' They pay a small fee to keep their current rate locked in and their account active. I don't do this myself, but if someone wanted to pause longer than two months, I'd probably add it.
+
+  The exception is your Institutional Anchors, the shift workers at the mine or the plant. Be the Hometown Hero for those people. If they're on a 2-week-on/2-week-off rotation, build a policy that fits their life. That kind of loyalty creates a monopoly no big-box gym can touch.
+
+
+
 
 ## **4. The "Doctor’s Note" Safety Net**
 
