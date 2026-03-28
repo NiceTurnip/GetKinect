@@ -57,62 +57,7 @@ Have a Medical Waiver ready. If they bring in a note, waive the hold fee entirel
 
 Before I give you my take, here's how the industry generally handles holds. This is pulled from a cross-section of gym policies so you have a baseline to work from.
 
-```
-<table>
-  <thead>
-    <tr>
-      <th>Category</th>
-      <th>What Most Gyms Do</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Notice Required</td>
-      <td>7 to 10 days before the next billing cycle</td>
-    </tr>
-    <tr>
-      <td>How to Request</td>
-      <td>Written request, email, or through a member app</td>
-    </tr>
-    <tr>
-      <td>Retroactive Holds</td>
-      <td>Almost never allowed</td>
-    </tr>
-    <tr>
-      <td>Maximum Hold Length</td>
-      <td>90 days per year, some cap at 60</td>
-    </tr>
-    <tr>
-      <td>Minimum Hold Length</td>
-      <td>2 weeks to 1 month</td>
-    </tr>
-    <tr>
-      <td>Hold Fee</td>
-      <td>Anywhere from $2.50 a week to $25 a month</td>
-    </tr>
-    <tr>
-      <td>Medical Holds</td>
-      <td>Fee usually waived with a doctor's note</td>
-    </tr>
-    <tr>
-      <td>Access During Hold</td>
-      <td>Revoked, key fob or app disabled</td>
-    </tr>
-    <tr>
-      <td>Early Return</td>
-      <td>Member contacts gym to reactivate</td>
-    </tr>
-    <tr>
-      <td>Contract Extension</td>
-      <td>Hold time gets added to the end of your contract term</td>
-    </tr>
-    <tr>
-      <td>Cancellation While on Hold</td>
-      <td>Standard cancellation notice still applies</td>
-    </tr>
-  </tbody>
-</table>
-```
+![]()
 
 One thing worth noting: if a member scans in while on hold, most systems will reactivate their billing automatically. That is a feature, not a bug. Set it up that way on purpose.
 
