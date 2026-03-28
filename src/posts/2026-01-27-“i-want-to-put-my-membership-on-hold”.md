@@ -17,8 +17,6 @@ description: Manage gym membership holds like a pro. This guide shows you how to
 
 **Are your membership pausing policies turning your loyal members into frustrated strangers?**
 
-At my gyms, I like to keep things simple and easy. I let members pause their membership for up to two months, and they don't even have to tell me why! People often offer a reason, but I don't ask. They seem to feel like they have to convince me, and I don't want that. I know things come up in life, and I want to be friendly but still professional.
-
 What are your gyms policies around allowing members to pause or put holds on their memberships and payments? At my gyms I'm pretty flexible. I allow members to pause for up to two months for any reason. I don't even ask them why they want or need to pause although they do often offer  a reason. Often they sound like they're feeling they need to sell me on the pause or hold. In fact at my gyms I allow people to log into their account and put a hold on all themselves. 
 
 **What do you do when a gym member needs to stop their payments for a little while?**
