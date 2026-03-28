@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Hold Policy Table</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .card {
+    background: #ffffff;
+    width: 720px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.4);
+  }
+
+  .header {
+    background: #1a1a1a;
+    padding: 28px 36px;
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .header-accent {
+    width: 6px;
+    height: 52px;
+    background: #e8ff47;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .header-text h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    line-height: 1;
+  }
+
+  .header-text p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead tr {
+    background: #f0f0f0;
+  }
+
+  thead th {
+    padding: 12px 36px;
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #666;
+  }
+
+  thead th:last-child {
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.15s;
+  }
+
+  tbody tr:last-child {
+    border-bottom: none;
+  }
+
+  tbody tr:nth-child(even) {
+    background: #fafafa;
+  }
+
+  td {
+    padding: 14px 36px;
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 1.4;
+  }
+
+  td:first-child {
+    font-weight: 600;
+    color: #333;
+    width: 220px;
+    white-space: nowrap;
+  }
+
+  td:last-child {
+    color: #444;
+  }
+
+  .footer {
+    background: #e8ff47;
+    padding: 14px 36px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .footer span {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="header-accent"></div>
+    <div class="header-text">
+      <h1>Gym Hold & Pause Policies</h1>
+      <p>Industry Standards at a Glance</p>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>What Most Gyms Do</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Notice Required</td><td>7 to 10 days before the next billing cycle</td></tr>
+      <tr><td>How to Request</td><td>Written request, email, or through a member app</td></tr>
+      <tr><td>Retroactive Holds</td><td>Almost never allowed</td></tr>
+      <tr><td>Maximum Hold Length</td><td>90 days per year, some cap at 60</td></tr>
+      <tr><td>Minimum Hold Length</td><td>2 weeks to 1 month</td></tr>
+      <tr><td>Hold Fee</td><td>Anywhere from $2.50 a week to $25 a month</td></tr>
+      <tr><td>Medical Holds</td><td>Fee usually waived with a doctor's note</td></tr>
+      <tr><td>Access During Hold</td><td>Revoked, key fob or app disabled</td></tr>
+      <tr><td>Early Return</td><td>Member contacts gym to reactivate</td></tr>
+      <tr><td>Contract Extension</td><td>Hold time gets added to the end of your contract term</td></tr>
+      <tr><td>Cancellation While on Hold</td><td>Standard cancellation notice still applies</td></tr>
+    </tbody>
+  </table>
+  <div class="footer">
+    <p>Hometown Hero Tip: <span>Waive the hold fee for medical needs. Flexibility builds loyalty no big-box gym can touch.</span></p>
+  </div>
+</div>
+</body>
+</html>
