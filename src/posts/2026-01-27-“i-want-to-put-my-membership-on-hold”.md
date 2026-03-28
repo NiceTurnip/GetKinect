@@ -21,7 +21,7 @@ What are your gyms policies around allowing members to pause or put holds on the
 
 **What do you do when a gym member needs to stop their payments for a little while?**
 
-I've moved away from the old way of asking members a lot of questions. I learned that being flexible and allowing holds for most any reason actually makes members more loyal in the long run than a strict contract. When members feel they have to "sell" me on their break, it creates a bad feeling. We want our gym to be the friendly "Hometown Hero" in our community! Our members can even log into their account and set up the hold themselves, which is a great help.
+I've moved away from the old way of asking members a lot of questions. I learned that being flexible and allowing holds for most any reason actually makes members more loyal in the long run than a strict contract. When members feel they have to "sell" me on their break, it can create an awkward feeling. We want our gym to be the friendly "Hometown Hero" in our community! Our members can even log into their account and set up the hold themselves, which is a great help. Be careful with this step though!
 
 This model isn’t a one-size-fits-all solution. I analyzed data from small boutique studios to large-scale franchises. I also talk to gym owners every single day.
 
