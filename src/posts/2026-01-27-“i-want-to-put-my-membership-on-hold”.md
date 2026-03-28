@@ -57,7 +57,7 @@ Have a Medical Waiver ready. If they bring in a note, waive the hold fee entirel
 
 Before I give you my take, here's how the industry generally handles holds. This is pulled from a cross-section of gym policies so you have a baseline to work from.
 
-![](/assets/images/uploads/gym_hold_policy_table.html)
+![](/assets/images/uploads/gym_pause_policies_chart-.png)
 
 One thing worth noting: if a member scans in while on hold, most systems will reactivate their billing automatically. That is a feature, not a bug. Set it up that way on purpose.
 
