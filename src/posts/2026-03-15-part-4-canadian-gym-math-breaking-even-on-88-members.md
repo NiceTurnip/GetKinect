@@ -47,8 +47,6 @@ Kinect ensures that the door only opens for members whose phones are physically 
 
 ### Keeping More of Your Money
 
-When your break-even point is low, your stress level is low. By reverse-engineering your math and skipping the unnecessary staff, you turn your gym into an "Operational Operating System."
+When your break-even point is low, your stress level is low. By reverse-engineering your math and skipping the unnecessary staff, you turn your gym into an our gym runs efficiently without requiring your constant presence.
 
 You aren't a clerk. You are a business owner. You can focus on your members' results instead of worrying about how to pay for a front-desk person to scroll on their phone.
-
-Save Time and Keep More of your Money.
