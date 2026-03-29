@@ -5,11 +5,11 @@ tags:
   - post
 heroImage: /assets/images/uploads/young-adult-with-manitoba-fitness-tax-credit-cash.png
 layout: post.njk
-summary: Manitoba gym owners, are your young adult members leaving $54 on the
-  table? Stop the manual admin fatigue and security fears that come with tax
-  season. Learn how to empower your 18 to 24 year old members with the
-  provincial fitness credit while Kinect handles your secure 24/7 access and
-  billing automatically.
+summary: If you own a gym in Manitoba, your 18 to 24 year old members are likely
+  missing a provincial tax credit worth $54. Here's what they need to know and
+  how you can help them claim it. Learn how to empower your 18 to 24 year old
+  members with the provincial fitness credit while Kinect handles your secure
+  24/7 access and billing automatically.
 description: Claim the Manitoba Fitness Tax Credit for young adults aged 18 to
   24. Learn how our Canadian Gym Management Software simplifies receipts and
   secures your ROI.
@@ -18,7 +18,7 @@ description: Claim the Manitoba Fitness Tax Credit for young adults aged 18 to
 
 If you follow federal tax news, you probably remember the headlines from 2017 when the Canadian government scrapped the Children’s Fitness Tax Credit. Across most of the country, that was the end of the line for getting a tax break on your gym membership.
 
-But Manitoba is a "fitness outlier." While other provinces moved on, Manitoba maintained its commitment to physical activity through the provincial tax code. For young adults in Winnipeg, Brandon, and across the Keystone province, this remains one of the most overlooked "hidden" credits in your annual tax return. If you are a student or a young professional aged 18 to 24, you are likely sitting on a $54 win that you’ve been leaving on the table.
+But Manitoba is a "fitness outlier." While other provinces moved on, Manitoba maintained its commitment to physical activity through the provincial tax code. For young adults in Winnipeg, Brandon, and across the Keystone province, this remains one of the more consistently overlooked credits in the provincial return. If you're between 18 and 24, there's a good chance you're eligible and haven't claimed it. If you are a student or a young professional aged 18 to 24, you are likely sitting on a $54 win that you’ve been leaving on the table.
 
 ### **The 18–24 Rule: Who Actually Gets the Cash?**
 
@@ -38,8 +38,6 @@ To qualify, the program must be supervised, suitable for your age, and meet one 
 * **Intensive Programs:** Must run for at least **five consecutive days** (e.g., a week-long hockey camp or an intensive yoga retreat).
 
 Eligible fees include registration, membership, and instruction. This covers your local 24/7 Kinect-powered gym, CrossFit boxes, martial arts studios, and organized recreational leagues.
-
-### **Get Your Money!**
 
 ### **Step-by-Step: How to Claim on Line 58325**
 
