@@ -145,6 +145,12 @@
         flex-direction: column;
         gap: 2rem;
 
+        img {
+            width: 100%;
+            max-width: 50rem;
+            height: auto;
+        }
+
         h3 {
             font-size: variables.$small-heading-size;
             font-weight: 800;
