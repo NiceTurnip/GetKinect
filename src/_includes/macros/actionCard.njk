@@ -1,31 +1,41 @@
-{% macro actionCard(title1, text1, price, bulletArr, link) %}
+{% macro actionCard(title1, text1, price, usdPrice, bulletArr, link) %}
 
-  <div class = "actionCard">
-    <div class = "actionCard-header">
-        <h2>{{title1}}</h2>
+  <div class="actionCard">
+    <div class="actionCard-header">
+      <h2>{{ title1 }}</h2>
     </div>
-    <div class = "actionCard__content">
-        <div class = "actionCard__content-text">
-            <p>{{text1}}</p>
-            <h3><span class = "smallerText symbol">$</span><span class = "price" data-cad = {{price}}>{{price}}</span><span class = "smallerText">/m</span></h3>
-        </div>
-        <div class = "actionCard__content-list">
-            <ul>
-            {% for text in bulletArr %}
-                <li>
-                    <div>
-                        <img src="/assets/vectors/pricing-check.svg" alt="check mark">
-                        <p>{{text}}</p>
-                    </div>
-                </li>
-            {% endfor %}
-            </ul>
-        </div>
-        
-        <a class = "actionCard__content-button" href="{{link}}">
-            <button>Book a Demo</button>
-        </a>
-        
+    <div class="actionCard__content">
+      <div class="actionCard__content-text">
+        <p>{{ text1 }}</p>
+        <h3>
+          <span class="smallerText symbol">$</span>
+          <span
+            class="price"
+            data-cad="{{ price }}"
+            data-usd="{{ usdPrice }}"
+          >
+            {{ price }}
+          </span>
+          <span class="smallerText">/m</span>
+        </h3>
+      </div>
+
+      <div class="actionCard__content-list">
+        <ul>
+          {% for text in bulletArr %}
+            <li>
+              <div>
+                <img src="/assets/vectors/pricing-check.svg" alt="check mark">
+                <p>{{ text }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <a class="actionCard__content-button" href="{{ link }}">
+        <button>Book a Demo</button>
+      </a>
     </div>
   </div>
 
