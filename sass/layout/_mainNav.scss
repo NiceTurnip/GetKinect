@@ -56,6 +56,9 @@
                 height: 4rem;
                 padding: 0;
             }
+            @include mixins.respond(phone-sm) {
+                display: none;
+            }
         }
         button:hover {
             outline: 5px solid variables.$color-primary-0;
