@@ -2752,7 +2752,7 @@ problem in the header / main-nav html files. */
 }
 .bookingContent-background-color {
   position: absolute;
-  top: 10%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -3351,6 +3351,11 @@ problem in the header / main-nav html files. */
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.post-content img {
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
 }
 .post-content h3 {
   font-size: 4.209rem;
