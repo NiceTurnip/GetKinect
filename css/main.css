@@ -1132,11 +1132,11 @@ h5 {
 }
 .actionCard-header {
   width: 100%;
-  padding: 1.5rem;
+  padding: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--heading-color);
+  color: #fcfbff;
   background-color: #dc2626;
   border-radius: 6px 6px 0 0;
 }
