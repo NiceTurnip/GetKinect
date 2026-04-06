@@ -60,37 +60,21 @@ Manitoba provides additional support for young adults with disabilities. If you 
 
 ### **Summary Table: Manitoba Fitness Tax Credit (18–24)**
 
-**Category**
+**Eligible Age:** 18 to 24 at year-end
 
-**Requirement / Value**
+**Max Expense Claim:**  $500
 
-**Eligible Age**
+**Credit Rate:**  10.8% (Non-refundable)
 
-18 to 24 at year-end
+**Max Standard Benefit: $54**
 
-**Max Expense Claim**
-
-$500
-
-**Credit Rate**
-
-10.8% (Non-refundable)
-
-**Max Standard Benefit**
-
-**$54**
-
-**Max Disability Benefit**
-
-**$108**
+**Max Disability Benefit: $108**
 
 **Claim Location**
 
 Form MB428, Line 58325
 
-**Receipt Retention**
-
-6 Years
+**Receipt Retention:** 6 Years
 
 Staying active is essential for your mental and physical health, especially during the stressful years of university or starting a career. Manitoba's tax code is designed to reward that effort. Don't let your gym fees go to waste—claim your $54 win this season.
 
