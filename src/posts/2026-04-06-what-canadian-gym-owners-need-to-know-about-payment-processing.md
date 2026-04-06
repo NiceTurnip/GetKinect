@@ -3,7 +3,7 @@ title: What Canadian Gym Owners Need to Know About Payment Processing
 date: 2026-04-06T17:11:00.000-04:00
 tags:
   - post
-heroImage: /assets/images/uploads/2026-payment-processor-comparison.png
+heroImage: /assets/images/uploads/gym-processing-fees-.png
 layout: post.njk
 summary: Canadian gym owners spend roughly 3-5% of their gross revenue on the
   invisible infrastructure of moving money. This guide audits the two-pillar
@@ -21,10 +21,6 @@ In the digital economy of 2026, the physical movement of money has become almost
 
 To understand where your revenue is going, it is helpful to view your payment infrastructure as a combination of two distinct roles: **The Robot** (Automation) and **The Bodyguard** (Security). This guide provides a factual, in-depth analysis of the fee structures used by major processors like PayPal, Stripe, Moneris, Square, and Elavon, while exposing the "hidden" costs that often stay buried in the fine print of merchant statements.
 
-
-
-
-
 ## **1. The "Brain" Fee vs. The "Toll" Fee**
 
 Modern payment processing is built on two fundamental cost pillars. Understanding the distinction between these is the first step toward revenue transparency.
@@ -36,8 +32,6 @@ The "Brain" fee is the monthly rent you pay for the software that runs your faci
 ### **The Transaction Fee (The "Toll" Fee)**
 
 If the Brain fee is the cost of the car, the Transaction fee is the "toll" you pay to use the financial highway. Every time a member "taps" their card or a recurring payment is processed, the processor, the bank, and the card brands (Visa, Mastercard, Interac) each take a small percentage.
-
-
 
 ## **2. The Heavy Lifting: Why Fees Exist**
 
@@ -56,11 +50,9 @@ The "Robot" handles the administrative chores that would otherwise require a ful
 * **Recurring Billing Logic:** The Robot remembers to bill 500+ people simultaneously while you sleep.
 * **Smart Retries:** If a payment fails, the Robot uses AI to determine the best "Payday Cycles" to try the card again, often recovering revenue that would have been lost to manual billing errors.
 
-
-
 ## **3. The 2026 Comparison Table: Major Processors**
 
-![]()
+![](/assets/images/uploads/2026-payment-processor-comparison.png)
 
 ## **4. The Inventory of Hidden and Ancillary Fees**
 
@@ -94,8 +86,6 @@ Traditional banks often require a **Monthly Minimum** in processing fees. If you
 
 Canceling a contract with a legacy provider can be prohibitively expensive. Flat cancellation fees typically range from **$300 to $500**. However, some contracts contain a **"Liquidated Damages"** clause, which requires you to pay the processor's projected lost profits for the remainder of your multi-year term—a cost that can reach thousands of dollars.
 
-
-
 ## **5. The Canadian Special: The Interac Shortcut**
 
 Canadian gym owners have access to a unique "Secret Shortcut" to save money: **Interac Debit**.
@@ -108,8 +98,6 @@ While credit cards operate on a percentage-based model, Interac typically uses a
 * **$1,200 Annual Membership (Interac Tap):** You lose approximately **$0.10** in fees.
 
 Encouraging members to use Interac for large, upfront payments is one of the most effective ways to **Keep More of your Money**.
-
-
 
 ## **6. Conclusion**
 
