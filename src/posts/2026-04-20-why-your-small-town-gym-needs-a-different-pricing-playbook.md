@@ -27,11 +27,11 @@ Be transparent about what you charge and why. When people understand that their 
 
 ### **Finding Your Real Cost Baseline**
 
-Stop guessing what people will pay. Start with what it costs to keep the lights on and the doors open. Calculate your rent, utilities, insurance, and the cost of your **Canadian gym software**.
+Stop guessing what people will pay. Start with what it costs to keep the lights on and the doors open. Calculate your rent, utilities, insurance, and the cost of your Canadian gym software.
 
 Do not forget to include a salary for yourself. If the gym cannot pay you a living wage, you do not have a business. You have a very expensive and stressful hobby.
 
-**How Many Members Can You Get**
+### **How Many Members Can You Get**
 
 The standard industry benchmark puts your expected membership at 5% of your local population. For a town of 1,500 that is 75 members. But that number is built on urban data and undersells your real draw. Rural residents are different. They are more accustomed to traveling further for products and services, and often have no choice but to do so.
 
@@ -66,9 +66,7 @@ Be straightforward about it. Explain that costs have gone up and that you are co
 TL;DR
 
 * Do not copy city pricing; you lack the volume for low-margin models.
-
 * Use the 15-minute drive rule to calculate your real member potential.
-
 * Transparency beats "secret discounts" every single time.
 
 Grandfathering existing members is the secret to a stress-free price increase.
