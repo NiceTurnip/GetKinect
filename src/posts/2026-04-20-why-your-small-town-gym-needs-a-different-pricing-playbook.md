@@ -1,7 +1,8 @@
 ---
 title: Why Your Small-Town Gym Needs a Different Pricing Playbook
 date: 2026-04-20T14:22:00.000-04:00
-tags: []
+tags:
+  - post
 heroImage: /assets/images/uploads/247-rural-fitness.png
 layout: post.njk
 summary: You can't research the competition when you are the only gym in town.
