@@ -76,7 +76,7 @@ In BC, gym memberships often fall under “continuing service contracts” under
 
 ### **Cancellation rights**
 
-BC guidance for continuing service contracts includes a cancellation period and mandatory contract disclosure expectations. The exact triggers depend on whether you have delivered the contract properly and how the contract is structured.[ FCNB+1](https://www.fcnb.ca/en/consumer-protections?utm_source=chatgpt.com)
+BC guidance for continuing service contracts includes a cancellation period and mandatory contract disclosure expectations. The exact triggers depend on whether you have delivered the contract properly and how the contract is structured.[ FCNB+1 ](https://www.fcnb.ca/en/consumer-protections?utm_source=chatgpt.com)  Consumer Protection BC+1
 
 ### **Contract term and renewals**
 
@@ -158,42 +158,44 @@ Treat NL as “missing verified statutory detail” until you can pull the conso
 
 ### **Scope**
 
-Nova Scotia explicitly treats gym memberships as “personal development services,” and the province provides consumer-facing compliance expectations.[ Ontario](https://www.ontario.ca/laws/regulation/r05017?utm_source=chatgpt.com)
+Nova Scotia explicitly treats gym memberships as “personal development services,” and the province provides consumer-facing compliance expectations.
 
 ### **Cancellation rights**
 
-Nova Scotia provides a 5-day cancellation right, and members may use the facility during that period and still cancel for a refund (per provincial consumer guidance).[ Ontario](https://www.ontario.ca/laws/regulation/r05017?utm_source=chatgpt.com)
+Nova Scotia provides a 5-day cancellation right, and members may use the facility during that period and still cancel for a refund (per provincial consumer guidance).
 
 ### **Contract term and renewals**
 
-Nova Scotia guidance says personal development services contracts cannot be longer than one year and requires a renewal reminder window of 30 to 90 days before expiry if the contract is to be renewed.[ Ontario](https://www.ontario.ca/laws/regulation/r05017?utm_source=chatgpt.com)
+Nova Scotia guidance says personal development services contracts cannot be longer than one year and requires a renewal reminder window of 30 to 90 days before expiry if the contract is to be renewed.
 
 ### **Fees and payments**
 
-Initiation fees are capped at no more than twice the annual membership fee, and gyms must offer monthly installment payments. If a premium is charged for paying monthly, the guidance caps that premium at 25 percent above the lump sum price.[ Ontario](https://www.ontario.ca/laws/regulation/r05017?utm_source=chatgpt.com)
+Initiation fees are capped at no more than twice the annual membership fee, and gyms must offer monthly installment payments. If a premium is charged for paying monthly, the guidance caps that premium at 25 percent above the lump sum price.
 
 ### **Owner takeaways**
 
 Nova Scotia is very “process-driven.” Your membership agreement, renewal reminders, and installment pricing need to be built into your billing system, not handled ad hoc.
 
+
+
 ## **Ontario**
 
 ### **Scope**
 
-Ontario has a detailed regime for “personal development services” under its consumer protection framework, and Ontario provides consumer guidance plus the underlying regulation text.[ Consumer Protection BC+1](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com)
+Ontario has a detailed regime for “personal development services” under its consumer protection framework, and Ontario provides consumer guidance plus the underlying regulation text.
 
 ### **Cancellation rights**
 
-Consumers have 10 days after receiving a written copy of the contract to cancel without needing a reason, under Ontario’s personal development services rules.[ Consumer Protection BC+1](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com)
+Consumers have 10 days after receiving a written copy of the contract to cancel without needing a reason, under Ontario’s personal development services rules.
 
 ### **Contract term and renewals**
 
-Ontario’s framework is strict about term structure and renewal notice requirements (including a notice window before expiry). The exact notice content requirements are detailed in the regulation and guidance.[ Consumer Protection BC+1](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com)
+Ontario’s framework is strict about term structure and renewal notice requirements (including a notice window before expiry). The exact notice content requirements are detailed in the regulation and guidance.
 
 ### **Fees and payments**
 
-Ontario restricts initiation fees (commonly summarized as capped at twice the annual membership fee) and requires an installment option, with the regulation controlling how premiums for installment payment are handled.[ Consumer Protection BC+1
-](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com) Ontario also has rules affecting pre-sales before a club opens (consumer guidance discusses holding funds through prescribed mechanisms).[ Consumer Protection BC](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com)
+Ontario restricts initiation fees (commonly summarized as capped at twice the annual membership fee) and requires an installment option, with the regulation controlling how premiums for installment payment are handled.[
+](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com) Ontario also has rules affecting pre-sales before a club opens (consumer guidance discusses holding funds through prescribed mechanisms).[ ](https://www.consumerprotectionbc.ca/consumer-help/cancelling-a-gym-membership/?utm_source=chatgpt.com)
 
 ### **Owner takeaways**
 
