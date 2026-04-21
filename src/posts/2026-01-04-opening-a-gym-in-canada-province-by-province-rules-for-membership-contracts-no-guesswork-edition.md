@@ -16,7 +16,7 @@ description: Don't let "rookie mistakes" in your membership contracts lead to
   laws—and explains why choosing the right Canadian gym software is your best
   line of defence.
 ---
-**Click for: The specific statutory cooling off periods and maximum initiation fee limits for each individual province.**
+**Provincial rules for gym memberships including the specific statutory cooling off periods and maximum initiation fee limits for each individual province.**
 
 So if you're thinking about opening a gym here in Canada, the big thing to wrap your head around is that the membership contract stuff is mostly a provincial thing, not a federal one. It's kinda funny how each province does consumer contracts a little differently. A bunch of them actually have special rules just for gym memberships, calling them things like "personal development" or "continuing service" contracts. 
 
