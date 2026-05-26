@@ -43,13 +43,19 @@ Legacy platforms, the kind built for big-box corporate gyms with full front-desk
 
 Here's what a modern setup should look like for an independent operator. When someone joins your gym, three things happen at once: they sign their digital waiver, their phone becomes their key, and their billing is set up on auto-pay. That's it. No front-desk check-in. No programming a fob. No separate merchant account to log into when you want to check payment history.
 
+
+
 ## **And Nobody Shares Their Phone!**
 
 The security side is where I've seen the biggest improvement in my own operation. With a smartphone-based access system that uses Wi-Fi presence verification, a member has to be physically inside range of your facility's network to unlock the door. They can't buzz a friend in from their couch, and because credentials are tied to a single device, the fob or credential-sharing problem disappears almost entirely. 
 
+
+
 ## **The Dollars and Sense**
 
 What does that mean practically? It means your club can run un-staffed and secure for sixteen to 24 hours a day. For most independent operators, eliminating or dramatically reducing front-desk coverage saves somewhere between twenty-five and forty thousand dollars a year in salary alone. On a club doing seven to twenty-five thousand dollars a month in recurring revenue with around three hundred members, that's the difference between grinding and genuinely profitable. **That's money in your family’s pocket.**
+
+
 
 ## **Full Transparency Here**
 
@@ -66,6 +72,8 @@ But honestly, whatever direction you go, the checklist is the same.
 * How much are the start-up costs?
 
 If the answers aren't clean, keep looking.
+
+
 
 ## **One Last Thing**
 
