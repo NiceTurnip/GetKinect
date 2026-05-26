@@ -9,8 +9,8 @@ layout: post.njk
 summary: Before you sign up for any gym management software, there's a
   conversation I keep having with new owners that could save you tens of
   thousands of dollars a year. It starts with a five-dollar plastic fob and ends
-  with why the wrong platform quietly bleeds independent clubs dry. Here's what
-  I've learned the hard way.
+  with why the wrong platform that can quietly bleed independent clubs dry.
+  Here's what I've learned.
 description: An experienced gym owner breaks down the hidden costs killing
   independent clubs in Canada and how to build a profitable 24/7 facility with
   the right systems.
@@ -87,6 +87,6 @@ Get the foundation right before you open the doors. Your future self will thank 
 
 *BJ Ward*
 
-*Gym Owner*
+I've been in the fitness industry since 1988. I've owned gyms, grown gyms, and yes — failed at gyms. Every one of those experiences taught me something. Today I own two locations — both running successfully on their own for over 10 years — co-founded Kinect gym management software, and have consulted with over 100 independent and small gym owners on the day-to-day realities of running their business. I specialize in the small to medium owner-operated gym — the ones where the owner is wearing every hat. If you're looking for real-world, practical guidance from someone who's lived it, that's what I'm here for.
 
 *bj@247fitness.ca*
