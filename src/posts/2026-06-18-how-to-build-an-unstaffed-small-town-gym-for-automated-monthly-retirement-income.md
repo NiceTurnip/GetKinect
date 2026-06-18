@@ -1,6 +1,5 @@
 ---
-title: How to build an unstaffed small town gym for automated monthly retirement
-  income
+title: How to Build an Unstaffed Small Town Gym for Automated Monthly Income
 date: 2026-06-18T15:03:00.000-04:00
 tags:
   - post
