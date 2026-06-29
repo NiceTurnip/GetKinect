@@ -52,6 +52,8 @@ For independent operators who want one system to run the whole gym, it's one of 
 
 Visit [Kinect Here](https://getkinect.ca/).
 
+
+
 **2. WellnessLiving**
 
 ![](/assets/images/uploads/wellness-living.png)
