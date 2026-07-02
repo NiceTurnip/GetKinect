@@ -52,8 +52,6 @@ For independent operators who want one system to run the whole gym, it's one of 
 
 Visit [Kinect Here](https://getkinect.ca/).
 
-
-
 **2. WellnessLiving**
 
 ![](/assets/images/uploads/wellness-living.png)
@@ -110,8 +108,6 @@ For coaching-led businesses, Trainerize is one of the more useful Canadian fitne
 
 Visit [ABC Trainerize](https://www.trainerize.com/).
 
-
-
 # **4. FLiiP**
 
 ![](/assets/images/uploads/screenshot-2026-06-22-9.32.49-am.png)
@@ -163,7 +159,7 @@ Visit [Xplor Mariana Tek](https://www.marianatek.com/).
 
 # **6. Antaris Technologies**
 
-![](/assets/images/uploads/santares.png)
+![](/assets/images/uploads/screenshot-2026-07-02-6.06.46-pm.png)
 
 Antaris is built for larger, more complicated club environments. Think full-service health clubs with multiple profit centres, not just a gym floor and a few group classes. If you manage memberships, PT, childcare, events, retail, kiosks, payroll, and accounts receivable in one operation, you need broader operational coverage than a boutique studio tool can usually provide.
 
