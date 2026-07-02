@@ -20,7 +20,7 @@ That pressure is growing in a market with a lot of active operators. Statistics 
 
 Choosing among Canadian fitness companies isn't about finding the longest feature list. It's about fixing the bottleneck that hurts operations, retention, or cash flow first. These seven tools stand out because each one solves a different problem well, from 24/7 access and billing control to coaching revenue and multi-location reporting.
 
-**1. Kinect** 
+# **1. Kinect** 
 
 ![](/assets/images/uploads/kinect.png)
 
@@ -52,7 +52,7 @@ For independent operators who want one system to run the whole gym, it's one of 
 
 Visit [Kinect Here](https://getkinect.ca/).
 
-**2. WellnessLiving**
+# **2. WellnessLiving**
 
 ![](/assets/images/uploads/wellness-living.png)
 
@@ -80,7 +80,7 @@ There's also the usual diligence work around privacy, compliance, and customer d
 
 Visit [WellnessLiving](https://www.wellnessliving.com/).
 
-**3. ABC Trainerize**
+# **3. ABC Trainerize**
 
 ![](/assets/images/uploads/trainerize.png)
 
