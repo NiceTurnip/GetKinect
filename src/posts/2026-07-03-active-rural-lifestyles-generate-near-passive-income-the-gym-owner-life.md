@@ -1,7 +1,8 @@
 ---
 title: Active Rural Lifestyles Generate Near-Passive Income. The Gym Owner Life
 date: 2026-07-03T12:39:00.000-04:00
-tags: []
+tags:
+  - post
 heroImage: /assets/images/uploads/screenshot-2026-07-03-12.38.40-pm.png
 layout: post.njk
 summary: Founded in February 2020 by BJ Ward and his sons Brandon and Ty,
