@@ -8,7 +8,7 @@ layout: post.njk
 summary: Founded in February 2020 by BJ Ward and his sons Brandon and Ty,
   Facility Kinetics developed Kinect, an all in one gym management and access
   control software based in rural Leeds Grenville. Originally tested in their
-  Athens gym where it pulled in 135 members in three days, the system has
+  Athens gym where it helped pull in 135 members in three days, the system has
   evolved into an integrated platform combining membership management, recurring
   billing, scheduling, and 24/7 smartphone door access. Driven by a family
   trifecta of retail, financial, and technical expertise, the company now
