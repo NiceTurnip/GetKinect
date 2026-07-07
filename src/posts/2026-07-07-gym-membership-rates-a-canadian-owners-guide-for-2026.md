@@ -50,15 +50,11 @@ A practical explainer can help owners visualise that process:
 
 https://youtu.be/Gw1k0BEtAgI?si=SZGIR2_WF3eQeqrp
 
-
-
 ## Your Price Is Not Just a Number It Is a Strategy
 
 A low price doesn't automatically make a gym more competitive. Sometimes it just locks the owner into a brittle operating model with no room for service, maintenance, or retention work. A high price doesn't automatically create premium value either. If the experience feels ordinary, members notice the mismatch quickly.
 
 The rate you choose signals who the gym is for. It also signals what members should expect after they join. If you price like a convenience-driven, self-serve 24/7 club, your onboarding, access, staffing, and support model need to match that promise. If you price like a coached or boutique environment, members expect more guidance, more accountability, and a more polished experience.
-
-
 
 ### Price defines behaviour
 
@@ -67,8 +63,6 @@ Members respond to structure, not just the amount. A simple unlimited plan can r
 > **Practical rule:** Don't ask, “What should we charge?” first. Ask, “What operating model are we willing to deliver consistently?”
 
 I've seen independent operators underprice themselves because they compared their gym to the cheapest option in town. That usually ends the same way. Equipment upgrades get delayed, front-desk work piles up, billing exceptions multiply, and every cancellation feels personal because there isn't enough margin in the system.
-
-
 
 ### Defensive pricing usually backfires
 
@@ -103,8 +97,6 @@ What owners advertise and what members pay are often different. The same Canadia
 
 That gap creates two business consequences. First, members compare headline prices, but they react emotionally to final billing. Second, gyms that rely too heavily on fee stacking can make acquisition look better while making retention worse.
 
-
-
 ### Retention is the real pricing test
 
 The same source puts the average annual member retention rate at **66.4%**, and says **50% of new members cancel within six months**. That's the number many owners should focus on before tweaking rates by a few dollars. A pricing model that attracts signups but loses people quickly isn't a strong model.
@@ -112,8 +104,6 @@ The same source puts the average annual member retention rate at **66.4%**, and
 > If members feel surprised by fees or disconnected from the service after signup, the rate sheet didn't solve the problem. It delayed it.
 
 Another Canadian reality is market size. Only **about 15.5% of Canadian adults** hold a traditional gym membership, based on [Fitness Avenue's summary of Canadian gym membership statistics](https://www.fitnessavenue.ca/blogs/post/gym-membership-statistics-canada). That figure aligns with other estimates cited there and is a more useful baseline than inflated headline claims owners often hear repeated.
-
-
 
 ### What this means for a Canadian operator
 
@@ -131,7 +121,7 @@ Three practical conclusions follow:
 
 A Canadian gym doesn't win by quoting a national average. It wins by choosing a rate structure that fits its members, then running the facility tightly enough to keep the value credible month after month.
 
-
+![](/assets/images/uploads/gym-pricing-pros-and-cons.png)
 
 ## Choosing Your Pricing Model
 
@@ -139,23 +129,17 @@ The best pricing model isn't the one that looks smartest on paper. It's the one 
 
 Some owners choose a model because it sounds modern. Others inherit one from the previous operator and never revisit it. Both approaches create confusion. The structure of your offer changes member expectations, sales conversations, billing complexity, and access rules.
 
-
-
 ### Flat rate all access
 
 This is the simplest model to sell. One monthly fee covers general use of the facility, often with broad access hours and minimal decision-making at the point of sale.
 
 It works well for straightforward strength and cardio facilities, especially when the gym wants low-friction signup and a clean recurring billing setup. The downside is that it can leave money on the table if some members would willingly pay more for added convenience, premium hours, or speciality services.
 
-
-
 ### Tiered memberships
 
 Tiered plans create separation between base access and premium value. A common pattern is entry-level gym use, a higher tier with added privileges, and a premium option tied to classes, coaching, or expanded access.
 
 This model gives the owner more pricing flexibility. It can also support [a different pricing playbook for small-town gyms](https://getkinect.ca/posts/2026-04-20-why-your-small-town-gym-needs-a-different-pricing-playbook/) where demand, community relationships, and service expectations don't look like a big-city chain. The risk is operational drift. If staff can't explain the differences quickly, members get confused and admin work increases.
-
-
 
 ### Class packs and pay per use
 
@@ -165,15 +149,11 @@ The trade-off is revenue stability. This model can produce strong per-visit valu
 
 A lot of operators assume more options mean more sales. Usually, they mean more hesitation. Most independent gyms do better with a short menu and clear distinctions than a long list of barely different plans.
 
-
-
 ## Key Factors That Influence Your Rates
 
 Two gyms can use the same pricing model and still justify very different rates. Members aren't paying for a spreadsheet structure. They're paying for access, convenience, coaching, atmosphere, and trust.
 
 That's why rate setting starts with a feature audit. You need to know which parts of the experience provide value and which ones only matter to you as the owner.
-
-
 
 ### Tangible value levers
 
@@ -198,8 +178,6 @@ A simple way to audit your tangible value is to ask:
 
    Are classes, coaching, or speciality services distinct enough to justify added cost?
 
-
-
 ### Intangible value levers
 
 Some gyms earn their rate because the room feels serious, welcoming, and well-run. Others lose pricing power because members feel anonymous or unsupported even when the equipment list looks good.
@@ -212,16 +190,11 @@ That's the practical test. If you want stronger gym membership rates, don't star
 
 ![](/assets/images/uploads/guide-to-setting-gym-rates.png)
 
-
-
 ## A Step-by-Step Guide to Setting Your Rates
 
 Most bad pricing comes from guessing. The owner picks a number that feels competitive, adds a joining fee because everyone else does, and hopes the market accepts it. A better method is slower at the start and far less painful later.
 
 Use a worksheet if you need to. Pricing gets sharper when the numbers and assumptions are visible.
-
-
-
 
 Build a rate sheet people can understand
 
@@ -239,15 +212,11 @@ When you write the pricing page or sales script, answer these questions plainly:
 
 If your team can't explain those answers in a short conversation, the structure is too complicated. Simplicity sells better and runs better.
 
-
-
 ## Connecting Your Rates to Revenue with Smart Operations
 
 A pricing strategy only matters if the gym can collect the money, control access, and spot risk before churn turns into a revenue problem.
 
 I've seen clubs with solid rate sheets lose margin through weak follow-through. Payments fail and no one acts quickly. Former members still get in because access isn't linked to account status. Staff make manual exceptions that never get cleaned up. On paper, the pricing looks fine. In practice, revenue leaks out through operations.
-
-
 
 ### Billing has to enforce the plan
 
@@ -256,8 +225,6 @@ Recurring memberships depend on consistent collection. That means failed payment
 Owners who want a cleaner financial setup should understand [what Canadian gym owners need to know about payment processing](https://getkinect.ca/posts/2026-04-06-what-canadian-gym-owners-need-to-know-about-payment-processing/). Payment operations aren't back-office trivia. They shape cash flow predictability, administrative workload, and how quickly revenue problems get resolved.
 
 Strong operations also improve the member experience. If people can sign up, update details, and manage routine tasks without front-desk bottlenecks, the business spends less time on exceptions and more time on retention.
-
-
 
 ### Access control protects the value of access
 
@@ -284,15 +251,11 @@ The effect is practical:
 
 Reporting matters too. When owners can see which plans members choose, which usage patterns change before cancellation, and where admin friction is building, pricing decisions get better over time. Smart operations don't replace strategy. They make strategy enforceable.
 
-
-
 ## Frequently Asked Questions About Gym Pricing
 
 Even a strong pricing model needs maintenance. Rates age, markets shift, and member expectations change. The owners who handle this well treat pricing as a managed system, not a one-time launch task.
 
 Because only **about 15.5% of Canadian adults** hold a traditional gym membership, as noted in [this Canadian gym membership statistics summary](https://www.fitnessavenue.ca/blogs/post/gym-membership-statistics-canada), retention and positioning matter more than racing to the bottom for a limited pool of existing gym-goers.
-
-
 
 ### How often should I review my rates
 
@@ -300,15 +263,11 @@ Review them at a regular cadence, but don't change them casually. A good review 
 
 Small annual adjustments are usually easier to communicate than infrequent major jumps. What you want to avoid is long periods of inaction followed by a sudden increase that feels disconnected from member experience.
 
-
-
 ### How should I handle discounts without cheapening the brand
 
 Use discounts selectively and tie them to a reason the business can defend. Students, families, corporate groups, and off-peak users can justify structured offers if the rules are clear.
 
 Avoid permanent blanket discounting. It trains the market to wait for deals and undermines your standard rate. A better approach is to limit discounted plans by category, term, or access level so the full-price membership still feels like the benchmark.
-
-
 
 ### How do I announce a price increase without triggering cancellations
 
