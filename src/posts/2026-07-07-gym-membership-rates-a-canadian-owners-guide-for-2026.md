@@ -1,9 +1,7 @@
 ---
 title: "Gym Membership Rates: A Canadian Owner's Guide for 2026"
-date: 2026-07-07T08:38:00.000-04:00
+date: 2026-07-07T10:01:00.000-04:00
 tags:
-  - post
-  - "publish "
   - post
 heroImage: /assets/images/uploads/alexandria-gym-.jpg
 layout: post.njk
@@ -22,7 +20,7 @@ Second, review competitors without copying them. Visit nearby gyms, look at publ
 
 Third, define your own position in one sentence. For example: convenient 24/7 self-serve training, premium coached strength, family-friendly community fitness, or martial arts with structured progression. If you can't say what makes the facility distinct, members won't see why your rate should differ from everyone else's.
 
-Here's a useful working sequence:
+**Here's a useful working sequence:**
 
 1. **List fixed and variable costs:**
 
