@@ -4,6 +4,7 @@ date: 2026-07-07T08:38:00.000-04:00
 tags:
   - post
   - "publish "
+  - post
 heroImage: /assets/images/uploads/alexandria-gym-.jpg
 layout: post.njk
 summary: >
