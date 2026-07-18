@@ -84,7 +84,6 @@ Copying a competitor's number is easy. Defending your own value is harder, but t
 
 When those pieces line up, pricing feels clear. When they don't, the problem usually isn't the number itself. It's the business model hiding underneath it.
 
-![]()
 
 ## The Canadian Gym Membership Rate Landscape in 2026
 
