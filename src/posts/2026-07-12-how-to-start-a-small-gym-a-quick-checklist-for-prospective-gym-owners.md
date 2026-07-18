@@ -40,7 +40,7 @@ Do not start with a price and work forward. Start with what you need and work ba
 
 **How Do You Promote a Small Town Gym?**
 
-Honestly, if you are the only game in town, you do not need much. A clean website, an active Facebook page, and a current Google Business profile will do it. Your website has one job and that is to answer the question of whether someone should join your gym. Put your equipment list, your pricing, your hours, and a video walkthrough on there and leave it at that. Anything that pulls a visitor away from that decision is working against you. One post a week on Facebook and one photo update on Google Business keeps you visible in local search without turning into a part-time marketing job. Before I opened my last gym I did not run a single ad. By opening day almost everyone in town already knew we were coming. Small communities work that way.
+Honestly, if you are the only game in town, you do not need much. A clean website, an active Facebook page, and a current Google Business profile will do it. Your website has one job and that is to answer the question of whether someone should join your gym. Put your equipment list, your pricing, your hours, and a video walk-through on there and leave it at that. Anything that pulls a visitor away from that decision is working against you. One post a week on Facebook and one photo update on Google Business keeps you visible in local search without turning into a part-time marketing job. Before I opened my last gym I did not run a single ad. By opening day almost everyone in town already knew we were coming. Small communities work that way.
 
 **FAQ**
 
@@ -59,4 +59,4 @@ I have been managing automated gym locations since 1988. If you want to talk sho
 
 BJ Ward
 
-Gym wonder and Co-founder.
+Gym Owner and Co-founder.
