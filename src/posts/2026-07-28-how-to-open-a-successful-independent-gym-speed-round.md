@@ -1,7 +1,8 @@
 ---
 title: "How to Open a Successful Independent Gym: Speed-round"
 date: 2026-07-28T07:57:00.000-04:00
-tags: []
+tags: 
+  - post
 heroImage: /assets/images/uploads/gym_kpi_know_your_numbers.png
 layout: post.njk
 summary: Running a profitable independent gym requires focus on core financial
