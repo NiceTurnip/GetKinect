@@ -25,17 +25,17 @@ Before you open, or early in your first year, sell founding memberships at a sli
 
 **Get Everyone on Automated Recurring Billing**
 
-This should be your non-negotiable. A goal of one hundred percent of your members on automated card billing as fast as possible will reduce time spent on collections and the stress to nearly zero. This is key to keeping your sanity! Cash, e-transfer, and cheques create friction, create late payments, and create awkward conversations you do not need. Automated billing is not just a convenience, it is what makes your revenue predictable enough to plan around.
+A healthy recurring monthly revenue (MRR) is imperative for gym success. A goal of one hundred percent of your members on automated card billing as fast as possible will reduce time spent on collections and the stress to nearly zero. This is key to keeping your sanity! Cash, e-transfer, and cheques create friction, create late payments, and create awkward conversations you do not need. Gym billing automation is not just a convenience, it is what makes your revenue predictable enough to plan around.
 
 **Onboard New Members Systematically**
 
-Most gyms lose members in the first ninety days because nobody follows up. Build a simple onboarding process that includes a goal-setting conversation in the first week and a follow-up check-in at thirty and sixty days. This one change alone can significantly extend your average membership length. The member who feels seen in month one is far more likely to still be with you in month twelve.
+Most gyms lose members in the first ninety days because nobody follows up. Good member management is built with a simple onboarding process that includes a goal-setting conversation in the first week and a follow-up check-in at thirty and sixty days. This one change alone can significantly extend your average membership length. The member who feels seen in month one is far more likely to still be with you in month twelve.
 
 ![](/assets/images/uploads/gym_software_dashboard.png)
 
 **Identify At-Risk Members Before They Quit**
 
-You cannot retain every single member but you can focus on the right people at the right time. Instead of worrying about your entire membership, use your software's attendance data to identify the five to ten members who have stopped showing up regularly. A personal message to those specific people at the right moment will save more memberships than any promotion you could run. The right software makes this easy to spot.
+You cannot retain every single member but you can focus on the right people at the right time. Instead of worrying about your entire membership, use your gym software's attendance tracking data to identify the five to ten members who have stopped showing up regularly. A personal message to those specific people at the right moment will save more memberships than any promotion you could run. The right software makes this easy to spot.
 
 **Match Your Business Model to Your Market**
 
@@ -69,12 +69,8 @@ If your members love your gym, the referral engine is already running. Your job 
 
 Equipment depreciates fast and has very little resale value. If you are acquiring an existing facility, the business is worth what it earns, not what was spent to build it. Evaluate any acquisition based on its actual monthly profit, its member count, and its churn rate. Do not pay a premium for equipment you could replace used for a fraction of the price.
 
-
-
 **Get Off Spreadsheets and Basic Tools as Soon as Possible**
 
 Running your gym on WhatsApp groups, Facebook messages, and spreadsheets creates an admin load that pulls you away from your members and your community. The right software handles billing, access, waivers, and attendance in one place and gives you back the hours you would otherwise spend chasing things down. That time compounds. Spend it building the community, not managing the paperwork.
-
-
 
 **I’m BJ, an independent gym owner and consultant who’s been in the fitness industry since 1988. Over the last three decades, I’ve owned, scaled, and yes, failed at a few gyms along the way — experience that’s taught me what actually works in the real world. Today, I run two locations that have operated successfully on their own for more than 10 years, co-founded Kinect gym management software, and have worked with over 100 gym owners.**
