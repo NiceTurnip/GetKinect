@@ -1,7 +1,8 @@
 ---
 title: How Much Do Yoga Instructors Make? Your 2026 Guide
 date: 2026-07-20T11:17:00.000-04:00
-tags: []
+tags: 
+  - post
 heroImage: /assets/images/uploads/yoga-instructor-income.jpg
 layout: post.njk
 summary: If you're building a Canadian studio that needs better scheduling,
