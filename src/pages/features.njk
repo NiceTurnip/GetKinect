@@ -8,7 +8,7 @@ permalink: "/{{ page.fileSlug }}/"
 {% import "macros/mobileNav.njk" as mobileNav %}
 {% import "macros/listItem1.njk" as li1 %}
 {% import "macros/listItem1-link.njk" as li1Link %}
-{% import "macros/call-to-action.njk" as cta %}
+{% import "macros/call-to-action.njk" as callToAction %}
 {% import "macros/sectionHeader.njk" as sectHeader %}
 {% import "macros/pageHeader.njk" as pageHeader %}
 {% import "macros/contactCard.njk" as contactCard %}
@@ -20,7 +20,7 @@ permalink: "/{{ page.fileSlug }}/"
 
 <main class = "featuresPage">
     {% include 'partials/featuresSections/featuresContent.njk' %}
-    {{ cta.callToAction("Try Kinect for Free", "Experience the power of keyless gym access with zero commitment. Try Kinect for free and see how simple managing your facility can be.", "Try Now", "https://dashboard.facilitykinetics.ca/dashboard/createAccount") }}
+    {{ callToAction.callToAction("Ready to put your gym on <span class = 'flair-color-1'>Autopilot?</span>", "Join the independent gym owners who have ditched the fobs and reclaimed their time with Kinect.", "Get Started Today", "Book a Demo", "https://dashboard.facilitykinetics.ca/dashboard/createAccount", "/booking", "NO HARDWARE TO BUY • NO FOB FEES • NO CONTRACTS") }}
 </main>
 
 <!-- FOOTER -->
