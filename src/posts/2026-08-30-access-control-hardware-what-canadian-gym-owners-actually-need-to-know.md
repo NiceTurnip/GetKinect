@@ -66,6 +66,8 @@ Vestibules, loading doors, and exposed rural entrances don't operate in air-cond
 
 Look for hardware that supports Power over Ethernet, handles a wide DC voltage input range, operates from -40°C to 70°C, and meets UL 294 safety standards for physical security equipment. If a vendor's demo leads with a shiny smartphone screen and can't explain how the system handles a power outage or a fire alarm override, that's your answer.
 
+##### [From Keys to the Cloud: The Evolution of Access Control and Why It Matters More Than Ever](https://guardianalarm.com/blog/evolution-of-access-control/)
+
 ## Smartphone Access vs. Fobs, PINs, and Biometrics
 
 Smartphone access is the clear winner for most independent Canadian gyms. Members already carry their phones, which eliminates the buy-issue-replace cycle of plastic tokens entirely.
@@ -76,8 +78,6 @@ Pairing it with a Wi-Fi presence rule, requiring the phone to be physically conn
 * RFID fobs and cards: a reasonable backup for non-smartphone users, but easy to lose, share, or leave behind.
 * PIN keypads: cheap to install, easiest to abuse. Codes get written down, texted, and passed around fast.
 * Biometrics: overkill for independent facilities. Added hardware cost, slower entry queues, and PIPEDA privacy compliance overhead most small operators don't need.
-
-
 
 ## Rolling Out Access Control Without the Headache
 
