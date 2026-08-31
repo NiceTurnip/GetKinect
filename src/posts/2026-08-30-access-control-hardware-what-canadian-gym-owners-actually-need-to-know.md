@@ -20,6 +20,8 @@ Quick answer: A key fob system costs more than the tokens themselves. It costs r
 
 I call this the Fob Tax. Most new owners get told to shop access control like a deadbolt. That advice gets expensive fast.
 
+
+
 ## Access Control Is a Revenue System, Not a Lock
 
 The mistake I see over and over: owners judge access control the way they would judge hardware from a store shelf. It isn't hardware. It is a live system tied to membership status, staff payroll, and entry behaviour.
@@ -30,13 +32,15 @@ Statistics Canada reports that over 99% of Canadian businesses now operate in a 
 
 Practical rule: if your access system doesn't talk directly to your billing platform and audit logs, you're still doing manual enforcement with better-looking hardware.
 
+
+
 ## Revenue Protection Beats Security Theatre
 
 Profit doesn't drain because your door hardware is weak in the abstract. It drains when a non-paying member keeps walking in, an entry code gets texted to a friend, or your front desk burns hours a week sorting out who was actually cleared to enter.
 
 Nearly a third of Canadian businesses are actively adopting deeper digital software into daily operations, per Statistics Canada. For gyms, that means access, billing, and scheduling need to talk to each other automatically, or you're paying staff to manually do what software should handle for free.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mSxpVRo3BLg?si=BFfilTcEUdgXIChC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## The Three Layers of Any Access System
 
@@ -50,7 +54,7 @@ Older systems handled this logic locally on a heavy on-site server. Modern cloud
 
 Don't let a vendor gloss over the controller. It's what keeps your doors safe during an internet outage and manages your life-safety connections. A proper commercial setup should run multiple doors, hold thousands of local credentials, and include dedicated inputs for fire alarm tie-ins, emergency egress switches, and tamper detection.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2QTFiQVdrgg?si=lA9Z00wtA8AVLzw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Hardware Specs That Actually Matter in Canada
 
@@ -58,7 +62,9 @@ Vestibules, loading doors, and exposed rural entrances don't operate in air-cond
 
 Look for hardware that supports Power over Ethernet, handles a wide DC voltage input range, operates from -40°C to 70°C, and meets UL 294 safety standards for physical security equipment. If a vendor's demo leads with a shiny smartphone screen and can't explain how the system handles a power outage or a fire alarm override, that's your answer.
 
-##### [From Keys to the Cloud: The Evolution of Access Control and Why It Matters More Than Ever](https://guardianalarm.com/blog/evolution-of-access-control/)
+##### Link: [From Keys to the Cloud: The Evolution of Access Control and Why It Matters More Than Ever](https://guardianalarm.com/blog/evolution-of-access-control/)
+
+
 
 ## Smartphone Access vs. Fobs, PINs, and Biometrics
 
@@ -70,6 +76,7 @@ Pairing it with a Wi-Fi presence rule, requiring the phone to be physically conn
 * RFID fobs and cards: a reasonable backup for non-smartphone users, but easy to lose, share, or leave behind.
 * PIN keypads: cheap to install, easiest to abuse. Codes get written down, texted, and passed around fast.
 * Biometrics: overkill for independent facilities. Added hardware cost, slower entry queues, and PIPEDA privacy compliance overhead most small operators don't need.
+*
 
 ## Rolling Out Access Control Without the Headache
 
@@ -79,6 +86,8 @@ Retrofitting an existing facility is an operations project, not a hardware drop.
 2. Pick your install path. Decide early whether your team can handle low-voltage wiring or whether you need a licensed low-voltage electrician.
 3. Pre-configure the software. Set access schedules, tier rules, and staff permissions before turn-on day.
 4. Soft-launch mid-week. Never go live on a chaotic Monday. Run a quiet roll out, test edge cases, and confirm staff workflows before flipping the whole facility over to Member-Only Hours autopilot.
+
+
 
 ## Calculating ROI
 
@@ -92,7 +101,7 @@ Standard commercial access hardware runs roughly $600 to $7,000 per door dependi
 
 The strongest setup unifies door access, billing, waivers, and member management into one platform, which is exactly what we built into Kinect, so there's one less point of failure between you and your revenue.
 
-![](/assets/images/uploads/kinect-blog-door-control-systems.jpg)
+![](/assets/images/uploads/kinect-roiswitching.jpg)
 
 ## FAQ
 
