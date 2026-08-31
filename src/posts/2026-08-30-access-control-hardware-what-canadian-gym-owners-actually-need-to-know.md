@@ -50,15 +50,7 @@ Older systems handled this logic locally on a heavy on-site server. Modern cloud
 
 Don't let a vendor gloss over the controller. It's what keeps your doors safe during an internet outage and manages your life-safety connections. A proper commercial setup should run multiple doors, hold thousands of local credentials, and include dedicated inputs for fire alarm tie-ins, emergency egress switches, and tamper detection.
 
-<https://www.youtube.com/watch?v=2QTFiQVdrgg>
-
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/2QTFiQVdrgg?si=vSPS3YnPpjTj8ND9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-
-``
-
-```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2QTFiQVdrgg?si=vSPS3YnPpjTj8ND9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2QTFiQVdrgg?si=lA9Z00wtA8AVLzw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Hardware Specs That Actually Matter in Canada
 
